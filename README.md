@@ -268,7 +268,34 @@ Technical artifacts include SQL queries, Python analytics code, DAX measures, a 
 
 [VIEW THE DATA & ANALYTICS FOR AI IN HR PORTFOLIO (PDF)](HumanEvoX_Data_Analytics_for_AI_in_HR_Portfolio.pdf)
 
+### Building Agentic AI for Full HR Lifecycle
 
+Practical Agentic AI portfolio demonstrating how governed AI agents can support the full HR lifecycle through RAG, reasoning and orchestration, tool calling, workflow automation, human approvals and continuous evaluation.
+
+The portfolio includes:
+
+- HR Policy & Employee Services Agent
+- Recruitment Intelligence & Sourcing Agent
+- Job Drafting & Job Architecture Agent
+- Onboarding Coordination Agent
+- Talent Assessment Agent
+- Talent Management & Succession Agent
+- Performance Management Agent
+- Strategic Workforce Planning Agent
+- Compensation & Benefits Intelligence Agent
+- Organisational Restructuring & Workforce Scenario Agent
+- People Analytics & Executive Insight Agent
+- HR Operations Automation Agent
+
+**Agent Architecture**
+
+Trigger → Goal → Approved Inputs/Data → Knowledge/RAG → Reasoning/Orchestration → Tools/Actions → Human Approval → Exception Handling → Output/Action → Audit Trail → Evaluation
+
+The technical portfolio includes detailed agent specifications, system prompts, structured JSON workflows, Responsible AI guardrails and evaluation tests.
+
+Consequential employment decisions remain human-owned. Agents support evidence preparation, analysis, workflow coordination and decision support rather than autonomously making employment decisions.
+
+[VIEW THE FULL BUILDING AGENTIC AI FOR FULL HR LIFECYCLE PORTFOLIO (PDF)](HumanEvoX_Building_Agentic_AI_for_Full_HR_Lifecycle.pdf)
 
 
 
