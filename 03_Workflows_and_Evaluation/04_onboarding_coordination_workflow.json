@@ -1,0 +1,38 @@
+{
+  "agent": "Onboarding Coordination Agent",
+  "workflow": [
+    {
+      "step": 1,
+      "name": "validate_trigger_and_scope"
+    },
+    {
+      "step": 2,
+      "name": "retrieve_approved_evidence"
+    },
+    {
+      "step": 3,
+      "name": "classify_task_and_risk"
+    },
+    {
+      "step": 4,
+      "name": "reason_or_apply_rules"
+    },
+    {
+      "step": 5,
+      "name": "use_permitted_tool_if_needed"
+    },
+    {
+      "step": 6,
+      "name": "request_human_approval_if_required"
+    },
+    {
+      "step": 7,
+      "name": "execute_or_escalate"
+    },
+    {
+      "step": 8,
+      "name": "log_output_and_evaluate"
+    }
+  ],
+  "human_checkpoint": "HR/manager resolves exceptions and approves employment-related changes."
+}
