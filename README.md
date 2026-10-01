@@ -57,7 +57,32 @@ The projects demonstrate practical application of Generative AI, LLMs, Microsoft
 
 [VIEW THE FULL AI-ENABLED HR TRANSFORMATION PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_HR_Transformation_Portfolio.pdf)
 
+### People Analytics & AI | UAE & KSA
 
+End-to-end People Analytics portfolio demonstrating how trusted people data, analytics, AI and automation can support evidence-based HR and workforce decisions across the complete employee lifecycle.
+
+The portfolio includes People Analytics case designs across UAE and KSA covering:
+
+- Enterprise People Analytics & Executive Workforce Dashboards
+- Strategic Workforce Planning & Skills Intelligence
+- Recruitment Funnel, Quality & Talent Intelligence
+- Onboarding, Mobility & Early-Tenure Analytics
+- HR Operations & Employee Services Analytics
+- Performance Management & Calibration Analytics
+- Talent Management, Succession & Internal Mobility
+- Learning, Skills & Capability Analytics
+- Reward, Pay Equity & Workforce Cost Analytics
+- Employee Listening, Experience & Organisational Health
+- Absence, Wellbeing & Workforce Availability Analytics
+- Attrition, Retention & Organisational Movement
+- Representation & Workforce Equity Analytics
+- People Analytics Data Quality, Governance & AI Insights
+
+The projects demonstrate practical application of Power BI, DAX, Power Query, Excel, SQL/Python where appropriate, Generative AI and LLMs, Microsoft Copilot, Power Automate and enterprise HR technologies to convert people data into decision intelligence.
+
+AI is positioned as a decision-support layer for classification, summarisation, pattern detection and insight generation, with data governance, privacy, validation and human accountability embedded into the analytics approach.
+
+[VIEW THE FULL PEOPLE ANALYTICS & AI PORTFOLIO (PDF)](HumanEvoX_People_Analytics_AI_Portfolio.pdf)
 
 
 
