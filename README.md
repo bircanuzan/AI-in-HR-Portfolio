@@ -34,7 +34,7 @@ The portfolio demonstrates practical application of:
 - Human-in-the-loop AI workflows
 - AI and technology integration across recruitment delivery
 
-[VIEW THE FULL BUILDING AGENTIC AI FOR FULL HR LIFECYCLE PORTFOLIO (PDF)](12_Building_Agentic_AI_for_Full_HR_Lifecycle/HumanEvoX_Building_Agentic_AI_for_Full_HR_Lifecycle.pdf)
+[VIEW THE FULL HEALTHCARE RECRUITMENT PORTFOLIO (PDF)](HumanEvoX_AI_Healthcare_Recruitment_Portfolio.pdf)
 
 ### AI-Enabled HR Transformation | UAE & KSA
 
@@ -295,7 +295,7 @@ The technical portfolio includes detailed agent specifications, system prompts, 
 
 Consequential employment decisions remain human-owned. Agents support evidence preparation, analysis, workflow coordination and decision support rather than autonomously making employment decisions.
 
-[VIEW THE FULL BUILDING AGENTIC AI FOR FULL HR LIFECYCLE PORTFOLIO (PDF)](HumanEvoX_Building_Agentic_AI_for_Full_HR_Lifecycle.pdf)
+[VIEW THE FULL BUILDING AGENTIC AI FOR FULL HR LIFECYCLE PORTFOLIO (PDF)](12_Building_Agentic_AI_for_Full_HR_Lifecycle/HumanEvoX_Building_Agentic_AI_for_Full_HR_Lifecycle.pdf)
 
 
 
