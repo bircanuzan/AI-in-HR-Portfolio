@@ -209,7 +209,40 @@ The approach connects validated evidence and structured assessment with calibrat
 
 [VIEW THE FULL AI-ENABLED TALENT MANAGEMENT & ASSESSMENT PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_Talent_Management_Assessment_Portfolio.pdf)
 
+### AI Automation in HR Operations | UAE & KSA
 
+AI-enabled HR Operations portfolio demonstrating how process redesign, workflow automation, Generative AI and agentic automation can improve HR service delivery, operational efficiency and employee and manager experience.
+
+The portfolio includes UAE and KSA case designs covering:
+
+- Joiner-Mover-Leaver Lifecycle Automation
+- HR Service Request Intake, Classification & Intelligent Routing
+- Employee Document & Request Automation
+- HR Policy, Knowledge & Employee Query Automation
+- AI-Enabled Onboarding Operations Automation
+- Probation & Employment Milestone Automation
+- Employee Data Change Workflow & Validation
+- Leave, Absence & Workforce Availability Operations Automation
+- HR Letters, Certificates & Document Generation Automation
+- HR Operations SLA, Case Volume & Service Intelligence
+- Manager & Employee Self-Service Automation
+- End-to-End AI-Enabled HR Operations Operating Model
+
+The portfolio combines three automation layers:
+
+- Workflow Automation - rules, triggers, approvals, routing, reminders and notifications
+- AI-Enabled Automation - classification, extraction, summarisation, drafting and knowledge retrieval
+- Agentic Automation - governed multi-step coordination with human approvals and exception handling
+
+The transformation methodology is:
+
+Map → Eliminate → Simplify → Standardise → Automate → AI-Enable → Human Checkpoint / Exception → Measure → Improve
+
+Technologies include Microsoft Power Automate, Copilot, Copilot Studio, approved enterprise LLMs, Power BI, SharePoint, Teams, Make and Zapier, with existing HR platforms treated as systems of record or workflow environments.
+
+The portfolio focuses on HR/business transformation, process ownership, requirements, controls, UAT, adoption and measurable benefits. Technical HRIS implementation, configuration, data migration and cross-system integration are outside the claimed scope.
+
+[VIEW THE FULL AI AUTOMATION IN HR OPERATIONS PORTFOLIO (PDF)](HumanEvoX_AI_Automation_in_HR_Operations_Portfolio.pdf)
 
 
 
