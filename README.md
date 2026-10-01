@@ -244,7 +244,29 @@ The portfolio focuses on HR/business transformation, process ownership, requirem
 
 [VIEW THE FULL AI AUTOMATION IN HR OPERATIONS PORTFOLIO (PDF)](HumanEvoX_AI_Automation_in_HR_Operations_Portfolio.pdf)
 
+### Data & Analytics for AI in HR | SQL, Python & Power BI
 
+Practical AI in HR Analytics Lab demonstrating how HR data can be transformed into trusted workforce metrics, executive analytics, AI-assisted insights and automated HR workflows.
+
+The project demonstrates:
+
+- SQL for workforce, skills, mobility, recruitment and attrition analytics
+- Python/pandas for HR data validation, preparation and exploratory analysis
+- Power BI and DAX for workforce KPIs and executive decision intelligence
+- Power Query concepts for repeatable HR data transformation
+- AI/LLMs for analysis of validated aggregate metrics and governed HR text
+- Automation for moving approved analytics into HR workflows
+- Human-in-the-loop controls for HR and employment decisions
+
+Architecture:
+
+HR Data → SQL / Python → Data Quality & Validated Metrics → Power BI / DAX → AI-Assisted Insight → Human HR Decision → Workflow Automation
+
+The repository uses a fully synthetic HR dataset and does not contain real employee data.
+
+Technical artifacts include SQL queries, Python analytics code, DAX measures, a synthetic HR dataset and an analytical workbook.
+
+[VIEW THE DATA & ANALYTICS FOR AI IN HR PORTFOLIO (PDF)](HumanEvoX_Data_Analytics_for_AI_in_HR_Portfolio.pdf)
 
 
 
