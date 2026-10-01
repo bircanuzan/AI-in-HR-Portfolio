@@ -159,7 +159,30 @@ AI supports skills classification, assumption checking, scenario analysis, summa
 
 [VIEW THE FULL AI-ENABLED STRATEGIC WORKFORCE PLANNING PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_Strategic_Workforce_Planning_Portfolio.pdf)
 
+### Talent Intelligence & Workforce Intelligence | UAE & KSA
 
+Talent and Workforce Intelligence portfolio demonstrating how labour-market research, recruitment judgement, People Analytics and AI-assisted research can convert external talent data into decision intelligence.
+
+The portfolio includes UAE and KSA case designs covering:
+
+- Executive Talent Market Mapping & Competitor Intelligence
+- Critical Skills Scarcity & Talent Supply Intelligence
+- AI & Technology Talent Landscape Intelligence
+- KSA National Talent & Localisation Intelligence
+- Competitor Organisation & Talent Structure Intelligence
+- Location Strategy & Talent Hub Feasibility
+- Talent Flow, Mobility & Competitor Movement Intelligence
+- Compensation & Hiring Feasibility Intelligence
+- Emerging Role & Skills Intelligence for HR / AI Transformation
+- Executive Search Market Validation & Outreach Testing
+- Talent Intelligence for Strategic Workforce Planning
+- Enterprise Talent Intelligence Operating Model & AI Research Copilot
+
+AI supports market classification, skills taxonomy normalisation, evidence structuring, pattern identification and research summarisation, while human researchers validate evidence and conclusions.
+
+The approach connects external talent-market evidence with recruitment strategy, workforce planning, skills strategy and Build/Buy/Borrow decisions.
+
+[VIEW THE FULL TALENT & WORKFORCE INTELLIGENCE PORTFOLIO (PDF)](HumanEvoX_Talent_Workforce_Intelligence_Portfolio.pdf)
 
 
 
