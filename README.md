@@ -184,7 +184,30 @@ The approach connects external talent-market evidence with recruitment strategy,
 
 [VIEW THE FULL TALENT & WORKFORCE INTELLIGENCE PORTFOLIO (PDF)](HumanEvoX_Talent_Workforce_Intelligence_Portfolio.pdf)
 
+### AI-Enabled Talent Management & Assessment | UAE & KSA
 
+Talent Management and Assessment portfolio demonstrating how structured assessment, People Analytics and governed AI can strengthen evidence-based talent decisions and development across the employee lifecycle.
+
+The portfolio includes UAE and KSA case designs covering:
+
+- AI-Assisted Enterprise Talent Review & Calibration
+- Succession Planning & Critical Role Readiness
+- High-Potential Assessment & Development Governance
+- Leadership Assessment Centres & AI-Assisted Evidence Synthesis
+- Skills Assessment & Enterprise Capability Heatmaps
+- AI-Enabled Internal Mobility & Opportunity Matching
+- Performance-to-Development Intelligence
+- Leadership Development & AI Learning Coaching
+- Talent Marketplaces & Project-Based Mobility
+- Assessment-Based Development & Coaching Intelligence
+- Talent Risk, Bench Strength & Capability Analytics
+- Enterprise Talent Management Operating Model & Responsible AI
+
+AI supports evidence preparation, synthesis, skills intelligence, matching, development and analytics. Human judgement remains mandatory for consequential talent and employment decisions.
+
+The approach connects validated evidence and structured assessment with calibration, succession, development, mobility and measurable talent actions.
+
+[VIEW THE FULL AI-ENABLED TALENT MANAGEMENT & ASSESSMENT PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_Talent_Management_Assessment_Portfolio.pdf)
 
 
 
