@@ -134,6 +134,43 @@ Human-in-the-loop controls are embedded throughout. AI supports HR professionals
 
 [VIEW THE FULL AI AGENTS, CHATBOTS & HR AUTOMATION PORTFOLIO (PDF)](HumanEvoX_AI_Agents_Chatbots_HR_Automation_Portfolio.pdf)
 
+### AI-Enabled Strategic Workforce Planning | UAE & KSA
+
+Strategic Workforce Planning portfolio demonstrating how People Analytics, workforce intelligence, AI and scenario modelling can translate business strategy into evidence-based workforce decisions.
+
+The portfolio includes UAE and KSA case designs covering:
+
+- Enterprise Workforce Demand & Capacity Planning
+- AI-Enabled Skills Demand Forecasting
+- Nationalisation & Strategic Workforce Scenario Planning
+- Giga-Project Workforce Ramp-Up & Mobilisation
+- AI Technology Workforce Planning & Skills Scarcity
+- Aviation & Logistics Workforce Capacity Forecasting
+- Healthcare Workforce Capacity & Critical Skills Planning
+- Build-Buy-Borrow-Automate Workforce Strategy
+- Workforce Cost, Productivity & Organisation Scenarios
+- Attrition-Adjusted Workforce Supply Planning
+- Internal Mobility & Reskilling Workforce Planning
+- Enterprise Workforce Planning Operating Model & AI Planning Copilot
+
+The methodology connects business strategy, workforce demand, skills and capacity, scenario modelling, internal and external talent supply, workforce gaps, cost and risk, and Build/Buy/Borrow/Move/Automate decisions.
+
+AI supports skills classification, assumption checking, scenario analysis, summarisation and executive decision preparation. Accountable HR and business leaders retain workforce and employment decisions.
+
+[VIEW THE FULL AI-ENABLED STRATEGIC WORKFORCE PLANNING PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_Strategic_Workforce_Planning_Portfolio.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
