@@ -84,7 +84,30 @@ AI is positioned as a decision-support layer for classification, summarisation, 
 
 [VIEW THE FULL PEOPLE ANALYTICS & AI PORTFOLIO (PDF)](HumanEvoX_People_Analytics_AI_Portfolio.pdf)
 
+### HR Technology, Digital Employee Experience & Automation | UAE & KSA
 
+HR technology transformation portfolio focused on the HR/business side of People Systems, digital employee experience, AI and workflow automation.
+
+The portfolio includes UAE and KSA case designs covering:
+
+- Digital Employee Experience & HR Self-Service
+- HR Knowledge Assistants & Governed Policy Experience
+- Recruitment Technology & Workflow Automation
+- AI-Enabled Onboarding & Digital Joiner Experience
+- Learning Technology & Digital Learning Experience
+- Digital Performance & Talent Management
+- HR Service Delivery & Case Management
+- People Systems Landscape & Data Ownership
+- HR Process Re-engineering & Intelligent Workflows
+- HR Technology UAT & Business Testing
+- HR Technology Adoption & Digital Change
+- AI-Enabled Manager Self-Service & Decision Support
+
+The projects demonstrate HR-side technology transformation through process and journey redesign, business requirements, AI and automation use cases, data ownership, analytics, governance, UAT and adoption.
+
+Technical HRIS/HCM implementation, configuration, data migration and systems integration are intentionally outside the scope of this portfolio.
+
+[VIEW THE FULL HR TECHNOLOGY, DIGITAL EMPLOYEE EXPERIENCE & AUTOMATION PORTFOLIO (PDF)](HumanEvoX_HR_Technology_Digital_Employee_Experience_Automation_Portfolio.pdf)
 
 
 
