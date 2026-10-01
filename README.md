@@ -36,6 +36,52 @@ The portfolio demonstrates practical application of:
 
 [VIEW THE FULL HEALTHCARE RECRUITMENT PORTFOLIO (PDF)](HumanEvoX_AI_Healthcare_Recruitment_Portfolio.pdf)
 
+### AI-Enabled HR Transformation | UAE & KSA
+
+AI-enabled HR transformation portfolio demonstrating how AI, automation, analytics and People Systems can be applied to redesign HR operating models and workflows across the employee lifecycle.
+
+The portfolio includes transformation case designs across UAE and KSA covering:
+
+- Enterprise HR Operating Model & Transformation Roadmap
+- Employee Services & HR Operations Transformation
+- Government HR Transformation & AI Readiness
+- Workforce & Talent Transformation
+- People Systems, AI & Workflow Integration
+- Performance & Talent Management Transformation
+- Learning & Skills Transformation
+- Onboarding & Employee Journey Transformation
+- HR AI Governance & Responsible Adoption
+- HR Transformation Benefits & Adoption
+
+The projects demonstrate practical application of Generative AI, LLMs, Microsoft Copilot, Power Automate, Power BI, People Systems and workflow automation, with human decision-making and governance embedded into the transformation approach.
+
+[VIEW THE FULL AI-ENABLED HR TRANSFORMATION PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_HR_Transformation_Portfolio.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Approach
 
 HR Business Problem → People Data → Process & Workflow Design → AI / Technology → Automation → Analytics → Human Decision
