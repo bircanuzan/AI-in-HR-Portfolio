@@ -109,7 +109,30 @@ Technical HRIS/HCM implementation, configuration, data migration and systems int
 
 [VIEW THE FULL HR TECHNOLOGY, DIGITAL EMPLOYEE EXPERIENCE & AUTOMATION PORTFOLIO (PDF)](HumanEvoX_HR_Technology_Digital_Employee_Experience_Automation_Portfolio.pdf)
 
+### AI Agents, Chatbots & HR Automation | UAE & KSA
 
+Agentic AI and HR automation portfolio demonstrating practical applications of AI agents, copilots, chatbots and automated workflows across the employee lifecycle.
+
+The portfolio includes UAE and KSA case designs covering:
+
+- AI Recruitment Copilot & Shortlist Intelligence
+- HR Policy & Employee Services Chatbot
+- AI Onboarding Journey Coordinator
+- AI HR Case Triage & Service Desk Copilot
+- AI Learning & Skills Pathway Assistant
+- AI Performance & Manager Coaching Copilot
+- AI Talent Review & Succession Preparation Agent
+- AI Workforce Insights & Executive Briefing Agent
+- AI Employee Listening & Experience Theme Agent
+- AI Reward & Policy Query Copilot
+- AI HR Transformation PMO & Benefits Tracking Agent
+- Responsible HR AI Agent Governance & Controls
+
+The projects demonstrate how Generative AI, LLMs, Microsoft Copilot, Power Automate, Power BI and governed enterprise knowledge can support classification, retrieval, summarisation, coordination, decision preparation and workflow automation.
+
+Human-in-the-loop controls are embedded throughout. AI supports HR professionals and managers rather than independently making consequential employment decisions.
+
+[VIEW THE FULL AI AGENTS, CHATBOTS & HR AUTOMATION PORTFOLIO (PDF)](HumanEvoX_AI_Agents_Chatbots_HR_Automation_Portfolio.pdf)
 
 
 
