@@ -1,0 +1,501 @@
+employee_id,department,location,level,tenure_years,performance_rating,learning_hours,primary_skill,skill_level,internal_move_12m,exit_12m,hire_source,time_to_fill_days
+E0001,Finance,Dubai,L3,3.6,3,6,AI Literacy,5,1,0,Referral,31
+E0002,Operations,Dubai,L2,10.1,4,26,Leadership,4,0,0,Referral,66
+E0003,HR,Jeddah,L2,2.3,5,21,AI Literacy,1,1,0,Agency,56
+E0004,Sales,Dubai,L3,7.6,5,24,AI Literacy,5,0,0,Internal,74
+E0005,Risk,Abu Dhabi,L3,0.8,3,18,AI Literacy,2,0,0,Career Site,58
+E0006,Risk,Abu Dhabi,L2,3.1,3,59,AI Literacy,5,0,0,LinkedIn,28
+E0007,Strategy,Jeddah,L1,13.0,4,14,Cloud,1,0,0,Agency,43
+E0008,Sales,Dubai,L1,13.2,4,20,Leadership,4,1,1,Career Site,27
+E0009,Sales,Abu Dhabi,L1,7.9,3,37,Cybersecurity,5,1,0,LinkedIn,50
+E0010,Strategy,Dubai,L3,12.1,3,10,Cybersecurity,5,0,0,Internal,47
+E0011,Sales,Dubai,L3,1.8,5,48,Project Management,3,0,0,LinkedIn,47
+E0012,Technology,Riyadh,L5,10.7,4,6,Project Management,5,0,0,LinkedIn,52
+E0013,Technology,Riyadh,L2,1.7,3,53,Project Management,2,0,0,Internal,78
+E0014,Finance,Dubai,L3,11.5,5,34,HR Technology,2,1,1,LinkedIn,34
+E0015,Customer Experience,Abu Dhabi,L4,10.6,4,45,Project Management,4,0,0,Internal,46
+E0016,Finance,Abu Dhabi,L1,4.9,4,14,Leadership,1,0,0,Referral,32
+E0017,Finance,Dubai,L4,1.2,3,42,Customer Analytics,2,0,0,Internal,54
+E0018,Strategy,Abu Dhabi,L3,11.3,3,6,Cybersecurity,3,1,0,Referral,61
+E0019,Finance,Dubai,L2,4.9,4,15,Leadership,2,1,0,LinkedIn,35
+E0020,Strategy,Abu Dhabi,L4,1.2,4,54,AI Literacy,1,0,1,LinkedIn,28
+E0021,Customer Experience,Jeddah,L2,12.1,5,10,Cybersecurity,1,1,0,Career Site,36
+E0022,Customer Experience,Jeddah,L1,4.3,5,37,Data Analytics,3,0,0,Career Site,50
+E0023,HR,Dubai,L5,1.3,3,38,AI Literacy,2,1,0,Internal,33
+E0024,Technology,Dubai,L2,8.3,4,59,Project Management,2,0,0,Career Site,26
+E0025,Sales,Jeddah,L2,10.6,2,29,AI Literacy,1,0,0,LinkedIn,77
+E0026,Risk,Dubai,L4,5.3,3,53,Project Management,5,0,0,Internal,37
+E0027,Finance,Abu Dhabi,L1,12.5,4,9,Project Management,3,0,0,LinkedIn,61
+E0028,Sales,Jeddah,L1,12.7,2,40,Cybersecurity,3,0,0,LinkedIn,58
+E0029,Sales,Abu Dhabi,L3,7.8,3,0,AI Literacy,1,0,0,Agency,55
+E0030,HR,Jeddah,L1,4.5,5,50,Data Analytics,3,0,0,Referral,40
+E0031,Customer Experience,Abu Dhabi,L4,3.5,3,51,HR Technology,4,0,0,Agency,68
+E0032,Customer Experience,Abu Dhabi,L1,11.1,3,55,Data Analytics,4,0,0,Career Site,40
+E0033,Sales,Abu Dhabi,L1,9.3,3,17,AI Literacy,3,0,0,Career Site,61
+E0034,Risk,Dubai,L1,13.6,3,16,Data Analytics,1,1,0,Agency,45
+E0035,Finance,Jeddah,L4,2.8,2,27,Data Analytics,5,0,0,Referral,78
+E0036,Risk,Riyadh,L3,1.9,5,32,Project Management,4,0,0,Agency,53
+E0037,HR,Abu Dhabi,L2,13.2,4,57,HR Technology,5,0,0,Referral,37
+E0038,Sales,Abu Dhabi,L2,8.2,4,29,Customer Analytics,4,0,0,LinkedIn,60
+E0039,Finance,Riyadh,L2,8.9,3,52,Leadership,3,0,0,LinkedIn,19
+E0040,Technology,Abu Dhabi,L5,8.6,4,29,Cybersecurity,5,0,0,Career Site,49
+E0041,Customer Experience,Abu Dhabi,L1,9.7,5,55,AI Literacy,4,0,0,Internal,47
+E0042,Technology,Abu Dhabi,L4,1.9,3,29,Cloud,4,1,0,Internal,46
+E0043,HR,Jeddah,L2,10.6,4,17,Customer Analytics,2,0,0,Agency,33
+E0044,Sales,Riyadh,L2,7.7,3,14,Cybersecurity,2,0,0,Career Site,39
+E0045,Strategy,Jeddah,L1,11.7,3,49,Data Analytics,5,1,0,Agency,37
+E0046,Customer Experience,Jeddah,L2,10.3,4,57,Leadership,4,0,0,Career Site,19
+E0047,Customer Experience,Riyadh,L3,11.2,4,53,Customer Analytics,2,0,1,Internal,54
+E0048,Technology,Dubai,L3,2.1,3,3,Project Management,4,0,0,Agency,39
+E0049,Customer Experience,Riyadh,L3,11.7,3,5,Customer Analytics,1,0,1,Agency,32
+E0050,Finance,Dubai,L3,13.3,3,1,HR Technology,2,0,0,Referral,54
+E0051,Operations,Jeddah,L3,10.8,3,38,AI Literacy,2,0,0,Referral,77
+E0052,Sales,Jeddah,L2,10.1,2,44,Leadership,1,0,0,Internal,69
+E0053,Finance,Dubai,L2,6.1,3,32,Cloud,1,1,0,Referral,45
+E0054,Risk,Jeddah,L3,6.2,4,41,Project Management,5,1,0,Internal,35
+E0055,Risk,Abu Dhabi,L4,1.4,5,15,Customer Analytics,5,1,0,Career Site,72
+E0056,Risk,Abu Dhabi,L2,5.1,3,17,Project Management,5,0,0,LinkedIn,23
+E0057,Operations,Jeddah,L2,10.7,4,41,Customer Analytics,4,0,0,LinkedIn,43
+E0058,Operations,Riyadh,L3,5.3,4,22,Cybersecurity,5,0,0,Career Site,35
+E0059,Sales,Riyadh,L1,10.2,3,47,HR Technology,2,0,0,Agency,64
+E0060,Sales,Dubai,L4,4.3,3,19,Data Analytics,5,0,0,Referral,53
+E0061,Sales,Abu Dhabi,L3,10.6,3,0,Project Management,4,1,0,LinkedIn,21
+E0062,Sales,Jeddah,L1,1.1,3,36,Data Analytics,2,0,0,Agency,23
+E0063,Operations,Dubai,L2,5.9,4,39,Leadership,5,1,0,Career Site,37
+E0064,Customer Experience,Riyadh,L2,1.0,5,6,Leadership,2,0,0,LinkedIn,33
+E0065,HR,Dubai,L1,5.8,4,30,Project Management,1,0,0,Agency,62
+E0066,Strategy,Dubai,L3,12.9,4,40,Leadership,4,0,0,LinkedIn,76
+E0067,Sales,Abu Dhabi,L1,2.5,3,47,Project Management,4,0,0,Agency,62
+E0068,Customer Experience,Riyadh,L2,7.0,3,2,Cybersecurity,3,0,0,LinkedIn,61
+E0069,Technology,Riyadh,L2,10.7,3,33,Customer Analytics,3,0,1,Career Site,58
+E0070,Strategy,Dubai,L2,5.8,3,6,HR Technology,3,1,0,Agency,60
+E0071,Customer Experience,Dubai,L2,4.5,3,49,Cybersecurity,5,0,0,Internal,47
+E0072,Customer Experience,Dubai,L1,5.2,4,40,Customer Analytics,1,0,0,LinkedIn,77
+E0073,Sales,Jeddah,L4,6.9,2,40,Leadership,2,0,0,Internal,44
+E0074,Finance,Abu Dhabi,L5,12.8,3,7,HR Technology,4,0,0,Agency,44
+E0075,Strategy,Jeddah,L1,7.8,3,58,HR Technology,1,0,0,Career Site,39
+E0076,Sales,Dubai,L1,4.3,4,42,Customer Analytics,2,1,0,Agency,39
+E0077,Customer Experience,Jeddah,L4,12.2,5,15,Cybersecurity,2,1,0,Career Site,63
+E0078,Customer Experience,Jeddah,L5,11.1,4,9,Customer Analytics,1,0,0,Internal,39
+E0079,Finance,Jeddah,L1,12.8,2,9,Cybersecurity,2,0,0,Agency,39
+E0080,Customer Experience,Dubai,L4,12.0,4,24,Cloud,4,0,0,LinkedIn,58
+E0081,Sales,Abu Dhabi,L3,6.2,3,40,AI Literacy,4,0,0,Referral,20
+E0082,Risk,Dubai,L1,5.4,3,33,Cybersecurity,5,0,0,Referral,57
+E0083,Customer Experience,Abu Dhabi,L2,8.2,3,40,Project Management,4,0,0,Career Site,75
+E0084,Sales,Abu Dhabi,L1,13.2,5,19,Cybersecurity,3,1,0,LinkedIn,42
+E0085,Strategy,Dubai,L1,8.1,4,44,Project Management,1,1,0,Internal,73
+E0086,Technology,Jeddah,L4,12.7,4,14,Cloud,2,0,0,LinkedIn,58
+E0087,Finance,Dubai,L2,6.3,4,46,HR Technology,1,0,0,Career Site,29
+E0088,Operations,Abu Dhabi,L3,12.3,3,32,Project Management,2,0,1,Career Site,69
+E0089,Sales,Riyadh,L4,6.7,2,48,Leadership,4,0,0,Career Site,18
+E0090,Sales,Dubai,L2,9.5,4,37,Cybersecurity,3,0,0,Career Site,19
+E0091,Risk,Abu Dhabi,L3,9.0,3,44,Project Management,4,0,0,Referral,37
+E0092,Strategy,Dubai,L1,12.4,3,29,Cloud,5,1,0,LinkedIn,74
+E0093,Customer Experience,Dubai,L4,8.7,5,17,Data Analytics,3,0,0,LinkedIn,72
+E0094,Risk,Dubai,L5,5.3,5,41,Cloud,1,1,0,Referral,78
+E0095,Strategy,Dubai,L3,9.1,4,1,Data Analytics,3,0,1,Internal,31
+E0096,Finance,Abu Dhabi,L3,11.4,3,49,HR Technology,5,0,0,LinkedIn,26
+E0097,Sales,Abu Dhabi,L1,12.2,3,22,Leadership,5,0,0,Agency,21
+E0098,HR,Jeddah,L2,10.5,3,49,Cloud,5,0,0,LinkedIn,78
+E0099,Technology,Riyadh,L2,13.5,2,30,Cybersecurity,4,0,0,Career Site,22
+E0100,Finance,Riyadh,L3,1.1,3,40,Cloud,4,0,0,Internal,45
+E0101,Finance,Dubai,L4,9.2,4,46,Leadership,4,1,1,Career Site,39
+E0102,Strategy,Jeddah,L2,1.5,3,42,Project Management,3,0,0,Career Site,22
+E0103,Finance,Dubai,L1,1.5,4,51,HR Technology,5,0,0,Internal,53
+E0104,Risk,Dubai,L2,12.3,5,27,Data Analytics,3,0,0,Internal,50
+E0105,Operations,Abu Dhabi,L3,3.3,3,54,Cloud,1,0,0,Career Site,72
+E0106,Technology,Riyadh,L1,4.0,4,58,Cloud,3,0,0,LinkedIn,54
+E0107,Customer Experience,Dubai,L1,8.9,2,47,Leadership,4,1,0,LinkedIn,41
+E0108,Sales,Riyadh,L3,8.0,3,3,HR Technology,2,0,0,Agency,46
+E0109,Customer Experience,Jeddah,L3,5.9,3,32,AI Literacy,3,1,0,Internal,49
+E0110,Sales,Dubai,L1,13.8,2,13,Project Management,2,0,0,Agency,38
+E0111,Finance,Dubai,L2,6.1,3,34,Leadership,5,0,0,Referral,45
+E0112,Technology,Jeddah,L4,12.1,4,36,Cybersecurity,4,0,0,Referral,38
+E0113,HR,Jeddah,L4,12.9,3,54,AI Literacy,2,1,0,Internal,23
+E0114,Customer Experience,Riyadh,L3,3.3,4,4,AI Literacy,5,0,1,Agency,40
+E0115,HR,Abu Dhabi,L1,3.7,3,9,AI Literacy,2,1,0,Internal,66
+E0116,Strategy,Riyadh,L4,8.9,3,4,Customer Analytics,4,0,0,Internal,21
+E0117,Risk,Dubai,L2,6.4,2,53,Project Management,1,0,0,Internal,42
+E0118,Strategy,Dubai,L2,11.4,4,20,Customer Analytics,5,0,1,Career Site,24
+E0119,Risk,Dubai,L2,2.6,3,28,Customer Analytics,5,0,0,Agency,42
+E0120,Customer Experience,Riyadh,L3,0.9,4,21,AI Literacy,3,0,0,Career Site,36
+E0121,Sales,Abu Dhabi,L2,8.2,3,22,Project Management,4,0,0,Referral,37
+E0122,Customer Experience,Riyadh,L4,9.4,4,47,AI Literacy,4,0,0,Agency,29
+E0123,Operations,Riyadh,L5,6.9,3,8,HR Technology,1,0,0,Referral,50
+E0124,Technology,Riyadh,L4,8.7,4,9,HR Technology,2,0,0,Referral,44
+E0125,Risk,Abu Dhabi,L5,8.6,4,50,Customer Analytics,2,0,0,Career Site,75
+E0126,Operations,Riyadh,L3,8.1,3,49,Project Management,4,1,1,LinkedIn,69
+E0127,HR,Riyadh,L1,6.8,3,59,AI Literacy,5,0,0,LinkedIn,35
+E0128,Strategy,Abu Dhabi,L4,1.5,5,52,Customer Analytics,3,0,0,Career Site,50
+E0129,Risk,Abu Dhabi,L2,1.3,3,20,AI Literacy,3,0,0,Agency,76
+E0130,Strategy,Abu Dhabi,L3,6.7,4,57,AI Literacy,1,0,0,LinkedIn,53
+E0131,Customer Experience,Dubai,L3,3.5,3,15,Cybersecurity,5,1,0,Career Site,56
+E0132,Technology,Abu Dhabi,L3,4.2,2,22,Leadership,5,1,0,Referral,51
+E0133,Risk,Dubai,L5,7.7,4,32,Data Analytics,4,1,0,Career Site,41
+E0134,Sales,Dubai,L2,1.1,3,42,AI Literacy,5,0,0,Agency,52
+E0135,Risk,Abu Dhabi,L4,9.6,5,30,HR Technology,2,0,0,Career Site,20
+E0136,Sales,Abu Dhabi,L1,3.0,2,59,Project Management,5,1,1,Internal,48
+E0137,Sales,Dubai,L3,2.8,3,49,Data Analytics,3,0,0,Agency,45
+E0138,Customer Experience,Jeddah,L4,5.5,5,31,Customer Analytics,3,0,0,Career Site,23
+E0139,Customer Experience,Abu Dhabi,L2,4.6,3,42,Project Management,3,1,0,Career Site,28
+E0140,Strategy,Riyadh,L2,10.2,5,39,Cybersecurity,3,0,0,Career Site,41
+E0141,HR,Dubai,L1,8.6,4,2,HR Technology,1,0,0,Agency,41
+E0142,Customer Experience,Dubai,L3,9.6,5,23,Customer Analytics,1,0,0,Career Site,38
+E0143,Sales,Abu Dhabi,L5,0.6,3,33,Cybersecurity,5,0,0,Agency,63
+E0144,Strategy,Abu Dhabi,L5,4.1,5,31,Leadership,1,0,0,Career Site,29
+E0145,Strategy,Dubai,L4,13.6,5,42,Cloud,1,0,1,LinkedIn,63
+E0146,HR,Riyadh,L2,1.9,3,8,Leadership,4,0,0,Internal,41
+E0147,Strategy,Abu Dhabi,L3,1.4,3,45,Customer Analytics,5,1,0,Internal,22
+E0148,HR,Riyadh,L3,6.4,4,22,HR Technology,5,0,0,LinkedIn,45
+E0149,Technology,Dubai,L2,4.4,3,59,Leadership,3,0,0,Agency,30
+E0150,Sales,Abu Dhabi,L3,8.7,3,41,HR Technology,5,0,0,Internal,64
+E0151,Risk,Dubai,L4,0.6,2,41,Project Management,2,1,0,Referral,49
+E0152,Sales,Riyadh,L2,11.3,4,19,Customer Analytics,1,0,0,Career Site,48
+E0153,Strategy,Abu Dhabi,L2,2.2,4,20,Cloud,4,0,0,Internal,53
+E0154,Finance,Riyadh,L1,1.9,3,9,AI Literacy,1,0,1,Internal,44
+E0155,Operations,Abu Dhabi,L4,13.1,4,12,HR Technology,4,1,0,Agency,49
+E0156,Technology,Dubai,L5,7.2,5,13,Cloud,1,0,0,Internal,74
+E0157,Strategy,Riyadh,L2,11.9,3,56,Project Management,3,1,0,Career Site,21
+E0158,Operations,Riyadh,L2,1.2,4,48,Project Management,5,0,0,Referral,43
+E0159,Risk,Riyadh,L2,5.2,3,38,Cybersecurity,5,0,0,LinkedIn,63
+E0160,Risk,Jeddah,L2,2.3,5,8,Cloud,5,0,0,Internal,65
+E0161,Sales,Riyadh,L2,7.2,3,36,Project Management,4,0,0,Referral,44
+E0162,Sales,Dubai,L3,3.9,4,49,Leadership,1,1,0,Internal,67
+E0163,Customer Experience,Abu Dhabi,L4,3.5,4,44,AI Literacy,2,0,0,Career Site,27
+E0164,Customer Experience,Abu Dhabi,L2,10.9,5,55,Data Analytics,2,0,0,Career Site,51
+E0165,Customer Experience,Riyadh,L5,6.5,4,34,Cloud,3,1,0,LinkedIn,35
+E0166,Sales,Abu Dhabi,L5,13.8,4,45,Leadership,4,0,0,Internal,77
+E0167,Sales,Riyadh,L1,9.5,3,25,Cloud,2,0,0,Referral,40
+E0168,Strategy,Riyadh,L3,3.2,4,17,Project Management,2,0,0,Internal,33
+E0169,Operations,Dubai,L3,7.5,4,3,AI Literacy,4,0,0,Referral,61
+E0170,HR,Dubai,L5,13.7,3,41,Customer Analytics,4,0,0,Agency,38
+E0171,Sales,Dubai,L4,1.4,4,34,Data Analytics,2,1,1,LinkedIn,77
+E0172,Technology,Jeddah,L3,2.8,4,55,Project Management,1,0,0,Internal,24
+E0173,Risk,Riyadh,L2,9.1,4,56,HR Technology,5,1,0,Referral,39
+E0174,HR,Jeddah,L3,10.1,2,21,Project Management,5,0,0,Career Site,70
+E0175,Customer Experience,Riyadh,L1,9.4,3,8,Customer Analytics,3,0,0,Career Site,33
+E0176,Strategy,Riyadh,L5,4.4,4,0,Project Management,3,0,0,Referral,47
+E0177,Sales,Abu Dhabi,L2,7.1,5,45,Project Management,1,0,0,LinkedIn,32
+E0178,HR,Jeddah,L1,10.5,4,26,Customer Analytics,5,0,0,Internal,73
+E0179,Finance,Jeddah,L2,5.2,5,7,Data Analytics,5,0,0,LinkedIn,28
+E0180,Risk,Jeddah,L1,3.0,4,5,Customer Analytics,1,1,0,Career Site,47
+E0181,Technology,Jeddah,L3,4.5,2,16,Data Analytics,2,0,0,Agency,62
+E0182,Finance,Dubai,L4,1.2,5,2,Project Management,4,0,0,Career Site,41
+E0183,Customer Experience,Jeddah,L4,12.7,3,43,HR Technology,3,0,0,Internal,43
+E0184,HR,Abu Dhabi,L4,10.6,5,29,Cybersecurity,5,1,0,LinkedIn,47
+E0185,Risk,Abu Dhabi,L1,13.1,4,7,Data Analytics,4,0,0,Referral,24
+E0186,Technology,Jeddah,L3,9.9,2,47,Data Analytics,4,1,0,LinkedIn,66
+E0187,Technology,Abu Dhabi,L2,4.2,4,46,Cloud,5,0,0,LinkedIn,60
+E0188,Operations,Jeddah,L2,1.0,5,56,HR Technology,4,1,0,Agency,78
+E0189,Customer Experience,Riyadh,L3,5.8,3,11,Customer Analytics,2,0,0,LinkedIn,69
+E0190,Strategy,Dubai,L2,13.6,4,8,Cybersecurity,2,0,0,Referral,77
+E0191,Strategy,Riyadh,L1,10.2,3,17,Cybersecurity,5,0,0,LinkedIn,69
+E0192,Operations,Jeddah,L1,12.7,3,58,Data Analytics,2,0,1,Referral,65
+E0193,Strategy,Abu Dhabi,L3,9.9,3,15,Cloud,3,1,0,Agency,37
+E0194,Sales,Riyadh,L2,7.1,3,46,Customer Analytics,3,0,0,Career Site,20
+E0195,Operations,Abu Dhabi,L1,7.8,4,46,Cybersecurity,3,0,0,LinkedIn,42
+E0196,Operations,Jeddah,L2,13.2,3,48,Customer Analytics,4,1,0,Agency,28
+E0197,HR,Jeddah,L1,12.5,5,3,Data Analytics,1,0,0,Career Site,26
+E0198,Operations,Dubai,L3,0.3,4,23,Data Analytics,5,1,0,Referral,18
+E0199,Customer Experience,Dubai,L1,10.2,4,18,Data Analytics,5,1,0,LinkedIn,24
+E0200,Finance,Abu Dhabi,L1,8.8,3,22,Project Management,4,0,0,Career Site,47
+E0201,Operations,Abu Dhabi,L1,11.6,3,54,Data Analytics,1,1,0,Internal,48
+E0202,Technology,Dubai,L3,1.3,4,41,Cloud,5,0,1,Referral,32
+E0203,Operations,Jeddah,L1,13.0,4,17,Data Analytics,2,0,0,LinkedIn,55
+E0204,HR,Jeddah,L4,4.3,4,36,Cybersecurity,5,0,0,LinkedIn,68
+E0205,Finance,Riyadh,L1,6.2,4,21,Cybersecurity,3,0,0,Career Site,49
+E0206,Operations,Riyadh,L2,5.4,3,37,Cybersecurity,1,0,0,Referral,23
+E0207,Sales,Abu Dhabi,L2,11.0,3,24,Cloud,3,0,0,Agency,46
+E0208,Risk,Riyadh,L1,1.4,3,35,Cybersecurity,1,0,0,Internal,23
+E0209,Risk,Jeddah,L1,5.9,4,46,Leadership,5,0,0,LinkedIn,26
+E0210,Sales,Riyadh,L1,2.2,3,17,Cybersecurity,3,1,0,Agency,34
+E0211,Operations,Jeddah,L3,2.9,3,19,Data Analytics,4,0,0,Career Site,69
+E0212,Risk,Jeddah,L2,11.5,4,38,HR Technology,3,0,0,LinkedIn,48
+E0213,Risk,Abu Dhabi,L5,13.6,3,44,Customer Analytics,5,0,0,Agency,70
+E0214,Customer Experience,Riyadh,L1,8.0,4,34,HR Technology,5,0,1,Career Site,78
+E0215,Operations,Jeddah,L3,11.7,2,54,Cybersecurity,4,0,0,LinkedIn,34
+E0216,HR,Jeddah,L3,1.2,5,30,Cybersecurity,5,1,0,Agency,62
+E0217,Finance,Dubai,L3,9.3,3,41,Data Analytics,5,1,1,Agency,68
+E0218,Customer Experience,Dubai,L1,3.8,4,33,Leadership,4,0,0,Internal,62
+E0219,HR,Riyadh,L5,6.9,3,58,AI Literacy,1,0,0,Agency,47
+E0220,Operations,Jeddah,L2,1.5,4,28,Cloud,1,0,0,Referral,19
+E0221,Risk,Dubai,L3,2.5,5,15,HR Technology,5,0,0,Career Site,47
+E0222,Operations,Jeddah,L3,2.8,4,25,Data Analytics,5,0,0,Career Site,42
+E0223,Technology,Abu Dhabi,L1,10.6,4,4,AI Literacy,5,0,0,LinkedIn,47
+E0224,Finance,Riyadh,L3,7.0,5,20,Cybersecurity,5,1,0,Agency,40
+E0225,Strategy,Abu Dhabi,L4,9.9,3,39,AI Literacy,2,0,0,Agency,25
+E0226,HR,Riyadh,L3,7.2,3,8,Cybersecurity,4,0,0,Internal,62
+E0227,HR,Abu Dhabi,L2,2.1,3,28,Data Analytics,3,0,0,LinkedIn,70
+E0228,Customer Experience,Jeddah,L2,7.0,4,28,Customer Analytics,2,0,0,LinkedIn,36
+E0229,Technology,Riyadh,L1,4.2,4,36,Customer Analytics,5,0,0,Agency,67
+E0230,Risk,Dubai,L3,6.3,3,27,AI Literacy,2,0,0,Referral,46
+E0231,Sales,Riyadh,L4,1.4,4,7,Leadership,2,0,0,Internal,58
+E0232,Customer Experience,Abu Dhabi,L3,11.0,4,51,Data Analytics,5,0,0,Internal,52
+E0233,HR,Riyadh,L5,4.2,4,60,AI Literacy,2,1,1,Agency,73
+E0234,HR,Abu Dhabi,L1,10.0,4,48,Cybersecurity,4,0,0,Agency,58
+E0235,Customer Experience,Jeddah,L2,8.9,5,5,Cybersecurity,5,0,0,Agency,47
+E0236,Strategy,Riyadh,L3,12.2,4,5,Customer Analytics,3,0,0,Career Site,31
+E0237,Customer Experience,Abu Dhabi,L2,4.7,3,35,HR Technology,5,1,0,Referral,20
+E0238,Finance,Jeddah,L1,13.0,3,29,Data Analytics,4,0,1,LinkedIn,74
+E0239,Sales,Abu Dhabi,L4,12.3,3,23,Project Management,1,0,0,LinkedIn,21
+E0240,Customer Experience,Riyadh,L3,10.6,3,5,AI Literacy,1,0,0,LinkedIn,55
+E0241,Operations,Jeddah,L1,9.8,4,55,Cybersecurity,2,1,0,Career Site,23
+E0242,Finance,Dubai,L2,12.4,3,49,HR Technology,2,0,0,Referral,57
+E0243,HR,Jeddah,L2,3.1,4,58,Cybersecurity,5,1,0,Referral,75
+E0244,Finance,Abu Dhabi,L3,8.3,3,27,Cloud,2,0,0,Referral,33
+E0245,Sales,Dubai,L4,9.3,3,33,Leadership,4,0,0,LinkedIn,49
+E0246,Customer Experience,Dubai,L1,9.0,2,56,Data Analytics,3,0,0,Internal,44
+E0247,Risk,Abu Dhabi,L3,13.4,4,1,AI Literacy,1,0,0,Referral,78
+E0248,Customer Experience,Riyadh,L3,7.1,3,44,Cybersecurity,1,0,0,Agency,23
+E0249,Operations,Abu Dhabi,L2,5.6,4,53,AI Literacy,3,1,0,LinkedIn,21
+E0250,Operations,Dubai,L4,1.8,4,3,Project Management,2,0,0,LinkedIn,62
+E0251,Technology,Abu Dhabi,L2,5.0,4,52,Project Management,2,0,0,Agency,64
+E0252,Finance,Dubai,L2,6.1,4,16,AI Literacy,4,1,0,Referral,49
+E0253,HR,Riyadh,L1,10.9,5,43,AI Literacy,2,0,0,Referral,33
+E0254,Technology,Jeddah,L2,12.9,3,54,Data Analytics,5,1,0,LinkedIn,44
+E0255,Risk,Riyadh,L4,8.1,3,43,Data Analytics,2,0,0,Referral,43
+E0256,Finance,Jeddah,L4,10.9,3,5,Customer Analytics,1,0,0,Internal,68
+E0257,Sales,Abu Dhabi,L2,8.4,3,49,Leadership,5,0,0,Career Site,19
+E0258,Operations,Riyadh,L3,9.8,2,21,Data Analytics,4,0,0,Internal,33
+E0259,Customer Experience,Jeddah,L5,13.6,3,17,AI Literacy,1,0,1,Internal,44
+E0260,Risk,Jeddah,L5,1.4,3,8,Cybersecurity,1,0,0,LinkedIn,33
+E0261,Sales,Riyadh,L4,13.0,3,53,Cloud,3,1,0,Referral,78
+E0262,Operations,Abu Dhabi,L3,8.3,3,10,Customer Analytics,4,0,0,Internal,40
+E0263,Operations,Jeddah,L2,3.9,3,10,Project Management,5,0,0,Agency,27
+E0264,Finance,Abu Dhabi,L5,5.7,2,19,Project Management,2,0,1,Career Site,53
+E0265,Operations,Dubai,L2,11.3,3,0,Data Analytics,2,0,0,Career Site,41
+E0266,Finance,Riyadh,L4,1.2,5,12,Customer Analytics,2,0,1,Agency,25
+E0267,Technology,Jeddah,L1,13.0,3,46,Cybersecurity,4,0,0,Career Site,29
+E0268,Risk,Abu Dhabi,L4,4.0,3,9,Data Analytics,5,0,0,Career Site,44
+E0269,Strategy,Dubai,L1,5.5,3,41,Leadership,5,0,1,Agency,48
+E0270,Strategy,Riyadh,L4,7.1,3,11,Data Analytics,3,0,0,Agency,21
+E0271,Strategy,Riyadh,L3,14.0,5,6,Leadership,2,0,0,Referral,66
+E0272,Operations,Jeddah,L2,11.8,4,11,Leadership,5,0,0,Agency,76
+E0273,Technology,Riyadh,L5,8.0,4,12,Customer Analytics,5,0,0,Referral,23
+E0274,Technology,Abu Dhabi,L3,0.5,3,21,Leadership,2,0,0,Agency,21
+E0275,Technology,Abu Dhabi,L3,12.9,4,54,Cloud,1,0,0,Career Site,55
+E0276,Finance,Riyadh,L2,2.1,3,60,Cybersecurity,4,0,0,Internal,62
+E0277,Risk,Abu Dhabi,L3,11.4,3,46,Project Management,2,0,0,Internal,43
+E0278,Technology,Abu Dhabi,L3,12.9,5,14,AI Literacy,4,0,0,Referral,33
+E0279,Risk,Riyadh,L1,12.4,3,45,Cloud,4,0,0,LinkedIn,62
+E0280,Finance,Riyadh,L1,1.7,2,24,Customer Analytics,4,0,1,Career Site,74
+E0281,Customer Experience,Riyadh,L2,1.6,3,55,Leadership,2,1,0,Referral,36
+E0282,Technology,Riyadh,L1,1.6,3,56,Cybersecurity,2,0,0,Referral,39
+E0283,Strategy,Dubai,L2,9.2,4,27,HR Technology,1,0,0,LinkedIn,44
+E0284,Sales,Riyadh,L1,1.5,3,35,Customer Analytics,2,0,0,Career Site,23
+E0285,Sales,Jeddah,L1,0.6,3,18,AI Literacy,4,0,0,Career Site,48
+E0286,Strategy,Riyadh,L1,7.7,3,56,Cybersecurity,3,0,0,Agency,46
+E0287,Strategy,Riyadh,L1,3.9,2,48,AI Literacy,1,0,0,Career Site,66
+E0288,Operations,Dubai,L4,11.5,3,34,Customer Analytics,5,0,0,Referral,43
+E0289,Technology,Abu Dhabi,L1,10.6,3,10,Leadership,2,0,0,Referral,61
+E0290,Customer Experience,Abu Dhabi,L5,8.9,4,16,Cloud,1,0,0,Career Site,53
+E0291,Risk,Riyadh,L2,12.9,2,44,Cybersecurity,1,1,0,Internal,55
+E0292,Finance,Dubai,L2,1.6,3,34,Cloud,4,0,0,Career Site,54
+E0293,Strategy,Dubai,L1,5.8,4,43,Cybersecurity,1,1,1,Agency,62
+E0294,Operations,Dubai,L3,12.9,5,1,Cloud,3,0,0,Career Site,72
+E0295,Finance,Abu Dhabi,L1,13.6,3,52,Cloud,3,1,0,Referral,30
+E0296,Strategy,Abu Dhabi,L4,5.8,3,33,Cloud,1,0,0,Internal,43
+E0297,HR,Dubai,L1,12.3,3,3,Leadership,1,1,0,Agency,63
+E0298,Operations,Riyadh,L2,6.6,3,59,AI Literacy,1,0,0,Internal,46
+E0299,HR,Jeddah,L3,5.0,3,57,Project Management,1,0,0,Referral,28
+E0300,Operations,Abu Dhabi,L3,9.6,3,26,Data Analytics,1,1,1,LinkedIn,56
+E0301,Technology,Abu Dhabi,L1,11.3,3,45,Project Management,4,1,0,Career Site,34
+E0302,Operations,Jeddah,L2,7.4,4,37,AI Literacy,1,0,0,Internal,56
+E0303,Sales,Riyadh,L3,6.8,3,17,Cloud,3,0,0,Agency,30
+E0304,HR,Abu Dhabi,L4,11.3,4,38,Cybersecurity,3,0,0,Career Site,36
+E0305,Sales,Jeddah,L2,10.4,4,36,Leadership,3,0,0,Career Site,76
+E0306,Risk,Riyadh,L4,11.8,4,11,Project Management,1,1,0,Agency,64
+E0307,HR,Riyadh,L3,3.3,3,55,Project Management,4,0,0,Internal,36
+E0308,Strategy,Dubai,L2,12.2,4,60,AI Literacy,4,0,0,Career Site,51
+E0309,Sales,Jeddah,L1,12.0,3,12,Cloud,4,1,0,LinkedIn,67
+E0310,Finance,Jeddah,L2,13.8,3,3,Data Analytics,4,0,0,LinkedIn,54
+E0311,HR,Jeddah,L3,11.0,3,27,Cybersecurity,4,1,1,Career Site,18
+E0312,Technology,Abu Dhabi,L3,13.3,5,48,Leadership,1,0,0,LinkedIn,32
+E0313,Risk,Riyadh,L1,5.5,4,10,AI Literacy,1,0,1,Career Site,64
+E0314,Risk,Jeddah,L4,13.9,3,57,Customer Analytics,3,0,0,Career Site,19
+E0315,Operations,Abu Dhabi,L3,2.0,4,37,HR Technology,1,0,0,Referral,42
+E0316,Sales,Dubai,L3,0.9,3,53,Data Analytics,1,0,0,Career Site,25
+E0317,Sales,Jeddah,L3,3.0,4,0,Project Management,4,0,0,Agency,57
+E0318,HR,Jeddah,L4,1.6,4,7,Project Management,1,0,0,Internal,30
+E0319,Sales,Abu Dhabi,L2,5.9,3,35,Customer Analytics,2,1,0,Referral,18
+E0320,Finance,Dubai,L4,9.4,3,5,AI Literacy,1,0,0,Career Site,36
+E0321,Sales,Jeddah,L1,11.4,4,54,Project Management,3,0,0,Referral,24
+E0322,Technology,Dubai,L4,9.4,3,22,Customer Analytics,5,0,0,Referral,41
+E0323,Risk,Abu Dhabi,L1,5.7,3,53,Cybersecurity,4,1,0,LinkedIn,25
+E0324,HR,Dubai,L5,11.9,3,58,Customer Analytics,5,1,0,Career Site,67
+E0325,Risk,Dubai,L4,12.3,4,57,HR Technology,4,1,0,Career Site,46
+E0326,Technology,Dubai,L1,4.5,4,43,Leadership,3,0,0,LinkedIn,48
+E0327,Risk,Jeddah,L1,11.6,5,39,Data Analytics,1,0,0,Career Site,72
+E0328,Strategy,Abu Dhabi,L1,7.0,3,17,Data Analytics,5,0,0,Career Site,43
+E0329,Operations,Dubai,L2,11.3,3,54,Customer Analytics,4,0,0,Career Site,65
+E0330,Technology,Dubai,L2,0.7,4,52,AI Literacy,5,0,1,Internal,31
+E0331,Strategy,Riyadh,L2,0.9,3,29,Cloud,5,1,0,Agency,63
+E0332,Strategy,Dubai,L1,9.3,2,22,Project Management,5,0,0,Referral,75
+E0333,HR,Jeddah,L1,10.1,4,6,Project Management,5,0,0,Career Site,31
+E0334,Strategy,Abu Dhabi,L3,1.7,3,59,AI Literacy,4,1,0,Internal,26
+E0335,Strategy,Dubai,L2,0.9,5,53,Customer Analytics,5,0,0,LinkedIn,64
+E0336,HR,Dubai,L2,8.5,5,32,Cybersecurity,4,0,0,Agency,36
+E0337,Strategy,Abu Dhabi,L1,8.5,5,32,Project Management,5,0,0,Internal,58
+E0338,Operations,Abu Dhabi,L1,10.1,4,58,HR Technology,2,0,0,Agency,53
+E0339,Strategy,Jeddah,L3,12.5,4,56,Cybersecurity,1,0,0,LinkedIn,21
+E0340,Technology,Abu Dhabi,L1,11.0,5,43,Project Management,2,0,0,Agency,31
+E0341,Technology,Riyadh,L4,1.6,4,47,Leadership,5,1,0,Agency,62
+E0342,Technology,Jeddah,L2,13.4,5,20,Data Analytics,1,0,0,Career Site,71
+E0343,Operations,Riyadh,L3,7.7,4,49,Leadership,3,1,0,Referral,29
+E0344,HR,Dubai,L2,6.1,4,8,HR Technology,5,0,0,Career Site,63
+E0345,HR,Dubai,L1,4.7,2,59,Project Management,4,0,0,Agency,51
+E0346,Operations,Abu Dhabi,L2,11.1,3,34,Cybersecurity,1,0,0,LinkedIn,60
+E0347,Risk,Riyadh,L2,3.2,4,33,Customer Analytics,5,0,0,Agency,46
+E0348,Operations,Abu Dhabi,L5,9.6,3,58,AI Literacy,4,0,0,Agency,19
+E0349,Risk,Jeddah,L2,4.3,4,20,AI Literacy,1,0,1,Internal,52
+E0350,Technology,Dubai,L1,8.9,3,43,Cybersecurity,1,0,0,Career Site,59
+E0351,Finance,Abu Dhabi,L1,10.1,2,4,Data Analytics,2,0,0,Internal,70
+E0352,Operations,Riyadh,L2,6.4,3,20,Data Analytics,4,0,0,Internal,22
+E0353,Technology,Dubai,L2,7.1,3,43,Project Management,5,0,0,Career Site,42
+E0354,Customer Experience,Dubai,L2,7.6,3,25,Project Management,2,0,0,Agency,78
+E0355,Technology,Abu Dhabi,L1,0.3,4,34,AI Literacy,3,0,0,Agency,31
+E0356,Customer Experience,Abu Dhabi,L1,3.2,4,12,AI Literacy,2,0,0,Internal,47
+E0357,Finance,Riyadh,L3,3.7,3,37,Customer Analytics,3,0,0,LinkedIn,24
+E0358,Sales,Dubai,L4,4.6,3,39,Project Management,5,0,0,Agency,69
+E0359,Risk,Jeddah,L1,4.5,4,45,Cybersecurity,3,0,0,Agency,74
+E0360,Strategy,Jeddah,L2,10.9,3,6,HR Technology,5,0,0,LinkedIn,75
+E0361,Operations,Riyadh,L3,8.8,4,57,Data Analytics,5,0,0,Internal,43
+E0362,Operations,Dubai,L2,7.7,5,30,HR Technology,3,1,0,Internal,64
+E0363,Sales,Abu Dhabi,L2,7.2,3,32,Data Analytics,2,0,0,LinkedIn,46
+E0364,HR,Abu Dhabi,L2,8.0,4,9,Customer Analytics,3,0,0,Career Site,32
+E0365,Finance,Riyadh,L2,0.8,3,58,Cloud,4,1,1,Referral,20
+E0366,Risk,Dubai,L3,7.4,4,53,Project Management,5,0,0,Career Site,41
+E0367,Finance,Riyadh,L2,12.7,4,22,Cloud,4,1,1,Referral,50
+E0368,HR,Jeddah,L1,1.3,4,13,HR Technology,2,0,0,Referral,60
+E0369,Operations,Jeddah,L4,10.1,3,30,Customer Analytics,2,0,0,Career Site,19
+E0370,Operations,Dubai,L1,8.4,3,32,Data Analytics,5,0,0,Agency,77
+E0371,HR,Jeddah,L3,8.0,2,46,Project Management,1,0,0,Career Site,73
+E0372,Strategy,Abu Dhabi,L1,5.9,3,37,HR Technology,5,0,0,Agency,77
+E0373,Strategy,Dubai,L1,5.5,3,12,Cybersecurity,2,0,0,Internal,56
+E0374,Technology,Dubai,L1,9.3,5,34,Data Analytics,4,1,0,Referral,62
+E0375,Customer Experience,Abu Dhabi,L4,6.9,4,22,AI Literacy,4,0,0,LinkedIn,76
+E0376,Finance,Riyadh,L3,7.7,3,0,Data Analytics,5,0,0,Career Site,59
+E0377,Operations,Riyadh,L2,1.7,3,37,Project Management,3,1,0,Internal,35
+E0378,Customer Experience,Abu Dhabi,L2,11.0,3,23,Customer Analytics,3,0,0,Career Site,65
+E0379,HR,Dubai,L3,6.4,4,10,AI Literacy,2,1,0,Internal,57
+E0380,Technology,Abu Dhabi,L2,9.0,4,52,HR Technology,4,1,0,Agency,32
+E0381,Risk,Dubai,L3,10.2,5,25,Project Management,5,0,1,LinkedIn,58
+E0382,Strategy,Jeddah,L1,11.9,5,33,Project Management,2,0,0,Internal,51
+E0383,Operations,Abu Dhabi,L3,5.2,4,10,AI Literacy,3,1,0,Career Site,43
+E0384,Operations,Dubai,L3,1.1,3,18,Cloud,3,0,0,LinkedIn,47
+E0385,Customer Experience,Dubai,L1,5.8,3,4,Project Management,3,0,0,Agency,74
+E0386,Sales,Jeddah,L5,8.0,4,48,Cloud,4,1,1,Referral,48
+E0387,Finance,Riyadh,L1,8.9,5,43,Leadership,3,1,1,Internal,52
+E0388,Technology,Riyadh,L1,1.5,4,52,Cloud,1,0,0,Agency,31
+E0389,Sales,Abu Dhabi,L5,9.6,5,31,Leadership,2,0,0,LinkedIn,32
+E0390,Operations,Abu Dhabi,L4,5.1,4,7,AI Literacy,4,0,0,Internal,20
+E0391,Strategy,Riyadh,L3,7.0,5,57,Project Management,4,0,1,Internal,35
+E0392,Customer Experience,Abu Dhabi,L3,2.0,4,27,Customer Analytics,5,0,0,Career Site,73
+E0393,HR,Jeddah,L5,9.8,3,44,Data Analytics,1,0,0,Referral,38
+E0394,Risk,Riyadh,L1,3.8,3,39,Cloud,3,0,0,LinkedIn,44
+E0395,Risk,Riyadh,L4,4.1,3,8,Leadership,1,0,0,Internal,45
+E0396,Customer Experience,Abu Dhabi,L1,13.4,3,51,Data Analytics,2,1,0,Internal,52
+E0397,Risk,Jeddah,L2,8.0,4,25,AI Literacy,2,0,0,Agency,48
+E0398,Finance,Jeddah,L3,3.8,3,35,Project Management,3,0,0,Agency,73
+E0399,Operations,Abu Dhabi,L5,4.1,3,32,Customer Analytics,4,0,0,Agency,47
+E0400,HR,Abu Dhabi,L3,13.0,3,39,Cybersecurity,1,0,0,LinkedIn,38
+E0401,Risk,Riyadh,L3,8.6,3,56,Customer Analytics,3,1,0,LinkedIn,72
+E0402,Technology,Abu Dhabi,L3,9.3,5,44,AI Literacy,2,0,0,Referral,22
+E0403,Strategy,Dubai,L1,5.7,4,5,AI Literacy,3,0,0,Career Site,37
+E0404,Operations,Abu Dhabi,L3,6.3,3,33,HR Technology,1,0,0,Agency,73
+E0405,Strategy,Jeddah,L5,7.7,3,28,HR Technology,5,0,0,Career Site,58
+E0406,Customer Experience,Riyadh,L4,6.8,3,5,Customer Analytics,3,0,0,LinkedIn,37
+E0407,Technology,Dubai,L2,10.7,3,18,Customer Analytics,5,0,0,Career Site,78
+E0408,Strategy,Riyadh,L1,6.1,3,14,Data Analytics,5,0,0,Internal,45
+E0409,Customer Experience,Abu Dhabi,L1,10.4,3,24,Leadership,3,0,0,LinkedIn,51
+E0410,Sales,Riyadh,L3,7.5,3,12,AI Literacy,2,0,0,Career Site,57
+E0411,Strategy,Riyadh,L3,7.0,3,9,Data Analytics,5,0,0,Referral,36
+E0412,Sales,Abu Dhabi,L3,10.2,3,9,Data Analytics,4,0,0,Agency,68
+E0413,Strategy,Riyadh,L2,11.1,3,53,HR Technology,1,0,0,Referral,52
+E0414,Strategy,Abu Dhabi,L1,11.8,4,53,Data Analytics,1,0,0,Career Site,33
+E0415,Technology,Abu Dhabi,L2,10.8,4,13,Customer Analytics,4,0,1,LinkedIn,58
+E0416,Technology,Dubai,L1,9.0,3,56,Data Analytics,2,0,0,Career Site,38
+E0417,Technology,Abu Dhabi,L3,8.3,3,15,Data Analytics,1,1,0,LinkedIn,41
+E0418,Finance,Abu Dhabi,L1,1.5,4,59,Data Analytics,1,0,0,Internal,68
+E0419,Finance,Abu Dhabi,L2,4.6,4,41,Cloud,4,0,0,Career Site,40
+E0420,HR,Riyadh,L4,6.9,3,18,Customer Analytics,2,0,0,Agency,64
+E0421,Strategy,Riyadh,L4,8.5,4,10,AI Literacy,5,0,0,Agency,52
+E0422,Risk,Jeddah,L1,9.0,3,11,Data Analytics,5,0,0,LinkedIn,38
+E0423,Finance,Jeddah,L1,9.6,4,9,Project Management,3,1,0,Referral,24
+E0424,Finance,Dubai,L4,2.0,4,12,AI Literacy,4,0,0,Internal,59
+E0425,Customer Experience,Jeddah,L2,9.9,3,23,Leadership,5,0,0,LinkedIn,59
+E0426,Strategy,Dubai,L2,9.0,3,47,Cybersecurity,3,0,0,Agency,51
+E0427,Technology,Dubai,L4,1.3,3,33,AI Literacy,1,0,0,LinkedIn,30
+E0428,Operations,Abu Dhabi,L2,7.9,4,49,Cloud,4,1,1,LinkedIn,68
+E0429,HR,Jeddah,L2,9.3,4,38,Customer Analytics,3,0,0,Agency,72
+E0430,Risk,Jeddah,L3,6.1,4,38,Leadership,5,0,0,Internal,77
+E0431,Sales,Riyadh,L5,6.4,3,46,Data Analytics,3,0,0,Agency,18
+E0432,Sales,Abu Dhabi,L1,4.5,4,60,Project Management,5,0,0,Career Site,40
+E0433,HR,Abu Dhabi,L1,12.5,3,16,Project Management,1,1,0,LinkedIn,64
+E0434,Finance,Riyadh,L3,2.6,4,44,AI Literacy,5,0,0,Internal,42
+E0435,Finance,Dubai,L4,4.8,4,27,Cybersecurity,1,0,0,Internal,77
+E0436,Technology,Jeddah,L1,7.4,3,36,HR Technology,3,0,0,Career Site,46
+E0437,Finance,Abu Dhabi,L2,11.1,3,21,AI Literacy,4,0,0,Agency,23
+E0438,Customer Experience,Jeddah,L3,2.0,3,35,Leadership,4,1,0,LinkedIn,53
+E0439,Operations,Abu Dhabi,L1,10.9,3,59,AI Literacy,1,1,0,Agency,30
+E0440,Risk,Riyadh,L3,0.5,3,22,Customer Analytics,5,0,0,LinkedIn,30
+E0441,Risk,Abu Dhabi,L3,12.0,3,3,Leadership,5,0,0,Agency,18
+E0442,Risk,Dubai,L2,6.7,3,47,Leadership,2,0,0,Internal,64
+E0443,HR,Dubai,L2,12.7,4,16,HR Technology,1,0,0,Internal,35
+E0444,Technology,Jeddah,L3,0.3,3,17,Cloud,1,0,0,Career Site,32
+E0445,Customer Experience,Dubai,L4,6.9,4,5,HR Technology,2,1,0,Referral,20
+E0446,Operations,Riyadh,L2,5.6,3,22,Cloud,3,0,0,Internal,35
+E0447,Technology,Riyadh,L4,12.5,4,1,Project Management,2,0,0,Career Site,60
+E0448,HR,Dubai,L3,7.4,4,55,Leadership,4,0,0,Career Site,37
+E0449,Risk,Jeddah,L2,3.1,3,34,Leadership,2,0,0,Internal,76
+E0450,HR,Jeddah,L5,13.7,3,59,HR Technology,3,0,0,Referral,29
+E0451,Risk,Abu Dhabi,L3,10.8,5,26,Cybersecurity,3,1,0,Agency,27
+E0452,Operations,Dubai,L1,0.6,5,39,Project Management,5,0,0,LinkedIn,61
+E0453,Technology,Riyadh,L1,11.0,3,54,Customer Analytics,3,0,0,Career Site,48
+E0454,HR,Abu Dhabi,L1,0.6,4,0,Project Management,4,0,0,LinkedIn,66
+E0455,Operations,Dubai,L1,13.4,3,39,Customer Analytics,3,1,1,Career Site,43
+E0456,Technology,Jeddah,L3,5.6,5,36,Data Analytics,5,0,0,Referral,74
+E0457,Operations,Jeddah,L5,0.7,3,48,Data Analytics,2,0,0,Agency,67
+E0458,Sales,Jeddah,L1,4.3,5,44,HR Technology,4,1,0,Internal,25
+E0459,HR,Abu Dhabi,L2,4.7,2,29,Leadership,4,0,0,LinkedIn,63
+E0460,Finance,Dubai,L1,6.4,3,33,Cybersecurity,5,0,0,Career Site,20
+E0461,HR,Riyadh,L2,9.3,3,55,HR Technology,2,0,0,Agency,64
+E0462,Strategy,Riyadh,L3,1.8,3,12,Data Analytics,5,0,0,Career Site,72
+E0463,Strategy,Dubai,L3,7.0,3,42,Customer Analytics,4,1,0,Internal,56
+E0464,Technology,Abu Dhabi,L4,4.0,4,52,Leadership,1,0,0,Agency,20
+E0465,HR,Dubai,L3,11.8,3,58,AI Literacy,1,0,0,LinkedIn,28
+E0466,Sales,Abu Dhabi,L5,10.5,3,2,AI Literacy,3,0,0,Career Site,70
+E0467,Finance,Jeddah,L4,1.1,3,7,Project Management,3,1,0,LinkedIn,57
+E0468,Technology,Dubai,L2,13.7,4,5,Customer Analytics,5,0,0,Agency,34
+E0469,Risk,Abu Dhabi,L3,7.1,4,31,Customer Analytics,2,0,0,LinkedIn,18
+E0470,Finance,Dubai,L2,11.2,4,13,Cybersecurity,4,0,0,Internal,69
+E0471,Operations,Dubai,L3,9.7,3,4,Project Management,3,0,0,Referral,61
+E0472,Risk,Riyadh,L2,8.1,5,53,HR Technology,2,0,0,Career Site,76
+E0473,Strategy,Dubai,L3,6.8,4,57,Cloud,4,1,1,Referral,71
+E0474,Sales,Riyadh,L2,0.5,4,21,Cloud,1,0,0,Referral,39
+E0475,Customer Experience,Abu Dhabi,L2,5.6,4,55,Project Management,3,0,0,Referral,49
+E0476,Operations,Riyadh,L2,13.3,3,19,HR Technology,1,0,0,LinkedIn,76
+E0477,Finance,Jeddah,L2,11.2,5,9,Leadership,3,1,0,Internal,37
+E0478,Risk,Abu Dhabi,L3,1.6,5,33,HR Technology,2,0,0,Internal,25
+E0479,Technology,Riyadh,L4,9.7,4,5,Cloud,4,0,0,Agency,19
+E0480,Sales,Abu Dhabi,L2,2.9,3,20,Customer Analytics,1,0,0,Agency,25
+E0481,Technology,Dubai,L1,5.0,3,9,Project Management,5,0,0,Agency,57
+E0482,Risk,Jeddah,L1,0.6,5,3,AI Literacy,4,0,0,Career Site,29
+E0483,Strategy,Riyadh,L2,11.5,4,42,AI Literacy,4,0,0,Career Site,24
+E0484,Strategy,Riyadh,L3,10.0,3,14,Leadership,2,0,1,Career Site,29
+E0485,Risk,Riyadh,L2,0.6,3,22,Customer Analytics,4,0,0,Agency,56
+E0486,HR,Dubai,L2,10.1,3,35,AI Literacy,3,1,0,Career Site,33
+E0487,Operations,Abu Dhabi,L5,5.5,3,52,Cybersecurity,4,0,0,LinkedIn,29
+E0488,Finance,Jeddah,L1,8.4,3,6,Customer Analytics,2,0,1,Referral,56
+E0489,Finance,Jeddah,L2,9.1,2,13,HR Technology,5,0,0,LinkedIn,46
+E0490,Sales,Jeddah,L3,6.4,3,56,Cloud,3,0,1,Career Site,63
+E0491,Risk,Dubai,L3,8.6,4,54,HR Technology,3,0,0,Internal,21
+E0492,Technology,Riyadh,L1,4.1,2,27,Cybersecurity,3,1,0,Career Site,52
+E0493,Operations,Abu Dhabi,L2,2.8,3,59,Cloud,4,0,0,LinkedIn,26
+E0494,Technology,Dubai,L3,2.2,5,42,Cybersecurity,2,0,0,Career Site,73
+E0495,Strategy,Jeddah,L3,6.5,3,52,Customer Analytics,4,0,0,Career Site,56
+E0496,Technology,Jeddah,L4,3.5,4,26,Cloud,1,0,0,Agency,25
+E0497,Strategy,Dubai,L1,10.3,5,48,Project Management,4,0,0,Internal,23
+E0498,Operations,Jeddah,L3,9.4,4,43,Project Management,5,0,1,Internal,67
+E0499,Technology,Jeddah,L2,12.7,4,21,Cybersecurity,3,0,0,Referral,62
+E0500,Sales,Riyadh,L1,6.7,3,3,Project Management,5,0,0,Referral,26
