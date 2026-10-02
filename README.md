@@ -266,7 +266,7 @@ The repository uses a fully synthetic HR dataset and does not contain real emplo
 
 Technical artifacts include SQL queries, Python analytics code, DAX measures, a synthetic HR dataset and an analytical workbook.
 
-[VIEW THE DATA & ANALYTICS FOR AI IN HR PORTFOLIO (PDF)](HumanEvoX_Data_Analytics_for_AI_in_HR_Portfolio.pdf)
+[VIEW THE DATA & ANALYTICS FOR AI IN HR PORTFOLIO (PDF)](11_Data_Analytics_for_AI_in_HR/HumanEvoX_Data_Analytics_for_AI_in_HR_Portfolio.pdf)
 
 ### Building Agentic AI for Full HR Lifecycle
 
