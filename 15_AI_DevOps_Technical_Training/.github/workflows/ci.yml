@@ -1,0 +1,17 @@
+name: Project 15 Safe CI Demonstration
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run example tests
+        run: python -m unittest discover -s 15_AI_DevOps_Technical_Training/tests -v
+# No secrets, cloud access or deployment stage.

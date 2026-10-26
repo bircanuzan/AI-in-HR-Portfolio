@@ -1,0 +1,36 @@
+# Educational YAML - DO NOT APPLY - fake image, no live deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-triage
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-triage
+  template:
+    metadata:
+      labels:
+        app: demo-triage
+    spec:
+      automountServiceAccountToken: false
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: demo
+          image: registry.example.invalid/demo:review-and-replace
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: ["ALL"]
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "64Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"

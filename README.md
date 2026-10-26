@@ -32,7 +32,16 @@ My work focuses on applying AI, automation, analytics and HR technology to real 
 - [Data & Analytics for AI in HR](11_Data_Analytics_for_AI_in_HR/)
 - [Agentic AI for Full HR Lifecycle](12_Building_Agentic_AI_for_Full_HR_Lifecycle/)
 - [Oracle Fusion HCM Portfolio & Governance](13_Oracle_Fusion_HCM/)
+- [14 - Machine Learning Technical Trainer](14_Machine_Learning_Technical_Training/)
+- [15 - AI / DevOps Technical Trainer](15_AI_DevOps_Technical_Training/)
 
+
+### Technical Learning Samples | Projects 14 and 15
+
+- [Project 14: Machine Learning Technical Training](14_Machine_Learning_Technical_Training/) - lab-based course design, sklearn example, evaluation and model-card methodology.
+- [Project 15: AI / DevOps Technical Training](15_AI_DevOps_Technical_Training/) - safe AI-assisted troubleshooting, CI checks and cloud/Kubernetes concepts.
+
+Both are illustrative teaching and code demonstrations, not evidence of prior production engineering experience or delivered client courses.
 
 ### Oracle Fusion Cloud HCM | Portfolio & Governance
 
