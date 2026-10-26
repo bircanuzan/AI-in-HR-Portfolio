@@ -1,0 +1,7 @@
+Record,Type,Module,Illustrative description,Severity,Probability,Impact,Assigned owner,Required action,Decision or escalation,Status
+DEF-001,Defect,Payroll,Illustrative gross-to-net control totals do not reconcile,P0,NA,Critical,Payroll technical lead,Identify root cause and produce signed reconciled rerun,Block discretionary change and escalate mandatory update issue,Example only
+DEF-002,Defect,Recruiting,Illustrative offer workflow routes to incorrect approver,P1,NA,High,Recruiting functional specialist,Correct routing or obtain formal temporary control,Resolve before sign-off unless approved workaround,Example only
+DEF-003,Defect,Learning,Illustrative report completion shows delayed update,P2,NA,Medium,Learning platform specialist,Validate expected processing window and communicate,Track with owner and workaround,Example only
+RISK-001,Risk,Cross module,Downstream interface test depends on vendor availability,NA,Medium,High,Integration coordinator,Secure test slot and control counts,Escalate dependency at readiness gate,Example only
+RISK-002,Risk,Core HR,Test environment worker data may exceed privacy policy,NA,Low,High,Privacy and security lead,Approve masked synthetic test data,No test start until approved,Example only
+RISK-003,Risk,Time & Absence,Policy exceptions in multi-entity workforce not represented in test plan,NA,Medium,High,Absence process owner,Add boundary and exception scenarios,Review UAT coverage before exit,Example only
