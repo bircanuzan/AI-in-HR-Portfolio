@@ -18,6 +18,22 @@ My work focuses on applying AI, automation, analytics and HR technology to real 
 
 ## Portfolio Projects
 
+### Browse Portfolio Folders
+
+- [AI-Enabled Recruitment (Healthcare)](01_AI_Enabled_Recruitment_Healthcare/)
+- [AI-Enabled HR Transformation](02_AI_Enabled_HR_Transformation/)
+- [People Analytics & AI](03_People_Analytics_AI/)
+- [HR Technology & Digital Employee Experience](04_HR_Technology_Digital_Employee_Experience/)
+- [AI Agents & HR Automation](05_AI_Agents_Chatbots_HR_Automation/)
+- [Strategic Workforce Planning](06_Workforce_Planning/)
+- [Talent & Workforce Intelligence](07_Talent_Workforce_Intelligence/)
+- [Talent Management & Assessment](08_Talent_Management_Assessment/)
+- [AI Automation in HR Operations](09_AI_Automation_HR_Operations/)
+- [Data & Analytics for AI in HR](11_Data_Analytics_for_AI_in_HR/)
+- [Agentic AI for Full HR Lifecycle](12_Building_Agentic_AI_for_Full_HR_Lifecycle/)
+- [Oracle Fusion HCM Portfolio & Governance](13_Oracle_Fusion_HCM/)
+
+
 ### Oracle Fusion Cloud HCM | Portfolio & Governance
 
 A dedicated folder for Oracle Fusion HCM portfolio case studies, including enterprise roadmap, governance, UAT, vendor management, releases, SLAs and executive reporting. These are illustrative business-side simulations, not client implementation claims.
