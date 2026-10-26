@@ -1,11 +1,20 @@
 # Oracle Fusion Cloud HCM | Portfolio & Governance
 
-Practical, illustrative portfolio case studies aligned with enterprise HCM portfolio management: roadmap, governance, HR process requirements, UAT, release readiness, service operations, vendors, risk and executive reporting.
+Practical, illustrative portfolio case studies aligned with enterprise HCM portfolio management: roadmap, business process governance, UAT, release readiness, service operations, vendors, risk and executive reporting.
 
-**Scope and integrity:** These are self-directed simulated business-side case studies, not evidence of hands-on Oracle Fusion configuration, production administration, integrations or employment delivery for a client. Technical design, configuration and deployment remain the responsibilities of platform specialists.
+**Scope and integrity:** Self-directed simulated business-side case studies, not evidence of hands-on Oracle Fusion configuration, production administration, integrations or employment delivery for a client. Technical design and deployment remain the responsibility of platform specialists.
 
 ## Projects
 
-- **Project 13 — Oracle Fusion HCM Portfolio Roadmap & Governance** — Uploading into this folder.
+- **Project 13 — Oracle Fusion HCM Portfolio Roadmap & Governance:** [Open PDF](13_Oracle_Fusion_HCM_Portfolio_Roadmap_Governance.pdf)
+- **Project 14 — Oracle Fusion HCM Release Management, UAT & Go-Live Governance:** [Open full case study and sample templates](14_Release_UAT_Go_Live_Governance/)
 
-Future Oracle HCM projects will be kept in this folder.
+### Job description requirements covered
+
+- HCM technology roadmap and investment priorities
+- Multi-module business process scope: Core HR, Payroll, Time & Absence, Recruiting, Talent and Learning
+- UAT, release readiness, governance and post-go-live operations
+- Technical dependencies, integration, data, access and security oversight through accountable specialists
+- HR and IT stakeholders, partners, defects, SLAs, risk and executive reporting
+
+[Back to main HR portfolio](../README.md)
