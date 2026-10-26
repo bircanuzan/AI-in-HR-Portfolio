@@ -56,7 +56,7 @@ The portfolio demonstrates practical application of:
 - Human-in-the-loop AI workflows
 - AI and technology integration across recruitment delivery
 
-[VIEW THE FULL HEALTHCARE RECRUITMENT PORTFOLIO (PDF)](HumanEvoX_AI_Healthcare_Recruitment_Portfolio.pdf)
+[VIEW THE FULL HEALTHCARE RECRUITMENT PORTFOLIO (PDF)](01_AI_Enabled_Recruitment_Healthcare/HumanEvoX_AI_Healthcare_Recruitment_Portfolio.pdf)
 
 ### AI-Enabled HR Transformation | UAE & KSA
 
@@ -77,7 +77,7 @@ The portfolio includes transformation case designs across UAE and KSA covering:
 
 The projects demonstrate practical application of Generative AI, LLMs, Microsoft Copilot, Power Automate, Power BI, People Systems and workflow automation, with human decision-making and governance embedded into the transformation approach.
 
-[VIEW THE FULL AI-ENABLED HR TRANSFORMATION PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_HR_Transformation_Portfolio.pdf)
+[VIEW THE FULL AI-ENABLED HR TRANSFORMATION PORTFOLIO (PDF)](02_AI_Enabled_HR_Transformation/HumanEvoX_AI_Enabled_HR_Transformation_Portfolio.pdf)
 
 ### People Analytics & AI | UAE & KSA
 
@@ -104,7 +104,7 @@ The projects demonstrate practical application of Power BI, DAX, Power Query, Ex
 
 AI is positioned as a decision-support layer for classification, summarisation, pattern detection and insight generation, with data governance, privacy, validation and human accountability embedded into the analytics approach.
 
-[VIEW THE FULL PEOPLE ANALYTICS & AI PORTFOLIO (PDF)](HumanEvoX_People_Analytics_AI_Portfolio.pdf)
+[VIEW THE FULL PEOPLE ANALYTICS & AI PORTFOLIO (PDF)](03_People_Analytics_AI/HumanEvoX_People_Analytics_AI_Portfolio.pdf)
 
 ### HR Technology, Digital Employee Experience & Automation | UAE & KSA
 
@@ -129,7 +129,7 @@ The projects demonstrate HR-side technology transformation through process and j
 
 Technical HRIS/HCM implementation, configuration, data migration and systems integration are intentionally outside the scope of this portfolio.
 
-[VIEW THE FULL HR TECHNOLOGY, DIGITAL EMPLOYEE EXPERIENCE & AUTOMATION PORTFOLIO (PDF)](HumanEvoX_HR_Technology_Digital_Employee_Experience_Automation_Portfolio.pdf)
+[VIEW THE FULL HR TECHNOLOGY, DIGITAL EMPLOYEE EXPERIENCE & AUTOMATION PORTFOLIO (PDF)](04_HR_Technology_Digital_Employee_Experience/HumanEvoX_HR_Technology_Digital_Employee_Experience_Automation_Portfolio.pdf)
 
 ### AI Agents, Chatbots & HR Automation | UAE & KSA
 
@@ -154,7 +154,7 @@ The projects demonstrate how Generative AI, LLMs, Microsoft Copilot, Power Autom
 
 Human-in-the-loop controls are embedded throughout. AI supports HR professionals and managers rather than independently making consequential employment decisions.
 
-[VIEW THE FULL AI AGENTS, CHATBOTS & HR AUTOMATION PORTFOLIO (PDF)](HumanEvoX_AI_Agents_Chatbots_HR_Automation_Portfolio.pdf)
+[VIEW THE FULL AI AGENTS, CHATBOTS & HR AUTOMATION PORTFOLIO (PDF)](05_AI_Agents_Chatbots_HR_Automation/HumanEvoX_AI_Agents_Chatbots_HR_Automation_Portfolio.pdf)
 
 ### AI-Enabled Strategic Workforce Planning | UAE & KSA
 
@@ -179,7 +179,7 @@ The methodology connects business strategy, workforce demand, skills and capacit
 
 AI supports skills classification, assumption checking, scenario analysis, summarisation and executive decision preparation. Accountable HR and business leaders retain workforce and employment decisions.
 
-[VIEW THE FULL AI-ENABLED STRATEGIC WORKFORCE PLANNING PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_Strategic_Workforce_Planning_Portfolio.pdf)
+[VIEW THE FULL AI-ENABLED STRATEGIC WORKFORCE PLANNING PORTFOLIO (PDF)](06_Workforce_Planning/HumanEvoX_AI_Enabled_Strategic_Workforce_Planning_Portfolio.pdf)
 
 ### Talent Intelligence & Workforce Intelligence | UAE & KSA
 
@@ -204,7 +204,7 @@ AI supports market classification, skills taxonomy normalisation, evidence struc
 
 The approach connects external talent-market evidence with recruitment strategy, workforce planning, skills strategy and Build/Buy/Borrow decisions.
 
-[VIEW THE FULL TALENT & WORKFORCE INTELLIGENCE PORTFOLIO (PDF)](HumanEvoX_Talent_Workforce_Intelligence_Portfolio.pdf)
+[VIEW THE FULL TALENT & WORKFORCE INTELLIGENCE PORTFOLIO (PDF)](07_Talent_Workforce_Intelligence/HumanEvoX_Talent_Workforce_Intelligence_Portfolio.pdf)
 
 ### AI-Enabled Talent Management & Assessment | UAE & KSA
 
@@ -229,7 +229,7 @@ AI supports evidence preparation, synthesis, skills intelligence, matching, deve
 
 The approach connects validated evidence and structured assessment with calibration, succession, development, mobility and measurable talent actions.
 
-[VIEW THE FULL AI-ENABLED TALENT MANAGEMENT & ASSESSMENT PORTFOLIO (PDF)](HumanEvoX_AI_Enabled_Talent_Management_Assessment_Portfolio.pdf)
+[VIEW THE FULL AI-ENABLED TALENT MANAGEMENT & ASSESSMENT PORTFOLIO (PDF)](08_Talent_Management_Assessment/HumanEvoX_AI_Enabled_Talent_Management_Assessment_Portfolio.pdf)
 
 ### AI Automation in HR Operations | UAE & KSA
 
@@ -264,7 +264,7 @@ Technologies include Microsoft Power Automate, Copilot, Copilot Studio, approved
 
 The portfolio focuses on HR/business transformation, process ownership, requirements, controls, UAT, adoption and measurable benefits. Technical HRIS implementation, configuration, data migration and cross-system integration are outside the claimed scope.
 
-[VIEW THE FULL AI AUTOMATION IN HR OPERATIONS PORTFOLIO (PDF)](HumanEvoX_AI_Automation_in_HR_Operations_Portfolio.pdf)
+[VIEW THE FULL AI AUTOMATION IN HR OPERATIONS PORTFOLIO (PDF)](09_AI_Automation_HR_Operations/HumanEvoX_AI_Automation_in_HR_Operations_Portfolio.pdf)
 
 ### Data & Analytics for AI in HR | SQL, Python & Power BI
 
