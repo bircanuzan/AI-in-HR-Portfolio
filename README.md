@@ -18,6 +18,12 @@ My work focuses on applying AI, automation, analytics and HR technology to real 
 
 ## Portfolio Projects
 
+### Oracle Fusion Cloud HCM | Portfolio & Governance
+
+A dedicated folder for Oracle Fusion HCM portfolio case studies, including enterprise roadmap, governance, UAT, vendor management, releases, SLAs and executive reporting. These are illustrative business-side simulations, not client implementation claims.
+
+[VIEW THE ORACLE FUSION HCM PORTFOLIO FOLDER](13_Oracle_Fusion_HCM/)
+
 ### AI-Enabled Recruitment | Healthcare | UAE & KSA
 
 Selected AI-enabled recruitment projects designed and delivered for government, local and multinational healthcare organizations across the GCC, with particular focus on the UAE and Saudi Arabia.
