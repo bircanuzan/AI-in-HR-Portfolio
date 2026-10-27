@@ -16,6 +16,18 @@ My work focuses on applying AI, automation, analytics and HR technology to real 
 - Learning & Talent Development
 - HR AI Governance & Human-in-the-Loop Decision Making
 
+## What each project actually does
+
+| # | Plain-English purpose | What it demonstrates |
+| --- | --- | --- |
+| [14](14_Machine_Learning_Training_and_Model_Evaluation/) | **Teach engineers to build and test a machine-learning model** | Python classification, accuracy/F1, tests, course and lab design |
+| [15](15_AI_DevOps_Training_CI_CD_and_Kubernetes/) | **Teach engineers to use AI safely in DevOps** | CI/CD failure diagnosis, code review, Kubernetes example, lab design |
+| [16](16_AI_Voice_Agent_for_Customer_Support/) | **Design an AI voice bot that answers customer questions** | FAQ routing, conversation tests, escalation, technical architecture |
+| [17](17_Voice_AI_Customer_Adoption_and_Analytics/) | **Help companies adopt voice AI and track business results** | Onboarding, KPI analysis, success metrics, enterprise training |
+| [18](18_AI_Voice_Narration_for_Training_Videos/) | **Turn a written training lesson into AI narration** | Text-to-speech API demo, scripts, accessibility and audio QA |
+
+Projects 14-18 are original portfolio demonstrations, not proof of client deployments or past engineering employment.
+
 ## Portfolio Projects
 
 ### Browse Portfolio Folders
@@ -32,25 +44,25 @@ My work focuses on applying AI, automation, analytics and HR technology to real 
 - [Data & Analytics for AI in HR](11_Data_Analytics_for_AI_in_HR/)
 - [Agentic AI for Full HR Lifecycle](12_Building_Agentic_AI_for_Full_HR_Lifecycle/)
 - [Oracle Fusion HCM Portfolio & Governance](13_Oracle_Fusion_HCM/)
-- [14 - Machine Learning Technical Trainer](14_Machine_Learning_Technical_Training/)
-- [15 - AI / DevOps Technical Trainer](15_AI_DevOps_Technical_Training/)
-- [16 - Enterprise Voice Agent Architecture and QA](16_ElevenLabs_Enterprise_Voice_Agent_Prototype/)
-- [17 - Voice AI Adoption Analytics and Enablement](17_ElevenLabs_Adoption_Analytics_Enablement/)
-- [18 - Text-to-Speech Technical Learning Workflow](18_ElevenLabs_TTS_Technical_Course_Production/)
+- [14 - Teach Machine Learning: Model Training and Evaluation](14_Machine_Learning_Training_and_Model_Evaluation/)
+- [15 - Teach DevOps: AI-Supported CI/CD and Kubernetes](15_AI_DevOps_Training_CI_CD_and_Kubernetes/)
+- [16 - Build a Voice AI Customer Support Agent](16_AI_Voice_Agent_for_Customer_Support/)
+- [17 - Measure Voice AI Customer Adoption and Results](17_Voice_AI_Customer_Adoption_and_Analytics/)
+- [18 - Produce Narrated Training Lessons with AI Voice](18_AI_Voice_Narration_for_Training_Videos/)
 
 
 ### ElevenLabs-aligned voice AI portfolio demos | Projects 16-18
 
 Three independent, illustrative learning/solutions case studies inspired by public ElevenLabs product documentation and UAE job skill requirements; **not commissioned by or delivered for ElevenLabs**.
 
-- [16 — Enterprise Voice AI Agent Architecture](16_ElevenLabs_Enterprise_Voice_Agent_Prototype/): offline Python intent routing, synthetic conversational QA, human escalation and integration design.
-- [17 — Voice AI Adoption & Enablement](17_ElevenLabs_Adoption_Analytics_Enablement/): synthetic account cohorts, Python adoption metrics, agent audit and customer workshops.
-- [18 — Text-to-Speech Course Narration](18_ElevenLabs_TTS_Technical_Course_Production/): offline-by-default REST API preparation, opt-in TTS client, testing, course storyboard and localization QA.
+- [16 — Enterprise Voice AI Agent Architecture](16_AI_Voice_Agent_for_Customer_Support/): offline Python intent routing, synthetic conversational QA, human escalation and integration design.
+- [17 — Voice AI Adoption & Enablement](17_Voice_AI_Customer_Adoption_and_Analytics/): synthetic account cohorts, Python adoption metrics, agent audit and customer workshops.
+- [18 — Text-to-Speech Course Narration](18_AI_Voice_Narration_for_Training_Videos/): offline-by-default REST API preparation, opt-in TTS client, testing, course storyboard and localization QA.
 
 ### Technical Learning Samples | Projects 14 and 15
 
-- [Project 14: Machine Learning Technical Training](14_Machine_Learning_Technical_Training/) - lab-based course design, sklearn example, evaluation and model-card methodology.
-- [Project 15: AI / DevOps Technical Training](15_AI_DevOps_Technical_Training/) - safe AI-assisted troubleshooting, CI checks and cloud/Kubernetes concepts.
+- [Project 14: Machine Learning Technical Training](14_Machine_Learning_Training_and_Model_Evaluation/) - lab-based course design, sklearn example, evaluation and model-card methodology.
+- [Project 15: AI / DevOps Technical Training](15_AI_DevOps_Training_CI_CD_and_Kubernetes/) - safe AI-assisted troubleshooting, CI checks and cloud/Kubernetes concepts.
 
 Both are illustrative teaching and code demonstrations, not evidence of prior production engineering experience or delivered client courses.
 
