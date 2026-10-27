@@ -58,6 +58,10 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 [Excel workforce and compensation AI evaluation sample](25_People_Operations_AI_Research_Contributor/) — six-month FTE plan, approved movement controls, compensation budget model, human-review criteria and answer key. **AI-assisted portfolio demonstration; not a valid human-authored Aptura onboarding submission.**
 
+## Project 26 — HR AI & Automation Operations Lead - Mobility
+
+[Explore Project 26: EOR Mobility automation and AI governance](26_HR_AI_and_Automation_Operations_Lead_Mobility/) — privacy-aware mobility case intake, maker/checker logic, synthetic n8n workflow, KPIs, leadership/DRI rollout, and human approval.
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

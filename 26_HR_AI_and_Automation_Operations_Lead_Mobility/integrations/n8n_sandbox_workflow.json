@@ -1,0 +1,70 @@
+{
+  "name": "Mobility synthetic case routing (sandbox only)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual-1",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        220,
+        280
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{json:{case_id:'SYN-001',request_type:'visa_renewal',region:'AE',requester_role:'mobility_ops',synthetic:true}}];"
+      },
+      "id": "code-1",
+      "name": "Create Fictional Case",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        460,
+        280
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => ({json:{case_id:item.json.case_id,route:'mobility_specialist',status:'human_review',synthetic:true,policy:'No legal determination or payroll change'}}));"
+      },
+      "id": "code-2",
+      "name": "Propose Safe Human Route",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        710,
+        280
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Create Fictional Case",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Fictional Case": {
+      "main": [
+        [
+          {
+            "node": "Propose Safe Human Route",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false
+}

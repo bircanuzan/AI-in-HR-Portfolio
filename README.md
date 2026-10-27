@@ -62,6 +62,12 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 |:--:|---|---|---|
 | **25** | [People Operations AI Research Contributor](25_People_Operations_AI_Research_Contributor/) | Evaluate AI's Excel headcount and compensation modelling | Synthetic task, gold calculations, yes/no rubric, Excel and Python demonstration |
 
+## NEW — HR AI & Automation Operations Lead - Mobility
+
+| No. | Project folder | What it demonstrates | Evidence |
+|:--:|---|---|---|
+| **26** | [HR AI & Automation Operations Lead - Mobility](26_HR_AI_and_Automation_Operations_Lead_Mobility/) | EOR/employee mobility case automation, safe AI routing and DRI operations leadership | Python maker/checker, synthetic n8n example, API governance, privacy, SQL/KPIs, rollout and UAT |
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

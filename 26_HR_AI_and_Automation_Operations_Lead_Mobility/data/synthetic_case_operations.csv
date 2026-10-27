@@ -1,0 +1,7 @@
+case_id,region,category,cycle_hours,manual_touches,manual_minutes,sla_met,human_review,reopened
+SYN-001,AE,generic_faq,2,1,10,1,0,0
+SYN-002,DE,visa_renewal,72,4,140,0,1,1
+SYN-003,FR,work_authorization,48,3,95,1,1,0
+SYN-004,AE,generic_faq,3,1,12,1,0,0
+SYN-005,UK,work_authorization,120,5,170,0,1,1
+SYN-006,AE,generic_faq,1,1,8,1,0,0

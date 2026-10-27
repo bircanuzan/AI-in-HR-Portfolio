@@ -25,6 +25,8 @@ A fictional four-department organization plans its workforce from **November 202
 - [Python headcount and compensation oracle](src/gold_oracle.py) and [test suite](tests/test_gold_oracle.py) for independent verification
 - **Two real Excel files** are provided as downloadable conversation artifacts: one INPUT model to complete and one GOLD solution with formulas. They are *AI-assisted demonstration outputs* and are not human-authored Aptura submissions.
 
+**[Advanced Excel implementation and grader checks](05_Advanced_Excel_Modelling_and_Pivot_Test_Design.md)** — named ranges, multi-criteria XLOOKUP, SUMIFS, real pivot-table specifications and conditional-format rule design. This is an AI-assisted teaching artefact and does not claim those objects exist in the prior sample workbooks.
+
 ## Excel techniques mapped to the job
 Cross-sheet SUMIFS, FTE-weighted salary formulas, multi-criteria month/department lookups, salary band checks, pivot-ready normalized data, conditional formatting, controlled assumptions, payroll/benefits cost projections, model completion and error testing. A **true Excel PivotTable** and **named ranges** are identified as an additional hands-on requirement, not claimed as implemented in this repository's example workbook.
 
