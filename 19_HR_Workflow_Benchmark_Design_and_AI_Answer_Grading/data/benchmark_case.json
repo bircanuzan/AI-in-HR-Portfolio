@@ -1,0 +1,68 @@
+{
+  "case_id": "HR-EXIT-P104-SEP-v1",
+  "title": "September Exit Payroll Reconciliation",
+  "synthetic": true,
+  "intended_scope": "Calculate determinable September gross payroll input under assumed written company policy. Statutory benefits and deductions out of scope.",
+  "documents": {
+    "A": {
+      "title": "Payroll policy, clause 4",
+      "text": "Base monthly salary AED 18,000; mid-month termination uses calendar days worked divided by 30 for September. Only approved allowances are paid.",
+      "monthly_base_aed": 18000,
+      "proration_denominator": 30,
+      "only_approved_allowances": true
+    },
+    "B": {
+      "title": "Signed contract",
+      "text": "Employee P-104 final day 20 September; monthly base AED 18,000; transport allowance AED 1,500 if approved in allowance register.",
+      "employee_id": "P-104",
+      "last_worked_day": 20,
+      "monthly_base_aed": 18000,
+      "transport_allowance_aed": 1500
+    },
+    "C": {
+      "title": "Payroll change log",
+      "text": "Draft P-104 September payroll: base AED 18,000 and transport AED 1,500. Batch not approved.",
+      "employee_id": "P-104",
+      "draft_base_aed": 18000,
+      "draft_transport_aed": 1500,
+      "approval_status": "draft"
+    },
+    "D": {
+      "title": "HR exit approval",
+      "text": "Manager confirms final employment day 20 September; ticket P-104 records exit in HRIS.",
+      "employee_id": "P-104",
+      "last_worked_day": 20
+    },
+    "E": {
+      "title": "Allowance approval register",
+      "text": "P-104 transport allowance pending; no approver or approval timestamp.",
+      "employee_id": "P-104",
+      "allowance_status": "pending",
+      "approval_timestamp": null
+    }
+  },
+  "gold_answer": {
+    "last_worked_day": 20,
+    "proration_denominator": 30,
+    "approved_base_aed": 12000,
+    "pending_allowance_escalated": true,
+    "allowance_in_approved_input_aed": 0,
+    "draft_base_overstatement_aed": 6000,
+    "cited_sources": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "no_statutory_speculation": true
+  },
+  "grading": {
+    "date_rule": 2,
+    "base_calculation": 2,
+    "allowance_handling": 2,
+    "draft_variance": 2,
+    "sources": 1,
+    "statutory_scope": 1
+  }
+}

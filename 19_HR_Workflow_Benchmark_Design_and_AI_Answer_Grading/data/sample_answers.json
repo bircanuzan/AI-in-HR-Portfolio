@@ -1,0 +1,76 @@
+[
+  {
+    "sample_id": "strong",
+    "description": "Evidence-backed correct result; no unsupported legal assertions",
+    "answer": {
+      "last_worked_day": 20,
+      "proration_denominator": 30,
+      "approved_base_aed": 12000,
+      "pending_allowance_escalated": true,
+      "allowance_in_approved_input_aed": 0,
+      "draft_base_overstatement_aed": 6000,
+      "cited_sources": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "no_statutory_speculation": true
+    },
+    "expected_score": 10
+  },
+  {
+    "sample_id": "draft_copier",
+    "description": "Uncritically copies draft payroll and pays an unapproved transport item",
+    "answer": {
+      "last_worked_day": 20,
+      "proration_denominator": 30,
+      "approved_base_aed": 18000,
+      "pending_allowance_escalated": false,
+      "allowance_in_approved_input_aed": 1500,
+      "draft_base_overstatement_aed": 0,
+      "cited_sources": [
+        "C"
+      ],
+      "no_statutory_speculation": true
+    },
+    "expected_score": 3
+  },
+  {
+    "sample_id": "uncited_arithmetic",
+    "description": "Gets salary and pending transport right but omits evidence citations",
+    "answer": {
+      "last_worked_day": 20,
+      "proration_denominator": 30,
+      "approved_base_aed": 12000,
+      "pending_allowance_escalated": true,
+      "allowance_in_approved_input_aed": 0,
+      "draft_base_overstatement_aed": 6000,
+      "cited_sources": [],
+      "no_statutory_speculation": true
+    },
+    "expected_score": 9
+  },
+  {
+    "sample_id": "statutory_hallucination",
+    "description": "Correct on written policy, but invents statutory benefits",
+    "answer": {
+      "last_worked_day": 20,
+      "proration_denominator": 30,
+      "approved_base_aed": 12000,
+      "pending_allowance_escalated": true,
+      "allowance_in_approved_input_aed": 0,
+      "draft_base_overstatement_aed": 6000,
+      "cited_sources": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "no_statutory_speculation": false
+    },
+    "expected_score": 9
+  }
+]

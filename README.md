@@ -25,8 +25,19 @@ My work focuses on applying AI, automation, analytics and HR technology to real 
 | [16](16_AI_Voice_Agent_for_Customer_Support/) | **Design an AI voice bot that answers customer questions** | FAQ routing, conversation tests, escalation, technical architecture |
 | [17](17_Voice_AI_Customer_Adoption_and_Analytics/) | **Help companies adopt voice AI and track business results** | Onboarding, KPI analysis, success metrics, enterprise training |
 | [18](18_AI_Voice_Narration_for_Training_Videos/) | **Turn a written training lesson into AI narration** | Text-to-speech API demo, scripts, accessibility and audio QA |
+| [19](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/) | **Design HR workflow tests and score AI answers** | Multi-document payroll case, AED 12,000 gold answer and a 10-point rubric |
 
 Projects 14-18 are original portfolio demonstrations, not proof of client deployments or past engineering employment.
+
+### Project 19 — HR Workflow Benchmark Design and AI Answer Grading
+
+[OPEN PROJECT 19: HR WORKFLOW BENCHMARK DESIGN](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)
+
+This is the original OpenTrain interview/application demonstration, expanded into a documented, executable benchmark. A fictional employee exit case reconciles five source records (A–E), applies an assumed monthly payroll policy, computes the approved determinable base of **AED 12,000**, flags the **AED 1,500 pending allowance**, identifies **AED 6,000 draft base overstatement**, and scores human-annotated AI answers with a **10-point objective rubric**. Includes quality gates for conflicting documents and missing policies.
+
+**Scope:** AI evaluation workflow design — *not* a payroll processing application, HRIS implementation, client deployment or legal calculation.
+
+For a plain-English overview of **all** portfolio folders, use [START HERE — project index](00_START_HERE_PROJECT_INDEX.md).
 
 ## Portfolio Projects
 
@@ -49,6 +60,7 @@ Projects 14-18 are original portfolio demonstrations, not proof of client deploy
 - [16 - Build a Voice AI Customer Support Agent](16_AI_Voice_Agent_for_Customer_Support/)
 - [17 - Measure Voice AI Customer Adoption and Results](17_Voice_AI_Customer_Adoption_and_Analytics/)
 - [18 - Produce Narrated Training Lessons with AI Voice](18_AI_Voice_Narration_for_Training_Videos/)
+- [19 - HR Workflow Benchmark Design and AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)
 
 
 ### ElevenLabs-aligned voice AI portfolio demos | Projects 16-18
