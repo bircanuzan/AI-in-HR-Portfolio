@@ -1,0 +1,47 @@
+openapi: 3.0.3
+info:
+  title: Fictional Enterprise HR Metrics API
+  version: 0.1.0
+  description: Synthetic contract only. No live HRIS/Oracle connections.
+servers:
+  - url: https://api.example.invalid/v1
+paths:
+  /metrics/headcount:
+    get:
+      summary: Get aggregated headcount KPI for an approved reporting period
+      security:
+        - oauth2: [metrics.read]
+      parameters:
+        - in: query
+          name: reportingPeriod
+          required: true
+          schema:
+            type: string
+            pattern: '^[0-9]{4}-[0-9]{2}$'
+      responses:
+        '200':
+          description: Aggregated KPI only; no personal data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  reportingPeriod:
+                    type: string
+                  headcount:
+                    type: integer
+                    minimum: 0
+                  source:
+                    type: string
+                required: [reportingPeriod, headcount, source]
+        '403':
+          description: Insufficient permissions
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      flows:
+        clientCredentials:
+          tokenUrl: https://login.example.invalid/oauth2/token
+          scopes:
+            metrics.read: Read aggregate approved metrics

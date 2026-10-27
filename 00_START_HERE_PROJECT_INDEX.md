@@ -40,6 +40,14 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 ---
 
+## NEW — Enterprise AI, Retail Transformation and Product Ownership
+
+| No. | Project | Business problem | Deliverables |
+|:--:|---|---|---|
+| **20** | [AI Pre-Sales Architect — Azure & Oracle](20_AI_Presales_Architect_Azure_Oracle_Enterprise_Transformation/) | Design and sell enterprise cloud, data and AI transformation | Architectures, migration roadmap, RFP/SOW and estimator |
+| **21** | [Senior AI Business Analyst — Retail Processes](21_Senior_AI_Business_Analyst_Retail_Process_Reengineering/) | Redesign retail workflows and measure automation ROI | BPMN/SIPOC, As-Is/To-Be, value stream, ROI and UAT |
+| **22** | [AI Product Owner — Working Agent Prototype](22_AI_Product_Owner_Agentic_Workflow_and_Product_Delivery/) | Build, test and prioritize a safe AI product | Running Python prototype, evaluation, backlog and governance |
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

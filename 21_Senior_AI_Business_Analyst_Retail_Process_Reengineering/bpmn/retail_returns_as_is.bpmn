@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="retail-return" targetNamespace="https://portfolio.example.invalid/retail">
+  <process id="returns_as_is" name="Illustrative Retail Return As-Is" isExecutable="false">
+    <startEvent id="start" name="Customer requests return"/>
+    <task id="verify" name="Manual receipt and POS verification"/>
+    <task id="price" name="Manual promotion and price reconciliation"/>
+    <exclusiveGateway id="gate" name="Price or policy exception?"/>
+    <task id="review" name="Manager manually reviews exception"/>
+    <task id="refund" name="Cashier issues approved refund"/>
+    <task id="sync" name="Back-office updates inventory, CRM and finance"/>
+    <endEvent id="end" name="Return completed"/>
+    <sequenceFlow id="s1" sourceRef="start" targetRef="verify"/>
+    <sequenceFlow id="s2" sourceRef="verify" targetRef="price"/>
+    <sequenceFlow id="s3" sourceRef="price" targetRef="gate"/>
+    <sequenceFlow id="s4" name="Exception" sourceRef="gate" targetRef="review"/>
+    <sequenceFlow id="s5" name="No exception" sourceRef="gate" targetRef="refund"/>
+    <sequenceFlow id="s6" sourceRef="review" targetRef="refund"/>
+    <sequenceFlow id="s7" sourceRef="refund" targetRef="sync"/>
+    <sequenceFlow id="s8" sourceRef="sync" targetRef="end"/>
+  </process>
+</definitions>
