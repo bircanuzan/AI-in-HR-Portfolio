@@ -54,6 +54,10 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 - [23 — SAP People Intelligence, BDC and AI People Analytics Strategy](23_Strategy_Consultant_SAP_People_Intelligence_Business_Data_Cloud_AI_Driven_People_Analytics/) — CHRO vision, KPI framework, SAP solution alignment, adoption and account plan.
 - [24 — Applied AI Transformation Manager MENA](24_Applied_AI_Transformation_Manager_MENA/) — Engineering agent rollout, CoE, program governance and modelled value evidence.
 
+## Project 25 — People Operations AI Research Contributor
+
+[Excel workforce and compensation AI evaluation sample](25_People_Operations_AI_Research_Contributor/) — six-month FTE plan, approved movement controls, compensation budget model, human-review criteria and answer key. **AI-assisted portfolio demonstration; not a valid human-authored Aptura onboarding submission.**
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

@@ -1,0 +1,6 @@
+Req_ID,Department,Start_Month,Annual_Base_AED,FTE,Approval
+H01,Operations,2026-11,120000,1.0,Approved
+H02,Analytics,2026-12,160000,1.0,Approved
+H03,Engineering,2027-01,225000,1.0,Approved
+H04,Sales,2027-03,145000,1.0,Approved
+H05,Operations,2027-01,110000,1.0,Proposed

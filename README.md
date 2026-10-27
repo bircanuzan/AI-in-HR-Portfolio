@@ -56,6 +56,12 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 | **23** | [Strategy Consultant — SAP People Intelligence, Business Data Cloud & AI People Analytics](23_Strategy_Consultant_SAP_People_Intelligence_Business_Data_Cloud_AI_Driven_People_Analytics/) | Define CHRO people analytics strategy and SAP-aligned delivery | Discovery, KPIs, SAP technical handoff, roadmap, account growth, synthetic Python example |
 | **24** | [Applied AI Transformation Manager — MENA](24_Applied_AI_Transformation_Manager_MENA/) | Roll out enterprise agentic AI and measure value conservatively | Agent CoE, engineer onboarding, governance, consumption KPIs, hypothetical value model |
 
+## NEW — People Operations AI Evaluation & Excel Workforce Modelling
+
+| No. | Project | Business problem | Deliverables |
+|:--:|---|---|---|
+| **25** | [People Operations AI Research Contributor](25_People_Operations_AI_Research_Contributor/) | Evaluate AI's Excel headcount and compensation modelling | Synthetic task, gold calculations, yes/no rubric, Excel and Python demonstration |
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**
