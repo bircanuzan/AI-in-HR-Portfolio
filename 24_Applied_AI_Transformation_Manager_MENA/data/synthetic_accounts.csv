@@ -1,0 +1,4 @@
+account,eligible_engineers,activated_engineers,eligible_tasks_per_engineer_week,baseline_minutes,assisted_minutes,quality_factor,realization_factor,loaded_rate_usd_hour,monthly_agent_cost_usd
+Fictional UAE Bank,1400,560,4,65,43,0.75,0.50,75,8000
+Fictional KSA Telecom,1200,420,5,50,37,0.80,0.55,65,6500
+Fictional UAE Retail Platform,900,225,6,38,30,0.70,0.50,58,3600

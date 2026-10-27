@@ -48,6 +48,12 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 | **21** | [Senior AI Business Analyst — Retail Processes](21_Senior_AI_Business_Analyst_Retail_Process_Reengineering/) | Redesign retail workflows and measure automation ROI | BPMN/SIPOC, As-Is/To-Be, value stream, ROI and UAT |
 | **22** | [AI Product Owner — Working Agent Prototype](22_AI_Product_Owner_Agentic_Workflow_and_Product_Delivery/) | Build, test and prioritize a safe AI product | Running Python prototype, evaluation, backlog and governance |
 
+
+## Projects 23 and 24 — New role-aligned cases
+
+- [23 — SAP People Intelligence, BDC and AI People Analytics Strategy](23_Strategy_Consultant_SAP_People_Intelligence_Business_Data_Cloud_AI_Driven_People_Analytics/) — CHRO vision, KPI framework, SAP solution alignment, adoption and account plan.
+- [24 — Applied AI Transformation Manager MENA](24_Applied_AI_Transformation_Manager_MENA/) — Engineering agent rollout, CoE, program governance and modelled value evidence.
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

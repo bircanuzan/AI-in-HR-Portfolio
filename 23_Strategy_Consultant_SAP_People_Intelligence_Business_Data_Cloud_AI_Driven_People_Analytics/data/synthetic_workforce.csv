@@ -1,0 +1,5 @@
+business_unit,period,opening_headcount,hires,exits,closing_headcount,approved_open_reqs,unique_trained,eligible_employees
+Retail,2026-08,100,10,5,105,9,70,105
+Retail,2026-09,105,3,7,101,12,66,101
+Digital,2026-08,200,12,8,204,11,145,204
+Digital,2026-09,204,10,14,200,10,138,200
