@@ -19,6 +19,6 @@ class ValueTests(unittest.TestCase):
     def test_bad_cohort(self):
         x=dict(load_accounts(ROOT/"data/synthetic_accounts.csv")[0])
         x["activated_engineers"]=2000
-        # Data validation is performed on loaded input; model output does not validate altered dict.
-        self.assertGreater(model(x)["activation_rate"],1.0)
+        with self.assertRaises(ValueError):
+            model(x)
 if __name__=="__main__":unittest.main()
