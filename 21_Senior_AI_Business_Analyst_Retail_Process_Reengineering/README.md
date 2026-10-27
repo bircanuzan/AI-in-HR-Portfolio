@@ -25,3 +25,10 @@ Executive sponsor: COO; operational owner: Retail Operations; process leads: Hea
 This is a **consulting simulation**. It shows what artifacts a Senior AI Business Analyst creates; it does **not** substitute for verified retail domain experience, production automation deployments or CBAP / Six Sigma credentials.
 
 Role link: https://ae.linkedin.com/jobs/view/senior-ai-business-analyst-at-inspire-selection-recruitment-agency-4480668874
+
+## Expanded retail business analysis demonstration
+- [Ten core retail domains and end-to-end system handoffs](05_Retail_Operating_Model_and_10_Process_Areas.md)
+- [Ten UAT scenarios and failure/exception paths](06_End_to_End_Workflow_Test_Cases.md)
+- [Runnable offline retail refund rule demonstration](src/return_decision.py) with [unit tests](tests/test_return_decision.py)
+
+The additional Python demo is deterministic and synthetic, **not a retail-system deployment or proof of prior retail engineering employment**.
