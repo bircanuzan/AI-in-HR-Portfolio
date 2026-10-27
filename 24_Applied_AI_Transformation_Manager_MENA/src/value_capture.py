@@ -18,6 +18,14 @@ def load_accounts(path):
         out.append(row)
     return out
 def model(row,weeks_per_month=4.33):
+    if weeks_per_month <= 0 or any(row[k] < 0 for k in (*COUNTS, *NUMS)):
+        raise ValueError("Negative fields or invalid weeks-per-month")
+    if row["activated_engineers"] > row["eligible_engineers"]:
+        raise ValueError("Activation cannot exceed eligible engineers")
+    if any(row[k] > 1 for k in ("quality_factor", "realization_factor")):
+        raise ValueError("Quality and realization factors must be 0..1")
+    if row["assisted_minutes"] > row["baseline_minutes"]:
+        raise ValueError("Assisted time cannot exceed baseline in this positive-only model")
     active=row["activated_engineers"]
     activation=active/row["eligible_engineers"] if row["eligible_engineers"] else 0.0
     raw_hours=active*row["eligible_tasks_per_engineer_week"]*weeks_per_month*(row["baseline_minutes"]-row["assisted_minutes"])/60
