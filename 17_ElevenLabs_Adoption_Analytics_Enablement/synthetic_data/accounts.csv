@@ -1,0 +1,7 @@
+account,market,segment,onboarded,activated,conversations,successful,failed,unknown,handed_off,total_cost_aed
+Fictional Aviation,United Arab Emirates,Enterprise,1,1,280,196,44,40,48,420
+Fictional Utilities,United Arab Emirates,Enterprise,1,1,210,136,54,20,62,345
+Fictional Retail,United Arab Emirates,Midmarket,1,1,140,95,25,20,29,168
+Fictional Training,United Arab Emirates,Midmarket,1,0,0,0,0,0,0,0
+Fictional Logistics,United Arab Emirates,Enterprise,1,1,90,46,30,14,25,120
+Fictional Hospitality,United Arab Emirates,Midmarket,1,0,0,0,0,0,0,0

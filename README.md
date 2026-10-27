@@ -34,7 +34,18 @@ My work focuses on applying AI, automation, analytics and HR technology to real 
 - [Oracle Fusion HCM Portfolio & Governance](13_Oracle_Fusion_HCM/)
 - [14 - Machine Learning Technical Trainer](14_Machine_Learning_Technical_Training/)
 - [15 - AI / DevOps Technical Trainer](15_AI_DevOps_Technical_Training/)
+- [16 - Enterprise Voice Agent Architecture and QA](16_ElevenLabs_Enterprise_Voice_Agent_Prototype/)
+- [17 - Voice AI Adoption Analytics and Enablement](17_ElevenLabs_Adoption_Analytics_Enablement/)
+- [18 - Text-to-Speech Technical Learning Workflow](18_ElevenLabs_TTS_Technical_Course_Production/)
 
+
+### ElevenLabs-aligned voice AI portfolio demos | Projects 16-18
+
+Three independent, illustrative learning/solutions case studies inspired by public ElevenLabs product documentation and UAE job skill requirements; **not commissioned by or delivered for ElevenLabs**.
+
+- [16 — Enterprise Voice AI Agent Architecture](16_ElevenLabs_Enterprise_Voice_Agent_Prototype/): offline Python intent routing, synthetic conversational QA, human escalation and integration design.
+- [17 — Voice AI Adoption & Enablement](17_ElevenLabs_Adoption_Analytics_Enablement/): synthetic account cohorts, Python adoption metrics, agent audit and customer workshops.
+- [18 — Text-to-Speech Course Narration](18_ElevenLabs_TTS_Technical_Course_Production/): offline-by-default REST API preparation, opt-in TTS client, testing, course storyboard and localization QA.
 
 ### Technical Learning Samples | Projects 14 and 15
 

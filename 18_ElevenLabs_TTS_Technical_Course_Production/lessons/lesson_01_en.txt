@@ -1,0 +1,9 @@
+Before we train a machine learning model, we need a fair experiment. Imagine that your classifier appears extremely accurate. Does that mean it will work for a new customer tomorrow? Not necessarily.
+
+We begin by separating the data into training and holdout sets. The training portion is used to learn the patterns and select among candidate approaches. The holdout portion is reserved for the final check. If you use the test set while choosing a model, you lose that independent test.
+
+Now compare a simple baseline against a pipeline model. A baseline tells us whether added complexity earns its place. A pipeline keeps preprocessing steps with the estimator, reducing the risk of leaking information across validation folds.
+
+When we review results, do not look only at accuracy. Read the confusion matrix and ask which mistakes have the greatest practical cost. Next, describe the limits of the dataset and what monitoring a production system would require.
+
+Your challenge is to explain, in plain English, why a high score on a small toy dataset is not enough to justify a production launch.
