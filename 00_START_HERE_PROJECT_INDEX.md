@@ -1,26 +1,57 @@
-# START HERE — What each project in this GitHub portfolio actually means
+# START HERE — AI, HR & Technology Portfolio
 
-**All folder names start with a project number.** Open the one relevant to the job. Portfolio demonstrations and synthetic datasets are labelled; projects must not be described as verified employer deployments.
+### Bircan Uzan | HumanEvoX
 
-| Project | Clear purpose | What you will find |
-| --- | --- | --- |
-| 01 — Healthcare Recruitment AI | Use AI to improve healthcare recruitment | Recruitment methods, workflows, case designs |
-| 02 — HR Transformation | Redesign enterprise HR services and ways of working | HR transformation strategy and case studies |
-| 03 — People Analytics | Turn workforce data into HR decisions | KPI concepts, workforce analytics, dashboards |
-| 04 — HR Technology and Employee Experience | Make employee-facing HR digital and easier to use | HR system, process and digital journey designs |
-| 05 — HR AI Agents and Chatbots | Help staff answer common HR requests with AI | Agent/chatbot use cases and governance |
-| 06 — Workforce Planning | Estimate staffing and skill needs | Workforce demand and capacity scenarios |
-| 07 — Talent and Workforce Intelligence | Research skills availability and talent markets | Market maps and talent intelligence methods |
-| 08 — Talent Assessment | Evaluate talent fairly and consistently | Assessment and talent-management case studies |
-| 09 — HR Operations Automation | Automate repeatable HR administration | Workflow automation and controls |
-| 11 — HR Data Analytics | Analyse HR information with AI and data tools | Analytics methods and examples |
-| 12 — Agentic AI Across HR | Coordinate AI agents through employee lifecycle workflows | Agent concepts, controls and examples |
-| 13 — Oracle Fusion HCM | Plan and govern HR system projects from the business side | HCM roadmap, governance and business testing |
-| [14](14_Machine_Learning_Training_and_Model_Evaluation/) — Machine Learning Training | Teach engineers how to train and evaluate a prediction model | scikit-learn example, lab and instructional script |
-| [15](15_AI_DevOps_Training_CI_CD_and_Kubernetes/) — AI/DevOps Training | Teach engineers safer AI-assisted development and infrastructure workflows | CI log demo, Kubernetes example and lab |
-| [16](16_AI_Voice_Agent_for_Customer_Support/) — AI Customer Support Voice Agent | Design a voice-based assistant for customer questions | routing demo, escalation, agent QA and design |
-| [17](17_Voice_AI_Customer_Adoption_and_Analytics/) — Voice AI Adoption | Help businesses use voice AI successfully and measure results | customer enablement, adoption data and KPIs |
-| [18](18_AI_Voice_Narration_for_Training_Videos/) — AI Narrated Training | Turn written lessons into narrated teaching audio | TTS API preparation and course-production workflow |
-| [19](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/) — HR Workflow Benchmark Design | Design realistic HR tests and score AI answers | Original OpenTrain payroll case, documents A–E, gold answer, 10-point rubric and test code |
+**Find the right project in seconds.** Each folder below has a plain-English name and a clickable link. Select a project based on the skills or problem you want to explore.
 
-*Note:* The numbering retains your existing repository structure (Project 10 is not present as a numbered root folder); it is not a ranking or claim of the number of commercial implementations.
+This portfolio brings together **AI-enabled HR transformation, talent intelligence, people analytics, technical learning, AI voice and AI evaluation/workflow design.**
+
+[HumanEvoX website](https://humanevox.com) · [Detailed portfolio overview](PORTFOLIO_DETAILED_OVERVIEW.md)
+
+---
+
+## HR, People Analytics & Workforce Transformation
+
+| No. | Project folder | What it means | What you will find |
+|:--:|---|---|---|
+| **01** | [Healthcare Recruitment AI](01_AI_Enabled_Recruitment_Healthcare/) | Improve healthcare recruitment using AI | Recruitment processes, talent sourcing and case designs |
+| **02** | [HR Transformation](02_AI_Enabled_HR_Transformation/) | Redesign how HR departments work | Transformation strategies, workflows and operating models |
+| **03** | [People Analytics & AI](03_People_Analytics_AI/) | Use workforce data to guide HR decisions | HR dashboards, workforce metrics and analytics case studies |
+| **04** | [HR Technology & Employee Experience](04_HR_Technology_Digital_Employee_Experience/) | Make employee HR services easier to use | HR system journeys, self-service and digital process design |
+| **05** | [AI Agents & HR Chatbots](05_AI_Agents_Chatbots_HR_Automation/) | Use AI assistants for everyday HR questions | Chatbot and agent workflows, controls and use cases |
+| **06** | [Workforce Planning](06_Workforce_Planning/) | Forecast the people and skills a business needs | Headcount, demand and capacity planning scenarios |
+| **07** | [Talent & Workforce Intelligence](07_Talent_Workforce_Intelligence/) | Research labour markets and talent availability | Talent pools, skills supply and market mapping |
+| **08** | [Talent Management & Assessment](08_Talent_Management_Assessment/) | Evaluate employee and candidate capabilities | Assessment and talent management examples |
+| **09** | [HR Operations Automation](09_AI_Automation_HR_Operations/) | Automate repeatable HR administration | Workflow controls and service automation examples |
+| **11** | [Data Analytics for AI in HR](11_Data_Analytics_for_AI_in_HR/) | Prepare and analyse HR data for AI | Data and analytics methods applied to HR cases |
+| **12** | [Agentic AI Across the HR Lifecycle](12_Building_Agentic_AI_for_Full_HR_Lifecycle/) | Design multiple AI agents for HR workflows | AI agent coordination and human-approval controls |
+| **13** | [Oracle Fusion HCM](13_Oracle_Fusion_HCM/) | Plan and govern Oracle HR system projects | Roadmap, governance, testing and implementation oversight examples |
+
+## Technical Training, Voice AI & AI Evaluation
+
+| No. | Project folder | What it means | What you will find |
+|:--:|---|---|---|
+| **14** | [Machine Learning Training & Model Evaluation](14_Machine_Learning_Training_and_Model_Evaluation/) | Teach engineers to train and test ML models | Python scikit-learn, model metrics and practical training labs |
+| **15** | [AI DevOps Training: CI/CD & Kubernetes](15_AI_DevOps_Training_CI_CD_and_Kubernetes/) | Teach safer AI-assisted engineering workflows | Build/test failures, CI/CD and Kubernetes training examples |
+| **16** | [AI Voice Agent for Customer Support](16_AI_Voice_Agent_for_Customer_Support/) | Design an AI assistant that answers customer calls | Conversation routing, human handoff and agent testing |
+| **17** | [Voice AI Adoption & Business Analytics](17_Voice_AI_Customer_Adoption_and_Analytics/) | Help customers adopt voice AI and measure impact | Onboarding, adoption metrics, workshops and business value |
+| **18** | [AI Voice Narration for Training Videos](18_AI_Voice_Narration_for_Training_Videos/) | Turn technical lesson scripts into AI narration | Text-to-speech API preview and lesson production process |
+| **19** | [HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/) | Test how accurately AI handles realistic HR tasks | Five-document payroll case, correct answer, rubric and Python scoring |
+
+---
+
+## Featured Project — HR Workflow Benchmark Design
+
+**[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**
+
+An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to review five fictional employee and payroll records, calculate an answer under the stated company policy and identify pending approvals. The repository includes the **gold-standard answer, 10-point rubric, sample errors, review safeguards and structured Python scoring demo**.
+
+## How to use this portfolio
+
+**If you are recruiting for HR transformation or People Systems**, begin with Projects 02, 04 and 13. **For talent intelligence and workforce analytics**, begin with Projects 03, 06 and 07. **For AI evaluation and workflow design**, begin with Project 19. **For technical learning and voice AI**, begin with Projects 14–18.
+
+**About the case studies:** Some projects are original demonstrations, synthetic datasets, prototypes or business-side designs rather than live client implementations. Each project describes what was built and its limitations. They should not be interpreted as verified production deployments or professional engineering credentials.
+
+*Project 10 is not currently a numbered root folder; existing numbers were kept to preserve the portfolio's structure.*
+
+**Need more detail?** [Read the full original portfolio overview](PORTFOLIO_DETAILED_OVERVIEW.md).
