@@ -1,0 +1,7 @@
+metric,definition,baseline,proposed_target,measurement_source,owner
+Average response time,Mean working hours from request to first substantive response,Not measured,Establish after 4-week baseline,Ticket timestamps,HR Ops
+First contact resolution,Percentage of enquiries resolved without reassignment,Not measured,Agree target after baseline,Ticket categories,HR Ops
+Current source coverage,Percentage of in-scope policies with current approved versions,Not measured,100% before launch,Policy register,Policy owners
+Unsupported answer rate,Unsupported answers divided by sampled answers,Not measured,Zero tolerated in critical sampled cases,Sample audit,QA reviewer
+Escalation closure time,Median hours to resolve escalated tickets,Not measured,Agree per service priority,Service desk,HR Ops
+Employee helpfulness,Helpful ratings divided by ratings received,Not measured,Establish after pilot,Opt-in feedback,HR Ops
