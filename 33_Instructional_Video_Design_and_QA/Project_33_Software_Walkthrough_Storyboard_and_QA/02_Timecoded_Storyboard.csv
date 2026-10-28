@@ -1,0 +1,6 @@
+start,end,learning_beat,visual_treatment,narration_intent,qa_evidence
+00:00,00:20,Purpose and result,Title and simple outcome statement,Explain what learners will achieve,Opening objective matches brief
+00:20,01:10,Start new request,Screen focus and clear highlight,Identify where to start the workflow,UI action has approved screenshot
+01:10,02:25,Enter required information,Zoom to relevant fields and staged callouts,Explain mandatory versus optional inputs,No callout hides necessary field
+02:25,03:20,Submit and confirm,Highlight submit then confirmation status,Show how to verify request was recorded,Confirmation step technically approved
+03:20,04:00,Recap and common mistake,Three-step summary and final learner prompt,Reinforce safe completion and avoid skipped checks,Summary agrees with demonstrated task

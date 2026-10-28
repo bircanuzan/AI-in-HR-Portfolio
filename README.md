@@ -68,6 +68,12 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 |:--:|---|---|---|
 | **26** | [HR AI & Automation Operations Lead - Mobility](26_HR_AI_and_Automation_Operations_Lead_Mobility/) | EOR/employee mobility case automation, safe AI routing and DRI operations leadership | Python maker/checker, synthetic n8n example, API governance, privacy, SQL/KPIs, rollout and UAT |
 
+## Projects 31–33 — Skills Assessment and Digital Learning Design
+
+- **[31 — Workforce Skills Assessment & Development](31_Workforce_Skills_Assessment_and_Development/)** — fictional operator skills matrix, practical-observation rubric, individual skill passport, gap analysis and post-training evaluation SOP.
+- **[32 — SCORM Learning Design](32_SCORM_Learning_Design/)** — original microlearning blueprint, interactive storyboard, formative questions and LMS/SCORM acceptance test plan. **No SCORM package is represented as built or tested.**
+- **[33 — Instructional Video Design & QA](33_Instructional_Video_Design_and_QA/)** — fictional software walkthrough storyboard, video production brief, QA checklist and realistic capacity-planning methods. **No final MP4 or high-volume production capacity is claimed.**
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

@@ -1,0 +1,11 @@
+test_id,area,proposed_step,expected_result,execution_status,owner
+LMS-01,Launch,Import agreed SCORM version and launch from LMS,Course launches without error,Not run,SCORM production specialist
+LMS-02,Resume,Close partway and relaunch in same attempt,Bookmark resumes if configured and supported,Not run,SCORM production specialist
+LMS-03,Completion,Finish all required learning steps,LMS receives agreed completion status,Not run,SCORM production specialist
+LMS-04,Score,Submit knowledge check,Agreed score or success status is recorded where supported,Not run,SCORM production specialist
+LMS-05,Retake,Reset or retry as agreed,Retry and reporting follow approved rules,Not run,SCORM production specialist
+LMS-06,Accessibility,Keyboard-only navigation of interactive scenes,Controls are reachable and visible focus retained,Not run,Design and QA
+LMS-07,Media,Review text alternatives and subtitles,Accessible alternatives are present and approved,Not run,Design and QA
+LMS-08,Responsive,Test agreed browser and device matrix,No blocked content or unreadable controls,Not run,QA and platform owner
+LMS-09,Content,Compare screens and quiz to approved storyboard,All material matches approved version,Not run,SME and instructional designer
+LMS-10,Reporting,Inspect learner transcript/status in LMS,Reported data matches agreed specification,Not run,LMS administrator

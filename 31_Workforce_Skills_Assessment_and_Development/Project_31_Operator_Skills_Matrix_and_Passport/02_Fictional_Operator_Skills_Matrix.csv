@@ -1,0 +1,9 @@
+operator_id,role_family,competency,target_level,observed_level,gap,assessment_method,training_action,verification_status
+OP-DEMO-001,Production Operator,PPE and isolation awareness,4,3,1,Observed walkthrough,Retrain safety controls and reverify,Illustrative - not conducted
+OP-DEMO-001,Production Operator,Visual quality inspection,3,2,1,Defect sample identification,Supervised defect practice,Illustrative - not conducted
+OP-DEMO-001,Production Operator,Workstation changeover,3,1,2,Observed changeover checklist,Coach and perform supervised repetitions,Illustrative - not conducted
+OP-DEMO-001,Production Operator,Production escalation,3,3,0,Situational scenario,Maintain with periodic observation,Illustrative - not conducted
+OP-DEMO-002,Production Operator,PPE and isolation awareness,4,4,0,Observed walkthrough,Maintain qualification subject to technical signoff,Illustrative - not conducted
+OP-DEMO-002,Production Operator,Visual quality inspection,3,3,0,Defect sample identification,Periodic calibration,Illustrative - not conducted
+OP-DEMO-002,Production Operator,Workstation changeover,3,2,1,Observed changeover checklist,Targeted practice and recheck,Illustrative - not conducted
+OP-DEMO-002,Production Operator,Production escalation,3,2,1,Situational scenario,Scenario-based coaching,Illustrative - not conducted
