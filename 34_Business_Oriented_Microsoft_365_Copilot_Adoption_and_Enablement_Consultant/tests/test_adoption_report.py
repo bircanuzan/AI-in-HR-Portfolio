@@ -25,8 +25,8 @@ class AdoptionReportTests(unittest.TestCase):
     def test_bad_active_count(self):
         rows = load()
         rows[0]["active_users"] = 999
-        # Direct mutated data are outside loader validation; report is a calculator.
-        self.assertGreater(report(rows, 1)["adoption_rate"], 0)
+        with self.assertRaises(ValueError):
+            report(rows, 1)
 
     def test_no_period(self):
         with self.assertRaises(ValueError):

@@ -39,6 +39,11 @@ def report(rows, week=4):
     period = [r for r in rows if r["week"] == week]
     if not period:
         raise ValueError("No rows for requested week")
+    for row in period:
+        if (row["active_users"] > row["licensed_users"] or
+                row["trained_users"] > row["licensed_users"] or
+                row["correct_outputs"] > row["reviewed_outputs"]):
+            raise ValueError("Inconsistent active, training or quality counts")
     licensed = sum(r["licensed_users"] for r in period)
     active = sum(r["active_users"] for r in period)
     trained = sum(r["trained_users"] for r in period)
