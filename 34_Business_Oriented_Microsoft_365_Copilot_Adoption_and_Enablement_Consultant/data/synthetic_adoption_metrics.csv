@@ -1,0 +1,13 @@
+cohort,week,licensed_users,active_users,trained_users,reviewed_outputs,correct_outputs,verified_minutes_released
+HR,1,60,19,21,25,20,100
+HR,2,60,29,35,30,25,140
+HR,3,60,38,44,40,35,185
+HR,4,60,45,51,45,40,225
+Finance,1,40,12,15,20,16,85
+Finance,2,40,17,22,25,22,125
+Finance,3,40,23,29,28,24,145
+Finance,4,40,28,34,35,31,185
+Operations,1,80,21,26,30,24,120
+Operations,2,80,34,43,38,31,160
+Operations,3,80,45,56,45,38,220
+Operations,4,80,53,65,55,47,275

@@ -1,0 +1,13 @@
+ticket_id,team,priority,handling_minutes
+T001,HR,High,45
+T002,HR,Low,18
+T003,HR,Medium,31
+T004,Finance,High,52
+T005,Finance,Medium,40
+T006,Finance,Low,22
+T007,Operations,High,49
+T008,Operations,Medium,34
+T009,Operations,Low,21
+T010,HR,Medium,27
+T011,Finance,High,47
+T012,Operations,Medium,37

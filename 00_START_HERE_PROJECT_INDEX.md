@@ -68,6 +68,12 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 - **[32 — SCORM Learning Design](32_SCORM_Learning_Design/)** — original microlearning blueprint, interactive storyboard, formative questions and LMS/SCORM acceptance test plan. **No SCORM package is represented as built or tested.**
 - **[33 — Instructional Video Design & QA](33_Instructional_Video_Design_and_QA/)** — fictional software walkthrough storyboard, video production brief, QA checklist and realistic capacity-planning methods. **No final MP4 or high-volume production capacity is claimed.**
 
+## Project 34 — Business-oriented Microsoft 365 Copilot Adoption & Enablement Consultant
+
+**[Open Project 34: Business-oriented Microsoft 365 Copilot Adoption & Enablement Consultant](34_Business_Oriented_Microsoft_365_Copilot_Adoption_and_Enablement_Consultant/)** — executive discovery, Outlook/Teams/Word/PowerPoint/Excel/OneDrive/SharePoint use cases, interactive workshop guides, instructional design, champions, Copilot readiness and governance, a 30/60/90-day adoption plan and synthetic KPI evaluation.
+
+**Duplicate avoided:** [Project 30 — Business Process Mapping, Analysis & AI Transformation](30_Business_Process_Mapping_Analysis_and_AI_Transformation/) already documents AS-IS/TO-BE, AI opportunities and business requirements; [Project 21](21_Senior_AI_Business_Analyst_Retail_Process_Reengineering/) includes BPMN 2.0 modelling.
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**
