@@ -1,0 +1,15 @@
+risk_id,system_scope,risk_name,likelihood_1to5,impact_1to5,inherent_score,owner,control_id,residual_score_estimate,evidence_required,treatment,status
+R01,AI-001,Discriminatory ranking or proxy bias,4,5,20,HR Governance,CTRL-05,10,Fairness review with lawful subgroup data and human override,Mitigate,OPEN
+R02,AI-001,Fabricated candidate credentials,3,4,12,Head of TA,CTRL-06,8,Source grounding and factuality benchmark,Mitigate,OPEN
+R03,AI-003,Prompt injection through untrusted policy content,4,4,16,Security Lead,CTRL-07,8,Adversarial tool-trace tests,Mitigate,OPEN
+R04,ALL,Privacy leakage via prompts logs or vendor,3,5,15,DPO,CTRL-03,5,DPIA DPA dataflow transfer review,Mitigate,OPEN
+R05,AI-003,Agent executes unauthorized write action,3,5,15,Agent Product Owner,CTRL-08,5,Tool allowlist and human confirmation evidence,Mitigate,OPEN
+R06,AI-002,Incorrect claims routing creates financial harm,4,4,16,Claims Director,CTRL-10,8,Independent validation and override monitoring,Mitigate,OPEN
+R07,ALL,Inadequate explainability or contestability,3,4,12,Responsible AI Officer,CTRL-05,8,Explanation protocol and appeals record,Mitigate,OPEN
+R08,ALL,Supplier changes foundation model without notice,4,4,16,Vendor Risk Lead,CTRL-09,8,Version notification and revalidation contract,Mitigate,OPEN
+R09,ALL,Missing audit evidence or undocumented approval,4,4,16,AI Governance Office,CTRL-01,4,Versioned signed gate pack,Mitigate,OPEN
+R10,AI-002,Performance drift after deployment,3,4,12,Model Owner,CTRL-10,8,Threshold monitoring and incident response playbook,Mitigate,OPEN
+R11,ALL,Unlawful purpose expansion and weak retention,3,5,15,DPO,CTRL-03,5,Retention schedule and dataflow attestation,Mitigate,OPEN
+R12,ALL,Unsafe or harmful outputs for end users,3,4,12,AI Assurance Lead,CTRL-06,8,Content safety and red-team tests,Mitigate,OPEN
+R13,ALL,Human over-reliance or inadequate training,4,4,16,Change Lead,CTRL-11,8,Role-based training and override calibration,Mitigate,OPEN
+R14,ALL,Sovereignty or cross-border data residency mismatch,3,5,15,Legal & Cloud Security,CTRL-03,5,Jurisdictional contract and infrastructure review,Mitigate,OPEN
