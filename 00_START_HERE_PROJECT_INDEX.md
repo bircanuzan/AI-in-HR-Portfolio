@@ -86,6 +86,12 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 **Distinct from [Project 25 — People Operations AI Research Contributor](25_People_Operations_AI_Research_Contributor/):** Project 25 focuses on Excel workforce-planning tasks and answer grading; Project 36 focuses on **managing people and workflows that create reliable annotated datasets**.
 
+## Project 38 — Assessment Center Assessor
+
+**[Open Project 38 — Assessment Center Assessor](38_Assessment_Center_Assessor/)** — competency framework, three job-relevant exercises, 24 fictional assessor records, 12 integrated ratings, professional English-language sample candidate assessment report, evidence-based feedback/debrief script, post-assessment development coaching, rating calibration and Python QA tests.
+
+**Different from [Project 08 — Talent Management & Assessment](08_Talent_Management_Assessment/):** Project 38 demonstrates the *assessor's observable workflow* from candidate exercises through assessment report and development feedback. The role's assessor qualification and Arabic reporting requirements are **not implied to be met** by an English-language portfolio case.
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

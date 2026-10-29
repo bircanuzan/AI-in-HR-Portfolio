@@ -1,0 +1,25 @@
+evidence_id,exercise,competency,behavioral_evidence,assessor_id,rating
+E01,in_basket,analytical_thinking,"Compared category audit against intake figures and flagged three misclassified cases",A,4
+E01,in_basket,analytical_thinking,"Compared category audit against intake figures and flagged three misclassified cases",B,4
+E02,role_play,analytical_thinking,"Requested source reconciliation evidence but did not quantify all outstanding records",A,3
+E02,role_play,analytical_thinking,"Requested source reconciliation evidence but did not quantify all outstanding records",B,3
+E03,group_discussion,analytical_thinking,"Challenged the unverified 25 percent time-saving assumption and requested baseline sampling",A,4
+E03,group_discussion,analytical_thinking,"Challenged the unverified 25 percent time-saving assumption and requested baseline sampling",B,4
+E04,in_basket,stakeholder_management,"Summarized HR and payroll dependencies and confirmed the two review owners",A,3
+E04,in_basket,stakeholder_management,"Summarized HR and payroll dependencies and confirmed the two review owners",B,3
+E05,role_play,stakeholder_management,"Asked finance to describe rework concerns and restated the impact of incomplete data",A,3
+E05,role_play,stakeholder_management,"Asked finance to describe rework concerns and restated the impact of incomplete data",B,3
+E06,group_discussion,stakeholder_management,"Invited a quiet participant and offered a compromise but did not assign all owners",A,4
+E06,group_discussion,stakeholder_management,"Invited a quiet participant and offered a compromise but did not assign all owners",B,3
+E07,in_basket,decision_making,"Prioritized high-risk cases but did not assign a contingency owner",A,3
+E07,in_basket,decision_making,"Prioritized high-risk cases but did not assign a contingency owner",B,3
+E08,role_play,decision_making,"Proposed a bounded pilot without documenting a rollback test",A,3
+E08,role_play,decision_making,"Proposed a bounded pilot without documenting a rollback test",B,3
+E09,group_discussion,decision_making,"Suggested proceeding before confirming the compliance approval gate",A,2
+E09,group_discussion,decision_making,"Suggested proceeding before confirming the compliance approval gate",B,2
+E10,in_basket,coaching_development,"Delegated investigation with a checkpoint and explained the review standard",A,4
+E10,in_basket,coaching_development,"Delegated investigation with a checkpoint and explained the review standard",B,4
+E11,role_play,coaching_development,"Asked the junior analyst to propose next steps but left check-in timing vague",A,3
+E11,role_play,coaching_development,"Asked the junior analyst to propose next steps but left check-in timing vague",B,3
+E12,group_discussion,coaching_development,"Gave constructive learning feedback without a measurable development follow-up",A,3
+E12,group_discussion,coaching_development,"Gave constructive learning feedback without a measurable development follow-up",B,4
