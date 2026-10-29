@@ -1,0 +1,5 @@
+id,client,request,priority,status,product_owner,engineering_owner,raised_date,target_date,blocking_milestone
+AT-F01,Atlas Bank,Device timestamp normalization,High,Triaged,Product Lead,Integration Engineering,2026-10-19,2026-10-30,A04
+AT-F02,Atlas Bank,Case disposition export,Medium,Deferred,Product Lead,Solutions Engineering,2026-10-22,2026-11-10,
+BE-F01,Beacon FinTech,Webhook replay idempotency,P1,Blocked,Product Lead,Integration Engineering,2026-10-27,2026-10-31,B04
+BE-F02,Beacon FinTech,Alert correlation ID,Medium,In Progress,Product Lead,Integration Engineering,2026-10-23,2026-11-02,B05

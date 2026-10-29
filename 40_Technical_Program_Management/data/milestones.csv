@@ -1,0 +1,14 @@
+id,client,workstream,milestone,owner,planned_date,actual_date,status,depends_on
+A01,Atlas Bank,Discovery,Discovery and scope signoff,Client Product Owner,2026-10-02,2026-10-02,Complete,
+A02,Atlas Bank,Governance,RACI and cadence accepted,Technical Program Manager,2026-10-06,2026-10-06,Complete,A01
+A03,Atlas Bank,Security,API security contract approved,Security Lead,2026-10-16,2026-10-20,Complete,A02
+A04,Atlas Bank,Data,Event field mapping approved,Client Product Owner,2026-10-23,,In Progress,A03
+A05,Atlas Bank,Engineering,Sandbox integration accepted,Integration Engineering,2026-11-03,,In Progress,A04
+A06,Atlas Bank,UAT,Business UAT signed,Client Risk Lead,2026-11-12,,Not Started,A05
+A07,Atlas Bank,Release,Controlled go live approved,Client Sponsor,2026-11-20,,Not Started,A06
+B01,Beacon FinTech,Discovery,Discovery and scope signoff,Client Product Owner,2026-10-09,2026-10-09,Complete,
+B02,Beacon FinTech,Contract,API contract approved,Client Technical Lead,2026-10-13,2026-10-14,Complete,B01
+B03,Beacon FinTech,Design,Webhook design approved,Integration Engineering,2026-10-22,2026-10-21,Complete,B02
+B04,Beacon FinTech,Engineering,Sandbox webhook accepted,Client Technical Lead,2026-10-28,,Blocked,B03
+B05,Beacon FinTech,UAT,Exception handling UAT signed,Client Risk Lead,2026-11-09,,Not Started,B04
+B06,Beacon FinTech,Release,Controlled go live approved,Client Sponsor,2026-11-18,,Not Started,B05

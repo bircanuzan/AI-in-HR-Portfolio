@@ -1,0 +1,6 @@
+id,client,type,title,priority,status,owner,mitigation,target_date
+R01,Atlas Bank,Risk,Event mapping is unsigned,High,Open,Client Product Owner,Run mapping review and obtain signed decision,2026-10-30
+I01,Beacon FinTech,Issue,Webhook replay produces duplicate alerts,P1,Open,Integration Engineering Lead,Verify idempotency under replay and get client signoff,2026-10-31
+R02,Atlas Bank,Risk,Engineering test capacity shortage,Medium,Open,Technical Program Manager,Level the test plan and confirm staffing,2026-10-30
+D01,Beacon FinTech,Dependency,Client webhook replay acceptance,High,Open,Client Technical Lead,Approve negative path evidence,2026-10-31
+A01,Atlas Bank,Assumption,Test credentials remain accessible,Low,Open,Client Technical Lead,Confirm before sandbox acceptance,2026-11-02

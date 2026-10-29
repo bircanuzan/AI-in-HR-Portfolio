@@ -128,3 +128,7 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 39 — Integrated Talent, Leadership & Organizational Excellence Assessment
 
 **[Open Project 39 — Integrated Talent, Leadership & Organizational Excellence Assessment](39_Integrated_Talent_Leadership_and_Organizational_Excellence_Assessment/)** — three synthetic workstreams: assessment centre candidate evaluation, leadership/graduate/career-transition assessment and coaching, and institutional/organizational excellence diagnostics. Includes rubrics, assessment blueprints, diagnostic criteria and QA/ethical safeguards. No assessor certification or formal award authorization is claimed.
+
+## Project 40 — Technical Program Management
+
+**[Open Project 40 — Technical Program Management](40_Technical_Program_Management/)** — original, fictional enterprise fintech integration delivery case inspired by a Technical Program Manager role: integrated milestones, conceptual API/webhook dependencies, RACI and PMO governance, executive client communications, RAID register, feature-change tracking, UAT/go-live controls, resourcing and a tested Python project-health dashboard. **Synthetic portfolio demonstration only; not real Sardine or banking client work.**
