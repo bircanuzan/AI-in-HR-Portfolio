@@ -15,7 +15,9 @@ The design consolidates four UAE vacancy descriptions: Capgemini Invent (Respons
 5. **Privacy and data governance:** PDPL/DIFC/GDPR applicability screening, DPIA template, data lineage/stewardship and vendor due diligence.
 6. **Agentic control plane:** permission boundaries, identity, tool allowlists, prompt governance, transaction limits, immutable event log and human approvals.
 7. **Executable governance-gate demonstrator:** standard-library Python reads synthetic JSON approvals, returns GO/HOLD/NO_GO decisions, exports transparent reasoning and runs unit tests. It is **a deterministic policy checker, not an LLM, model audit, live AI service or regulatory compliance certification**.
-8. **Executive board pack and capability development roadmap:** operating KPIs, incidents, residual risks, maturity and role readiness.
+8. **Synthetic fairness audit:** execute Python on 20 fictional candidate labels to calculate group selection rates and true-positive rates; deliberately contrast outcomes and document limits. No real model was trained or tested.
+9. **Executive board pack and capability development roadmap:** operating KPIs, incidents, residual risks, maturity and role readiness.
+10. **Regulatory, sovereign AI and AI Factory annex:** jurisdictional screening and enterprise intake control mapping.
 
 ## Project files
 | File | What it proves |
@@ -37,6 +39,11 @@ The design consolidates four UAE vacancy descriptions: Capgemini Invent (Respons
 | [synthetic_gate_cases.json](synthetic_gate_cases.json) | Fully fictional case inputs; not real audit evidence |
 | [test_governance_gate.py](test_governance_gate.py) | Reproducible unit tests |
 | [SOURCES_AND_LIMITATIONS.md](SOURCES_AND_LIMITATIONS.md) | Job descriptions, official reference links and limitations |
+| [14_FAIRNESS_LAB.md](14_FAIRNESS_LAB.md) | Executable calculations on invented candidate outcome labels |
+| [15_REGULATORY_SOVEREIGN_AI_AND_FACTORY.md](15_REGULATORY_SOVEREIGN_AI_AND_FACTORY.md) | EU/UAE applicability, sovereign AI and AI Factory overview |
+| [RUN_AND_TEST_GUIDE.md](RUN_AND_TEST_GUIDE.md) | Commands and expected synthetic control-gate outcomes |
+| [fairness_audit.py](fairness_audit.py) and [test_fairness_audit.py](test_fairness_audit.py) | Reproducible synthetic fairness metrics and unit tests |
+| [synthetic_fairness_cases.csv](synthetic_fairness_cases.csv) | Artificial subgroup and selection outcomes |
 
 ## End-to-end decision flow
 ```mermaid
@@ -64,6 +71,8 @@ flowchart LR
 ```bash
 python governance_gate.py synthetic_gate_cases.json
 python -m unittest test_governance_gate.py -v
+python fairness_audit.py synthetic_fairness_cases.csv
+python -m unittest test_fairness_audit.py -v
 ```
 No external dependencies or API keys. The gate evaluates **self-declared synthetic control statuses** only: an actual assurance decision also requires verified artifacts, independent model testing, accountable sign-off and legal counsel.
 
