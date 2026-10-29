@@ -1,0 +1,4 @@
+demand_id,benefit_kpi,baseline,target,measured_actual,owner,measurement_period,status
+DMD-001,Minutes per 100 HR tickets,60,35,,HR Ops,Post pilot 60 days,Forecast Only
+DMD-002,First answer policy compliance percent,70,85,,Customer Service,Quarter after release,Forecast Only
+DMD-004,Reconciliation cycle working days,5,3,,Finance,Quarter after release,Forecast Only
