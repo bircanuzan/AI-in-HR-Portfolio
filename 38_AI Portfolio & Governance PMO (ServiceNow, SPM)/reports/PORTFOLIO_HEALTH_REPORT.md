@@ -29,10 +29,10 @@
 |---|---:|
 | DMD-001 | 4.30 |
 | DMD-002 | 4.15 |
-| DMD-004 | 4.10 |
-| DMD-006 | 3.70 |
+| DMD-004 | 4.15 |
+| DMD-006 | 3.85 |
 | DMD-003 | 3.15 |
-| DMD-005 | 1.90 |
+| DMD-005 | 1.95 |
 
 ## Benefits and closure
 - Benefit hypotheses tracked: **3**.
