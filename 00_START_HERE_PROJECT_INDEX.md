@@ -74,6 +74,12 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 **Duplicate avoided:** [Project 30 — Business Process Mapping, Analysis & AI Transformation](30_Business_Process_Mapping_Analysis_and_AI_Transformation/) already documents AS-IS/TO-BE, AI opportunities and business requirements; [Project 21](21_Senior_AI_Business_Analyst_Retail_Process_Reengineering/) includes BPMN 2.0 modelling.
 
+## Project 35 — Modern Workplace Solutioning Lead
+
+**[Open Project 35: Modern Workplace Solutioning](35_Modern_Workplace_Solutioning/)** — comprehensive C-suite workplace consulting case across service desk, DEX, devices/DaaS, identity, M365, AVD and Windows 365, ServiceNow/ITSM, managed services operating models, SLA/XLA, commercial models, transition and transformation, AI/Copilot, and value measurement. Includes a synthetic 3-year business-case calculator and unit tests.
+
+**Different from [Project 34 — Copilot adoption](34_Business_Oriented_Microsoft_365_Copilot_Adoption_and_Enablement_Consultant/):** Project 35 builds an end-to-end Modern Workplace managed-services solution; Project 34 designs business-user Copilot workshops and adoption.
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

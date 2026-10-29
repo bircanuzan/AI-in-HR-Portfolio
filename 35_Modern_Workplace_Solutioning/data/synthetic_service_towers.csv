@@ -1,0 +1,8 @@
+service_tower,base_monthly_aed_per_user,coverage,assumed_delivery_owner
+Service Desk,35,Core coverage,Managed Provider
+Endpoint Management,26,Managed Windows/Mac devices,Endpoint Partner
+DEX Monitoring,14,Consented managed endpoints,DEX Partner
+Device Lifecycle and Asset,22,Approved device fleet,Hardware/DaaS Partner
+Collaboration and ITSM,28,M365 and service workflows,Managed Provider
+Security and Identity Support,20,Approved identity interfaces,Security Owner
+Workplace Automation and Knowledge,12,Defined low-risk automation scope,Automation Partner
