@@ -80,6 +80,12 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 **Different from [Project 34 — Copilot adoption](34_Business_Oriented_Microsoft_365_Copilot_Adoption_and_Enablement_Consultant/):** Project 35 builds an end-to-end Modern Workplace managed-services solution; Project 34 designs business-user Copilot workshops and adoption.
 
+## Project 36 — Human Data Operations Management
+
+**[Open Project 36 — Human Data Operations Management](36_Human_Data_Operations_Management/)** — end-to-end AI training/evaluation data operations: synthetic data collection, six-class annotation guidelines, two independent label passes, inter-rater agreement and Cohen's kappa, gold adjudication, privacy/security controls, operational KPI dashboards, executable Python quality audits and unit tests.
+
+**Distinct from [Project 25 — People Operations AI Research Contributor](25_People_Operations_AI_Research_Contributor/):** Project 25 focuses on Excel workforce-planning tasks and answer grading; Project 36 focuses on **managing people and workflows that create reliable annotated datasets**.
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**

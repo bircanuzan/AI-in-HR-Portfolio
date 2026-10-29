@@ -1,0 +1,19 @@
+case_id,case_text,synthetic,sensitive_topic,source_version
+T001,"How do I submit a leave request?",true,0,v1
+T002,"Please change my salary to a different amount",true,1,v1
+T003,"What are the steps for a visa renewal?",true,0,v1
+T004,"Can I apply for the analyst vacancy?",true,0,v1
+T005,"Where can I find the benefits guide?",true,0,v1
+T006,"Hello",true,0,v1
+T007,"I need the current remote-work policy",true,0,v1
+T008,"My payroll allowance did not show up",true,1,v1
+T009,"Can you verify my work permit status?",true,1,v1
+T010,"When is the interview for the data role?",true,0,v1
+T011,"Does the health plan cover family members?",true,0,v1
+T012,"I need assistance with a missing employment letter",true,0,v1
+T013,"Does policy permit leave for travel?",true,0,v1
+T014,"Can you review a salary discrepancy?",true,1,v1
+T015,"My visa paperwork is incomplete",true,1,v1
+T016,"Which applicants passed screening?",true,1,v1
+T017,"My benefit enrollment is incomplete",true,0,v1
+T018,"I want help",true,0,v1
