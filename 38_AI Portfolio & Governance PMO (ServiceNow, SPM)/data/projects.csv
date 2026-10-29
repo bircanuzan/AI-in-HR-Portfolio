@@ -1,0 +1,3 @@
+project_id,origin_demand,project_name,delivery_owner,state,next_milestone,milestone_due,last_update,risk_status,security_review,uat_status,acceptance_status
+PRJ-001,DMD-001,HR Case Triage Pilot,AI CoE PM,In Delivery,Controlled pilot go/no-go,2026-11-15,2026-10-28,Amber,Approved,In Progress,Pending
+PRJ-002,DMD-004,Finance Reconciliation,Finance PM,In Delivery,Security sign-off,2026-10-20,2026-10-21,Red,Pending,Not Started,Pending
