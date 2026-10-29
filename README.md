@@ -93,9 +93,9 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 **Distinct from [Project 25 — People Operations AI Research Contributor](25_People_Operations_AI_Research_Contributor/):** Project 25 focuses on Excel workforce-planning tasks and answer grading; Project 36 focuses on **managing people and workflows that create reliable annotated datasets**.
 
 
-## Project 39 — Human Data Operations Manager
+## Project 39 — Human Data Operations Management
 
-**[Open Project 39 — Human Data Operations Manager](39_Human_Data_Operations_Manager/)** — JD-aligned synthetic operational case: data collection and annotation workflow, 48-case dual review data, Python validation and Cohen's kappa, release/HOLD gates, issue ownership, KPI reporting, RACI, SLA measurement plan, 30/60/90-day improvement backlog, and automated unit tests. **Demonstration only; no production deployment or real client data.**
+**[Open Project 39 — Human Data Operations Management](39_Human_Data_Operations_Management/)** — JD-aligned synthetic operational case: data collection and annotation workflow, 48-case dual review data, Python validation and Cohen's kappa, release/HOLD gates, issue ownership, KPI reporting, RACI, SLA measurement plan, 30/60/90-day improvement backlog, and automated unit tests. **Demonstration only; no production deployment or real client data.**
 
 **Related but distinct:** [Project 36](36_Human_Data_Operations_Management/) focuses on annotator/QC methods, while Project 39 models manager-level decisions, stakeholder reporting and scaling.
 
