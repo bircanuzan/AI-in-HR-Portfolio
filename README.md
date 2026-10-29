@@ -109,6 +109,10 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 **Different from [Project 08 — Talent Management & Assessment](08_Talent_Management_Assessment/):** Project 38 demonstrates the *assessor's observable workflow* from candidate exercises through assessment report and development feedback. The role's assessor qualification and Arabic reporting requirements are **not implied to be met** by an English-language portfolio case.
 
+## Project 38 — AI Portfolio & Governance PMO (ServiceNow, SPM)
+
+**[Open Project 38: AI Portfolio & Governance PMO (ServiceNow, SPM)](38_AI%20Portfolio%20%26%20Governance%20PMO%20%28ServiceNow%2C%20SPM%29/)** — role-aligned enterprise AI Centre of Excellence case: simulated ServiceNow SPM Demand, Project, Funding and Cost workflows; six-demand prioritisation pipeline; demand-to-project/product conversion; governance forums and approval gates; BRD/UAT/security evidence; RAID, finance reconciliation, benefits and decommission; executable Python data-quality audit, unit tests and executive portfolio dashboard. **SPM-aligned conceptual simulation; no live ServiceNow implementation or certification claimed.**
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**
