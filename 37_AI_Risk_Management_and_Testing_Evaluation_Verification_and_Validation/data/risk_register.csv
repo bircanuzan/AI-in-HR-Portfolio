@@ -1,0 +1,9 @@
+risk_id,category,scenario,likelihood_1_5,impact_1_5,inherent_score,proposed_treatment,owner,status,nist_function
+R-001,Policy drift,AI quotes superseded policy,4,4,16,Block release and retest on source update,HR Policy Owner,open,MANAGE
+R-002,Hallucination,Unsupported advice presented as settled policy,3,5,15,Require approved evidence or abstention,AI Governance Lead,open,MEASURE
+R-003,Prompt injection,Untrusted content redirects tool behaviour,3,4,12,Separate instructions and test adversarial inputs,Security Lead,mitigation_design,MEASURE
+R-004,Data leakage,Restricted HR data exposed through AI output,2,5,10,Least privilege and privacy review,Privacy Lead,mitigation_design,GOVERN
+R-005,Unmeasured fairness,Vendor fairness claims lack lawful subgroup evaluation,3,4,12,Request scoped independent validation and disclose gaps,Independent Reviewer,unmeasured,MAP
+R-006,Unreviewed model change,Vendor silently updates underlying model,4,3,12,Contractual change alerts and regression suite,Vendor Manager,open,MANAGE
+R-007,Source spoofing,Fake policy notice ingested as authoritative,2,5,10,Verify origin effective date and source integrity,Legal SME,open,MAP
+R-008,Excessive agent authority,Agent performs high consequence HR action,3,5,15,Allowlist tools and human approval for writes,AI Architect,design_only,GOVERN
