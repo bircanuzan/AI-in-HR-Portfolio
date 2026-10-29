@@ -1,0 +1,5 @@
+raid_id,linked_id,type,severity,description,owner,mitigation,status,due_date
+RAID-001,PRJ-001,Risk,Medium,Retrieval accuracy may vary by knowledge category,AI CoE Lead,Run evaluated UAT suite,Open,2026-11-05
+RAID-002,PRJ-002,Issue,High,Finance funding sign-off missing,Finance Lead,Escalate to funding forum,Open,2026-10-28
+RAID-003,PRJ-002,Dependency,High,Security approval blocks project milestone,Security Lead,Schedule targeted controls review,Open,2026-10-29
+RAID-004,PROD-001,Dependency,Medium,Product runbook needs service-owner acceptance,Product Manager,Agree support and handover,Open,2026-11-15
