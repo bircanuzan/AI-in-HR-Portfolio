@@ -1,0 +1,49 @@
+case_id,annotator_a,annotator_b,a_minutes,b_minutes,exception_note
+HD001,payroll,payroll,6,7,
+HD002,benefits,benefits,9,12,
+HD003,mobility,mobility,12,17,
+HD004,recruitment,recruitment,15,22,
+HD005,other,other,18,9,Ambiguity for adjudication
+HD006,other,other,21,14,
+HD007,payroll,payroll,8,19,
+HD008,benefits,benefits,11,24,
+HD009,mobility,mobility,14,11,
+HD010,recruitment,recruitment,17,16,
+HD011,other,other,20,21,Ambiguity for adjudication
+HD012,other,other,7,8,
+HD013,payroll,payroll,10,13,
+HD014,benefits,benefits,13,18,
+HD015,mobility,mobility,16,23,
+HD016,recruitment,recruitment,19,10,
+HD017,privacy,privacy,6,15,
+HD018,other,payroll,9,20,Ambiguity for adjudication
+HD019,payroll,payroll,12,7,
+HD020,benefits,benefits,15,12,
+HD021,mobility,mobility,18,17,
+HD022,recruitment,recruitment,21,22,
+HD023,privacy,other,8,9,Ambiguity for adjudication
+HD024,other,other,11,14,
+HD025,payroll,payroll,14,19,
+HD026,benefits,benefits,17,24,
+HD027,mobility,mobility,20,11,
+HD028,recruitment,recruitment,7,16,
+HD029,privacy,privacy,10,21,
+HD030,other,other,13,8,
+HD031,payroll,payroll,16,13,
+HD032,benefits,mobility,19,18,Ambiguity for adjudication
+HD033,mobility,mobility,6,23,
+HD034,recruitment,recruitment,9,10,
+HD035,privacy,privacy,12,15,
+HD036,other,other,15,20,
+HD037,payroll,payroll,18,7,
+HD038,benefits,benefits,21,12,
+HD039,mobility,mobility,8,17,
+HD040,recruitment,recruitment,11,22,
+HD041,privacy,other,14,9,Ambiguity for adjudication
+HD042,other,other,17,14,
+HD043,payroll,payroll,20,19,
+HD044,benefits,benefits,7,24,
+HD045,mobility,mobility,10,11,
+HD046,recruitment,recruitment,13,16,
+HD047,privacy,other,16,21,Ambiguity for adjudication
+HD048,other,payroll,19,8,Ambiguity for adjudication
