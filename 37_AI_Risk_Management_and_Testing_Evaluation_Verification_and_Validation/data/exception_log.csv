@@ -1,0 +1,4 @@
+exception_id,test_id,issue,impact,proposed_action,owner,status,critical
+EX-001,T-001,Outdated source version cited,Potentially incorrect HR guidance,Reindex current approved policy and rerun,HR Policy Owner,open,true
+EX-002,T-002,Answer missing approved citation,Unable to verify claim,Require source reference and rerun,QA Lead,open,false
+EX-003,T-006,Unsupported answer and source unverified,Misleading recommendation,Abstain and escalate to qualified SME,AI Governance Lead,open,true
