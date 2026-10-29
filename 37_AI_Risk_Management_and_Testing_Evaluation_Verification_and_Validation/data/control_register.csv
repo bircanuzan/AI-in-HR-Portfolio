@@ -1,0 +1,15 @@
+control_id,objective,control_design,owner,evidence,nist_area,prototype_status
+C-001,Use case intake,Document use and excluded decisions,AI Governance Lead,Impact assessment,MAP,documented
+C-002,Model inventory,Record systems and source dependencies,AI Governance Lead,Model inventory CSV,GOVERN,documented
+C-003,Legal source authenticity,Check original authority effective date and change record,Legal SME,Source version register,MAP,synthetic_only
+C-004,Freshness assurance,Compare answer source version to active registry,AI Architect,Test results,MEASURE,implemented_mock
+C-005,Evidence completeness,Require citation to current approved source version,QA Lead,Test results,MEASURE,implemented_mock
+C-006,Answer correctness,Compare observed to task-specific expected answer,QA Lead,Test fixtures,MEASURE,implemented_mock
+C-007,Exception escalation,Open owner-assigned finding and rerun test,Risk Manager,Exception log,MANAGE,documented
+C-008,Decision rights,Hold critical failures for committee review,AI Governance Lead,Dashboard,MANAGE,implemented_mock
+C-009,Fairness claims,Define protected scope and evidence before measurement,Independent Reviewer,Vendor assurance pack,MEASURE,not_measured
+C-010,Human oversight,Approve impact and release through separated roles,HR Sponsor,Governance decision rights,GOVERN,design_only
+C-011,Agentic permissions,Allowlist tools and require confirmation for consequential writes,Security Architect,Agentic control plane design,GOVERN,design_only
+C-012,Privacy and security,Redact restricted fields and test injection / leakage,Privacy Lead,Agentic control plane design,MEASURE,design_only
+C-013,Continuous monitoring,Retest on policy model prompt data and tool changes,AI Operations Lead,Trigger design,MANAGE,design_only
+C-014,Auditability,Preserve version evidence findings approvals and rollback link,Assurance Reviewer,Traceability pack,GOVERN,design_only
