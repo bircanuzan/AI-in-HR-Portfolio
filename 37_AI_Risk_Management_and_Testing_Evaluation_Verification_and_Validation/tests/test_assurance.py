@@ -36,7 +36,8 @@ class AssuranceTests(unittest.TestCase):
     def test_expected_metrics(self):
         _, summary = MODULE.evaluate()
         self.assertEqual(summary["fresh"], 5)
-        self.assertEqual(summary["evidence"], 4)
+        self.assertEqual(summary["evidence"], 3)
+        self.assertEqual(summary["citation_present"], 4)
         self.assertEqual(summary["correct"], 4)
         self.assertEqual(summary["passed"], 3)
 
