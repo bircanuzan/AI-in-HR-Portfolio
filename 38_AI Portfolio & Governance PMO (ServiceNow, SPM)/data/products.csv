@@ -1,0 +1,2 @@
+product_id,origin_demand,name,product_owner,lifecycle,go_live_target,service_owner,security_review,uat_status,eol_review
+PROD-001,DMD-002,Customer Knowledge Assistant,Head of Digital Products,Pilot-to-Product,2026-12-01,Customer Service,Pending,In Progress,2027-12-01
