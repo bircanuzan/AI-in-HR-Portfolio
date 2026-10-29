@@ -41,7 +41,9 @@ The portfolio contains **one deeply specified pilot** (property handover documen
 5. [UAT, acceptance criteria and launch gates](05_UAT_TESTS_AND_SIGNOFF.md)
 6. [Change, L&D and AI champions](06_CHANGE_MANAGEMENT_AND_AI_CHAMPIONS.md)
 7. [KPIs, benefits and executive reporting](07_BENEFITS_KPIS_AND_EXECUTIVE_PACK.md)
-8. [Synthetic scenarios](data/synthetic_handover_cases.csv) and [local router](prototype/handover_router.py)
+8. [Proposed Document AI and workflow architecture](08_DOCUMENT_AI_AND_WORKFLOW_SOLUTION_BLUEPRINT.md)
+9. [Local test evidence and limits](EVIDENCE_LOCAL_TESTS.md)
+10. [Synthetic scenarios](data/synthetic_handover_cases.csv) and [local router](prototype/handover_router.py)
 
 ## What this proves vs what it does not
 **Demonstrates:** structured end-to-end systems/process thinking; opportunity assessment; process redesign; human approval controls; explicit business acceptance testing; proposed AI adoption; KPI and ROI governance; reproducible sample routing logic.
