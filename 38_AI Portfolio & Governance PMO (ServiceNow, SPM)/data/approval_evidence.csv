@@ -1,0 +1,6 @@
+record_id,record_type,record_key,gate,document_ref,approver,status,decision_date
+AP-001,Demand,DMD-001,G3 Funding Approval,BC-001,VP Portfolio,Approved,2026-10-15
+AP-002,Demand,DMD-002,G3 Portfolio Approval,BC-002,VP Portfolio,Approved,2026-10-16
+AP-003,Demand,DMD-004,G3 Funding Approval,BC-004,VP Portfolio,Pending,
+AP-004,Project,PRJ-001,G4 UAT and Security,SEC-001,Security Lead,Pending,
+AP-005,Project,PRJ-002,G4 UAT and Security,SEC-002,Security Lead,Pending,
