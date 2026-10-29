@@ -92,6 +92,13 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 **Distinct from [Project 25 — People Operations AI Research Contributor](25_People_Operations_AI_Research_Contributor/):** Project 25 focuses on Excel workforce-planning tasks and answer grading; Project 36 focuses on **managing people and workflows that create reliable annotated datasets**.
 
+
+## Project 39 — Human Data Operations Manager
+
+**[Open Project 39 — Human Data Operations Manager](39_Human_Data_Operations_Manager/)** — JD-aligned synthetic operational case: data collection and annotation workflow, 48-case dual review data, Python validation and Cohen's kappa, release/HOLD gates, issue ownership, KPI reporting, RACI, SLA measurement plan, 30/60/90-day improvement backlog, and automated unit tests. **Demonstration only; no production deployment or real client data.**
+
+**Related but distinct:** [Project 36](36_Human_Data_Operations_Management/) focuses on annotator/QC methods, while Project 39 models manager-level decisions, stakeholder reporting and scaling.
+
 ## Project 37 — AI Risk Management and TEVV (Responsible AI Governance)
 
 **[Open Project 37: AI Risk Management and Testing, Evaluation, Verification and Validation](37_AI_Risk_Management_and_Testing_Evaluation_Verification_and_Validation/)** — NIST AI RMF-aligned simulated HR policy assurance case: governance charter, impact assessment, risk taxonomy, model/source inventory, versioned synthetic policy change, Python TEVV evaluator and unit tests, evidence and freshness dashboard, exception log, agentic control plane design and third-party vendor assurance requirements. **Synthetic demonstration only; no live MOHRE integration, tested model or fairness certification.**
