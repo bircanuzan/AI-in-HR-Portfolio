@@ -141,3 +141,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 41 — HR Operations Process Mapping & Power Automate
 
 **[Open Project 41 — Improving HR Operations through Process Mapping, Workflow Automation and Practical AI Adoption](41_HR_Operations_Process_Mapping_Workflow_Automation_Power_Automate/)** — fictional employee-letter request case aligned to Microsoft Learn: AS-IS/TO-BE process map, Microsoft 365 approval workflow design, Copilot adoption boundaries, exception controls, planned UAT, monitoring and illustrative capacity model. **Documented solution design; no live Power Automate deployment or measured savings claimed.**
+
+
+## Project 42 — Human-AI Workforce Design and Agent Governance
+
+**[Open Project 42 — Human-AI Workforce Design and Agent Governance](42_Human-AI_Workforce_Design_and_Agent_Governance/)** — original fictional HR Service AI Agent case: human–AI task allocation and job description, NIST AI RMF-aligned governance and RACI, 12 synthetic competence/safety scenarios, offline Python gate scorecard, probation/performance-review rubric, approval and privacy controls, and a proposed 30/60/90-day pilot. **No deployed agent, live tenant or measured ROI claimed.**
