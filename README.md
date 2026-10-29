@@ -151,3 +151,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 43 — Microsoft Copilot Studio HR Service Agent Prototype
 
 **[Open Project 43 — Microsoft Copilot Studio HR Service Agent Implementation & Evaluation Lab](43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/)** — real executable **local JavaScript (not LLM) HR policy assistant**, browser demo, 28 actual prompt-response records and reproducible testing, two documented failures, and a detailed **unexecuted** Copilot Studio / Power Automate tenant build guide. Companion to [Project 42](42_Human-AI_Workforce_Design_and_Agent_Governance/). **No Copilot Studio deployment, client engagement, live HRIS integration or quantified ROI is claimed.**
+
+
+## Project 44 — AI Ethics, Responsible AI & AI Governance
+
+**[Open Project 44 — AI Ethics, Responsible AI & AI Governance](44_AI_Ethics_Responsible_AI_and_AI_Governance/)** — enterprise-wide responsible AI governance demonstrator integrating four UAE AI ethics/governance vacancy descriptions (Capgemini, Al-Futtaim/Orient, byteSpark.ai client vacancy, Q-REF), plus RTA AI quality assurance requirements. Includes governance office/charter, decision rights, AI inventory, impact assessment, privacy/DPIA, 14 AI risk scenarios, 14 controls, agentic control-plane design, model/system and vendor review, independent TEVV/fairness protocol, audit evidence, C-suite board pack, skills matrix and a runnable **synthetic deterministic Python governance gate** with unit tests. **No live AI model, real applicant data, enterprise deployment, independent audit or compliance certification claimed.**
