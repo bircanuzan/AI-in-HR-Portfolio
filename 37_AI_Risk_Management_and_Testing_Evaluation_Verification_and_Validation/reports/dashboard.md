@@ -7,7 +7,8 @@
 | Metric | Mock cases | Share |
 |---|---:|---:|
 | Source version current | 5/6 | 83.3% |
-| Complete current-source evidence | 4/6 | 66.7% |
+| Any citation supplied | 4/6 | 66.7% |
+| Verified current-source evidence | 3/6 | 50.0% |
 | Exact expected-answer match | 4/6 | 66.7% |
 | All checks passed | 3/6 | 50.0% |
 | Exceptions | 3 | — |
