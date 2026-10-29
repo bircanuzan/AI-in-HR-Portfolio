@@ -1,0 +1,5 @@
+source_id,version,status,effective_date,captured_date,channel,verified_by,source_reference
+SRC-HR-001,v1,retired,2026-09-01,2026-09-01,synthetic_mock_notice,fictional_policy_owner,SRC-HR-001-v1
+SRC-HR-001,v2,active,2026-10-20,2026-10-20,synthetic_mock_notice,fictional_policy_owner,SRC-HR-001-v2
+SRC-HR-002,v1,active,2026-08-01,2026-08-01,synthetic_policy_registry,fictional_policy_owner,SRC-HR-002-v1
+SRC-SEC-001,v1,active,2026-08-01,2026-08-01,synthetic_security_policy,fictional_security_owner,SRC-SEC-001-v1
