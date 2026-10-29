@@ -1,48 +1,31 @@
-# Pilot, adoption and value — proposed 30/60/90-day plan
+# Agent pilot and 30/60/90-day value plan
 
-All actions are plans, not completed deployment milestones.
+## Completed as of 29 October 2026
+- Defined a realistic **UAE professional-services** HR policy use case, process boundaries, RACI and a staged assessment framework.
+- Built [working offline JavaScript decision prototype + browser interface](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/), executed 28 authored prompts and captured actual JSON outcomes.
+- Documented the two failed synonym routes and set the release decision to **HOLD**.
 
-## Days 1–30: scope and evidence
-- Interview HR operations, HRIS, IT, security, legal and employee representatives.
-- Build SIPOC and BPMN-level AS-IS / TO-BE; classify tasks into human, rules-based automation or agent.
-- Establish baseline: volume, complexity, first-contact resolution, handling time, rework, escalation, satisfaction and policy breaches.
-- Approve policy corpus and test scenario catalogue. Run offline simulations; resolve all failed mandatory safety gates.
+## Not completed
+Microsoft Copilot Studio setup, SharePoint live grounding, Teams/Power Automate integrations, real LLM responses, remote/public deployment, live permissions, independent security/HR review, employee testing, production KPI baseline or actual business outcome.
 
-## Days 31–60: controlled configuration
-- Engineering configures a least-privilege proof of concept in a **sandbox** (subject to procurement and tenant licensing).
-- Configure separate deterministic approval workflow, read-only retrieval, role mapping, audit logs, access tests and safe refusal routes.
-- Conduct UAT, red-team scenarios, human calibration and shadow-mode monitoring with approved test data.
-- Train HR reviewers in agent limitations, overrides and incident escalation.
+## Next 30/60/90 days (plans, not history)
+**Days 1–30:** establish ownership, synthetic source-library governance, legal/privacy boundaries, initial Copilot Studio environment and agent; run first true LLM test set.
 
-## Days 61–90: pilot decision and supervision
-- If and only if gates pass and governance owners sign off, conduct a small human-supervised pilot.
-- Weekly quality samples, incident review and policy freshness checks; daily exception queue.
-- Monthly agent-performance review and business-case update; expand, hold, narrow or retire scope.
+**Days 31–60:** engineer human-approval and exception flows in Power Automate; verify IAM/DLP, citations, logging, failure modes, latency and cost. Conduct independent HR adjudication and adversarial multi-turn test.
 
-## KPI dictionary and sample targets (illustrative)
-| Measure | Definition | Target before expansion |
-|---|---|---|
-| Correct answer rate | Gold-standard correct / evaluated responses | >=95% |
-| Mandatory escalation recall | Cases escalated / cases that required human | 100% |
-| Unauthorised HR actions | Actions outside approved role or permissions | 0 |
-| Audit completeness | Traces with minimum required fields / assessed traces | 100% |
-| Approval SLA | Time from draft submission to accountable human decision | Baseline then target |
-| Human review workload | Reviewer minutes per 100 resolved requests | Measure, no fabricated savings |
-| Employee experience | Verified satisfaction and complaint themes | Measure by employee cohort |
-| Cost-to-serve | Fully loaded licence, inference, build, security, support and human review cost per resolved case | Compare with baseline |
+**Days 61–90:** if approved, run a limited supervised pilot; measure safety, correct answers, handoff time, incident rates, human-review effort and employee experience. Accept, hold, narrow or terminate based on objective controls.
 
-## Value modelling (not claimed savings)
-Monthly net value = (validated minutes avoided per eligible request × eligible monthly requests × loaded labour cost per minute) – incremental monthly AI/platform licence, inference, integration, compliance, security, maintenance and human-review costs.
+## Proposed KPI definitions (not achieved)
+- Grounded correctness: validated correct outputs / independently labelled agent responses; initial target >=95% on holdout test.
+- Mandatory handoff recall: real high-risk cases routed correctly / all verified high-risk cases; target 100% in release suite.
+- Actual human approvals: successfully approved cases / submitted cases; **zero evidence exists today**.
+- Citation accuracy, unsupported-answer rate, trace completeness, median latency, rework, incidents, complaints and policy-change regression.
+- Fully loaded cost-to-serve: licence, model credits, integration, security review, maintenance, human approval and rework vs baseline; **no savings claims**.
 
-Measure **quality and downstream rework**, not only cases deflected. A successful agent might improve service without eliminating any jobs; employee redeployment or headcount reduction is not assumed.
+## Skills progression
+1. Power Automate: approval and exception routing with real sandbox histories.
+2. **Microsoft Copilot Studio:** configure, test and document a working grounded HR agent, not just a planned architecture.
+3. Python/JS: enhance evaluation harness and independent holdout data.
+4. Azure AI Foundry: enterprise architecture, monitoring, red teaming and CI/CD with engineering partners.
 
-## Vendor / architecture due diligence checklist
-Model hosting and retention; geographic data processing; UAE/sector-specific privacy requirements; connectors and licensing; auditability; prompt-injection controls; approval separation; cost caps; versioning; human appeal; accessibility; reporting; vendor lock-in and exit plan.
-
-## Learning ladder
-1. Power Automate: deterministic HR approvals, exception routing and monitoring.
-2. Copilot Studio: agent instructions, approved knowledge and tool permissions in a sandbox.
-3. Python: build richer evaluation harnesses and API integrations.
-4. Azure AI Foundry / LLMOps: tracing, model choice, red-teaming and operational deployment with technical partners.
-
-**No certification, tenant access, live agent, measured ROI, or client deliverables are claimed in this project.**
+See [Project 43 actual evidence](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/evidence/2026-10-29_test_run.json) and [Microsoft build checklist](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/COPILOT_STUDIO_BUILD_GUIDE.md).

@@ -146,3 +146,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 42 — Human-AI Workforce Design and Agent Governance
 
 **[Open Project 42 — Human-AI Workforce Design and Agent Governance](42_Human-AI_Workforce_Design_and_Agent_Governance/)** — original fictional HR Service AI Agent case: human–AI task allocation and job description, NIST AI RMF-aligned governance and RACI, 12 synthetic competence/safety scenarios, offline Python gate scorecard, probation/performance-review rubric, approval and privacy controls, and a proposed 30/60/90-day pilot. **No deployed agent, live tenant or measured ROI claimed.**
+
+
+## Project 43 — Microsoft Copilot Studio HR Service Agent Prototype
+
+**[Open Project 43 — Microsoft Copilot Studio HR Service Agent Implementation & Evaluation Lab](43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/)** — real executable **local JavaScript (not LLM) HR policy assistant**, browser demo, 28 actual prompt-response records and reproducible testing, two documented failures, and a detailed **unexecuted** Copilot Studio / Power Automate tenant build guide. Companion to [Project 42](42_Human-AI_Workforce_Design_and_Agent_Governance/). **No Copilot Studio deployment, client engagement, live HRIS integration or quantified ROI is claimed.**

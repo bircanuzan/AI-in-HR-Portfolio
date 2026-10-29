@@ -1,43 +1,33 @@
-# Human-AI Workforce Design and Agent Governance
+# Human–AI Workforce Design and Agent Governance | Project 42
 
-**Bircan Uzan | HumanEvoX | Project 42**
+**Bircan Uzan | HumanEvoX | UAE professional-services industry application**
 
-> **Portfolio demonstration, October 2026.** Original, fictional enterprise HR case with synthetic assessment records. This is a **designed governance framework and executable offline evaluation script**, not a deployed AI agent, live Microsoft tenant implementation, client engagement, production security review or proven business outcome.
+## Purpose and evidence status
+An original **industry-based HR service design and governance laboratory** built around the challenge of supervising software agents like digital workers. It draws on HR competency design, assessment-centre evaluation, probation, performance review, RACI, process mapping and change management. This is **not a commissioned client project**. The industry setting and sample policies are illustrative; no company is identified or implied as a client.
 
-## Executive case: HR Operations AI Agent — digital-worker onboarding and probation
+### What is now hands-on
+We built and executed a **working local, deterministic HR service assistant prototype** in [Project 43 — Microsoft Copilot Studio HR Service Agent Prototype](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/). The engine is rule-based JavaScript, **not an LLM, Microsoft Copilot Studio deployment or autonomous agent**. It responds to general sample policy FAQs, recommends human escalation for sensitive/unsupported requests and flags employment-letter drafts for human approval (no actual approval or message sent).
 
-**Scenario:** A fictional UAE professional-services business with 800 employees wants to introduce an AI service agent to handle low-risk HR policy FAQs and draft standard employment letters. Leaders are concerned about inaccurate answers, personal data exposure, unauthorised employment decisions, hidden operational costs and employee adoption.
+#### Evidence-based answer to the interview question
+**Q: “Which AI agent did you actually test, what did it respond, and how did you capture the evidence?”**
 
-**Business question:** How do we define an AI agent's job, assess its competence before deployment, give it restricted access, supervise it during probation and conduct evidence-based performance reviews while keeping humans accountable?
+**A:** I tested **HR Service Agent Lab v0.1.0**, a real locally executed **rule-based conversational prototype** in [agent.js](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/agent.js). I did **not** test a Copilot Studio-hosted agent or LLM. For “What is the annual leave policy?” it returned:
 
-**Proposed solution:** A human–AI workforce operating model that applies HR competency design, assessment-centre thinking, onboarding, probation, performance management, governance and continuous improvement to a software agent.
+> Annual leave requests go through the HR case team and require manager approval. Individual entitlements and balances must be checked by an authorised human. [Source: HR-POL-002, v0.1; LABORATORY SAMPLE — NOT UAE LEGAL ADVICE]
 
-## Project artefacts
+For “What's my remaining leave balance?” it declined personal account access and returned `HUMAN_ESCALATION`. For an employment confirmation letter, it returned `APPROVAL_REQUIRED`, without sending or issuing anything. I executed 28 prompts, compared actual decisions and source IDs with authored expected results, and saved **all verbatim responses and traces** in [dated evaluation evidence](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/evidence/2026-10-29_test_run.json), with a reproducible [test runner](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/test_agent.js). **26/28 (92.9%)** matched; two intent synonyms failed; release recommendation is **HOLD**. These are observed local-code outputs, not AI model responses or measured production outcomes.
 
-| Artefact | Deliverable |
-|---|---|
-| [Case study and workflow](CASE_STUDY.md) | Business problem, operating model, AS-IS/TO-BE workflow and use-case boundaries |
-| [Governance, methodology and tools](GOVERNANCE_AND_METHODS.md) | Six-stage methodology, human accountability, NIST AI RMF alignment, tools, RACI, controls and agent job description |
-| [Agent assessment matrix](data/agent_assessment_cases.csv) | 12 synthetic test scenarios including edge cases and human-escalation tests |
-| [Offline scorecard calculator](scripts/evaluate_agent.py) | Python 3 standard-library evaluator; reads the recorded scenario outcomes; prints pass/fail gates |
-| [30/60/90-day rollout plan](ROLLOUT_AND_VALUE.md) | Proposed pilot, UAT, training, monitoring, KPI and benefits methodology |
-| [Agent performance review template](AGENT_PERFORMANCE_REVIEW.md) | AI probation review with competency evidence, safety gates and sign-off |
+## Framework contents
+- [Sector application and As-Is / To-Be design](CASE_STUDY.md)
+- [Governance, controls, methodology and RACI](GOVERNANCE_AND_METHODS.md)
+- [Historical 12-row synthetic exercise](data/agent_assessment_cases.csv) and [offline scorecard script](scripts/evaluate_agent.py) — **different dataset** from real code execution in Project 43
+- [Probation and performance assessment](AGENT_PERFORMANCE_REVIEW.md)
+- [30/60/90-day deployment readiness and value](ROLLOUT_AND_VALUE.md)
+- [Working local prototype, verbatim test outputs and Microsoft Copilot Studio build guide](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/)
 
-## Skills demonstrated
-Human–AI work design • competency and responsibility mapping • assessment design • agent governance • human-in-the-loop controls • service operations • change management • policy-to-workflow mapping • TEVV planning • responsible AI • agent performance review • KPI dashboards • business stakeholder governance.
+## Tools actually used vs planned
+**Used:** GitHub, Markdown, ChatGPT-assisted authoring, JavaScript offline conversational logic (Project 43), 28 actual program-execution tests, JSON trace capture, Python offline synthetic-score calculator (Project 42).
 
-## Tools and AI used — exact distinction
+**Not used/verified in a live tenant:** Microsoft Copilot Studio, Power Automate, Teams Approvals, SharePoint grounding, Entra ID, Azure AI Foundry and Power BI. All remain proposed integration targets. NIST AI RMF is a methodology reference, not compliance certification.
 
-- **Used for this portfolio:** GitHub/Markdown for structured case artefacts; AI-assisted content development using ChatGPT; a Python 3 standard-library script for an **offline** assessment scorecard; synthetic CSV test data. The CSV is an invented assessment sample, **not outputs from an actual AI agent**.
-- **Proposed deployment stack (not connected, built or tested):** Microsoft Copilot Studio or Azure AI Foundry Agent Service for agent configuration; Microsoft Power Automate for rule-based routing and approvals; Microsoft Teams for human escalation; SharePoint for versioned policy retrieval; Microsoft Entra ID for least-privilege identity; Power BI for dashboarding.
-- **Methodological references (not certification or external audit):** SIPOC, RACI, BPMN-style process mapping, risk-tiering, NIST AI Risk Management Framework (Govern / Map / Measure / Manage), test–evaluate–verify–validate (TEVV), gated pilot, 30/60/90-day adoption and KPI review.
-
-## Proposed outcomes, not achieved metrics
-- Automate **only** low-risk responses where source policy and requester identity have been verified.
-- Require human approval before letters are issued and for all employment, payroll, benefits, visa and hiring decisions.
-- Maintain a searchable audit trail, named accountable owner, exception queue and rollback/kill-switch plan.
-- Apply threshold gates to a test suite before a future pilot; no claim of production efficiency, headcount reduction or ROI.
-
-**Positioning:** This project is about **governing digital work** rather than engineering an autonomous agent from scratch. Engineering and security partners would be required for a live deployment.
-
-© 2026 Bircan Uzan — All Rights Reserved.
+**Disclosure:** Reproducible real outputs support a hands-on prototype claim, **not** a production-grade, LLM-based, independently audited or deployed Microsoft agent claim. © 2026 Bircan Uzan — All Rights Reserved.

@@ -1,59 +1,38 @@
-# Case study — Introducing an HR Operations AI Agent as a supervised digital worker
+# Case study — HR Service Agent operating model for UAE professional-services organisations
 
-## Background
-**Organisation:** Fictional, UAE-based, 800-employee professional-services group.  
-**Agent:** "HR Service Agent", a proposed Microsoft 365-integrated employee-service assistant.  
-**Purpose:** Respond to non-sensitive FAQ questions using an approved, versioned policy library; prepare draft standard employment-letter requests for human checking.  
-**Not in scope:** Hiring/selection decisions, employee scoring, disciplinary actions, salary changes, payroll writeback, medical/identity document collection, UAE legal interpretations, visa decisions or autonomous letter issuance.
+## Business challenge
+A professional-services HR operations team receives recurring policy, onboarding and employment-letter enquiries. Repeated triage creates unnecessary manual work, while personal requests, confidential data and changing policies make unfenced AI automation risky. This is an **original UAE sector-based demonstration**, not a representation of work carried out for a specific employer or paying client.
 
-## Baseline: AS-IS (fictional process)
-1. Employee emails a shared HR inbox.
-2. HR coordinator identifies request type and checks policy.
-3. HR clarifies missing details, manually drafts answer/letter, obtains manager approval and replies.
-4. HR manually records closure; exceptions are difficult to analyse.
+## The question
+How should an organisation define a digital worker's responsibilities, assessment criteria, boundaries, probation, human-manager accountability and retirement decisions — and what can we actually test before enterprise implementation?
 
-**Problems to investigate:** duplicated triage, variable policy accuracy, inconsistent audit records, privacy risk, limited visibility into bottlenecks. No measured time/cost baseline is asserted.
+## Scope and baseline
+- **In:** general working-hours, annual-leave process, new-joiner process, hybrid working, office-information questions from **invented sample policies**; non-actionable letter-draft request.
+- **Out:** actual employment decisions, eligibility/entitlement, payroll, personal employee records, UAE legal advice, visa decisions, HRIS write access, letter dispatch.
+- **Baseline:** business process analysis based on a typical HR shared inbox, not measured operations. No fabricated organisation size, volume, ROI, cost or customer engagement.
 
-## TO-BE: supervised work allocation
+## Operating-model design
 ```mermaid
 flowchart TD
-  A[Employee request] --> B[Identify requester and classify intent]
-  B --> C{Sensitive, ambiguous, high impact or out of scope?}
-  C -- Yes --> H[Human HR case owner]
-  C -- No --> D[Retrieve approved policy and citation]
-  D --> E{Sufficient current evidence?}
-  E -- No --> H
-  E -- Yes --> F[Generate low-risk response or letter draft]
-  F --> G{Draft letter or action requiring approval?}
-  G -- Yes --> H
-  G -- No --> I[Return sourced FAQ answer]
-  H --> J[Human verifies and approves/declines]
-  I --> K[Record outcome and trace]
-  J --> K
-  K --> L[Monitor quality, safety, adoption and incidents]
+A[Employee question] --> B[Validate identity and service scope]
+B --> C{Restricted personal, ambiguous or missing source?}
+C -->|Yes| H[Human HR case owner]
+C -->|No| D[Retrieve approved current policy]
+D --> E{Evidence sufficient?}
+E -->|No| H
+E -->|Yes| F{Letter draft / consequential action?}
+F -->|Yes| G[Separate human approval workflow]
+F -->|No| I[Cited FAQ answer]
+G --> H
+H --> J[Record decision and outcome]
+I --> J
+J --> K[Independent quality, privacy and value review]
 ```
 
-**Key distinction:** An agent may prepare work, but a human retains authority for regulated or consequential HR actions. Workflow automation handles approvals; the model does not grant itself permission.
+## Hands-on evidence now linked
+A local browser-accessible JavaScript assistant and its 28-case executed evaluation are in [Project 43](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/). For the direct interview question **“Which AI agent did you actually test, what did it respond, and how did you capture the evidence?”**, see the exact answer and citations in this project's [README](README.md) and the [verbatim dated JSON trace](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/evidence/2026-10-29_test_run.json). The local prototype is deterministic and **not** a live LLM/Copilot Studio agent.
 
-## Job description for the digital worker
-- **Role title:** HR Service Agent (limited-scope knowledge assistant).
-- **Accountable human owner:** HR Operations Manager.
-- **Skills:** Intent recognition, retrieval grounded in current policy, correct refusal/escalation, concise communication, traceable citation, privacy-aware handling.
-- **Permissions:** Read-only access to explicitly approved FAQ content; ability to draft, not send, employee letter requests; no write access to HRIS or payroll.
-- **Performance conditions:** Correct policy references, full audit trail, strict escalation thresholds, no unauthorised action.
-- **Probation:** A gated, supervised trial with synthetic and pre-approved test data before any real employee interaction.
+Actual observed: 26/28 expected decision+source matches (92.9%). Two missed phrases resulted in conservative human escalation. No HR data accessed, no third-party connectors invoked, and **no real approvals were routed**. The evidence is suitable for a technical learning demonstration, not a deployment or security-assurance claim.
 
-## Human–AI task decomposition
-| Work activity | AI agent | Human | Control |
-|---|---|---|---|
-| Answer general leave policy FAQs | Draft sourced answer | Review samples and complaints | Versioned policy content; no invented entitlements |
-| Identify request category | Suggest label | Handle uncertain classifications | Confidence/evidence gate |
-| Prepare employment-letter request | Draft only | Validate data and approve | Approval in Power Automate/Teams (proposed) |
-| Update salary, visa, payroll or employment status | No | Own decision and system entry | No write tool permissions |
-| Investigate incident, red-team result or appeal | Log, flag and route | Investigate, decide, remediate | Incident playbook and kill switch |
-
-## Distinctive HR contribution
-Reuses **competency frameworks** (what good performance looks like), **assessment-centre rubric** (scenario evidence), **probation** (limited trial), **performance review** (quality and safety metrics), **RACI** (accountability), and **change management** (human adoption).
-
-## Assumptions and limitations
-All company characteristics and test records are invented. No agent was connected to SharePoint, Copilot Studio, HRIS, Power Automate or employee data; no AI-generated responses were tested. This is a portfolio-ready governance concept plus synthetic scoring demonstration, not a completed production implementation.
+## Human–AI design contribution
+Competency mapping; human-vs-automation-vs-agent task decomposition; an assessment rubric; model and policy-change retesting plan; probation gate; reviewer accountabilities; stakeholder change and operational KPI ownership. Technical access, policy correctness and acceptance need independent HR, engineering and InfoSec validation before real-world use.

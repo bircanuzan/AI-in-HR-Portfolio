@@ -1,64 +1,54 @@
-# Governance framework, methodology and tools
+# Governance, risk and evidence — UAE HR agent use case
 
-## Six-stage implementation methodology
-1. **Discover and map work.** Interviews, SIPOC, HR service catalogue, AS-IS/TO-BE, exception inventory, employee impact assessment and data classification.
-2. **Design the mixed workforce.** Task-allocation matrix (human / deterministic automation / LLM agent), agent job description, delegated authority, competencies, RACI, service levels.
-3. **Assess and select the agent.** Synthetic benchmark, scenario-based competency rubric, approved policy grounding, prompt-injection and PII tests, quality/safety thresholds, reviewer calibration.
-4. **Onboard and control.** Named owner, least-privilege identity, approved tools, versioned knowledge sources, audit logging, escalation routes, change control and rollback.
-5. **Probation and supervision.** Offline TEVV; shadow mode; limited human-reviewed pilot; weekly quality review; incidents and corrective actions; go/no-go committee.
-6. **Manage and improve.** Monthly scorecard, drift/policy change tests, cost per resolved case, human workload, employee satisfaction, re-training/reconfiguration and retirement criteria.
+## Six-stage methodology
+1. **Discover and bound:** interview HR Ops, HRIS, employee representatives, security and legal; capture SIPOC/BPMN and identify high-consequence services, affected workers and data.
+2. **Allocate work:** put personal decisions and personal-data access with authorised humans; use deterministic automation for approvals and routing; use a narrowly grounded agent for general FAQs. Assign named service owner, policy owner, model owner, data owner and approvers.
+3. **Assess:** use versioned test set, gold standard, policy citations, multi-turn tests, prompt injection, human-escalation recall, data-exfiltration attempts, calibration and independent adjudication.
+4. **Control:** Entra identity and least privilege, approved SharePoint policy library, allowlisted tools, DLP, per-connector permission checks, evidence retention, time-limited tokens, incident playbooks and rollback.
+5. **Probation:** sandbox verification, offline test, shadow mode, supervised limited pilot, explicit HOLD / GO / RETIRE gates and weekly incident review.
+6. **Monitor:** model/policy regressions, retrieval accuracy, complaints, privacy incidents, human review burden, unit economics, adoption, retirement and re-approval on changes.
 
-## Control design aligned to NIST AI RMF functions (conceptual)
-| AI RMF function | Operational evidence planned |
+## Framework-to-control mapping (design, not certification)
+| Reference | Planned operational evidence |
 |---|---|
-| Govern | AI use-case owner, risk appetite, policy, sign-offs, incident response |
-| Map | Task boundaries, process map, stakeholders, affected users and data flows |
-| Measure | Test-set accuracy, mandatory escalation recall, log completeness, unauthorised action count and bias/privacy tests |
-| Manage | Limited release gates, remediation backlog, monitoring, rollback, periodic reviews |
-
-NIST AI RMF is a reference framework here, **not** evidence of official conformity, formal validation or third-party assurance.
+| NIST AI RMF — Govern | Board-approved policy, AI ownership, risk appetite, sign-offs, incident register |
+| NIST AI RMF — Map | HR workflow, stakeholder impact, source/data-flow inventory, decision consequences |
+| NIST AI RMF — Measure | Test transcripts, benchmark stratification, prompt-injection, citation, access and human-review tests |
+| NIST AI RMF — Manage | Blocked releases, corrective-action queue, rollback/kill switch, periodic revalidation |
+| Security-by-design | Named identity, connector RBAC, DLP, audit logging, breach handling, retention and access review |
+| Human rights / employee safeguards | No automated adverse employment action, human appeal, employee disclosure and bias review |
 
 ## RACI
-| Activity | HR Ops Owner | AI Product/Engineering | InfoSec & Privacy | Legal/Compliance | HR Case Specialist |
-|---|---|---|---|---|---|
-| Set HR policy and service scope | A | C | C | C | R |
-| Configure agent and integrations | C | A/R | C | C | I |
-| Define test scenarios and assess HR correctness | A | R | C | C | R |
-| Approve access and security controls | C | R | A | C | I |
-| Approve pilot/go-live | A | R | C | C | C |
-| Handle employment/visa/payroll decisions | A | I | I | C | R |
-| Review monthly agent performance | A | R | C | C | R |
+| Decision | HR Ops owner | AI Engineering | Security & Privacy | HR policy owner | Legal | HR case reviewer |
+|---|---|---|---|---|---|---|
+| Service scope | A | C | C | R | C | I |
+| Policy correctness | A | C | C | R | C | R |
+| Agent implementation | C | A/R | C | C | I | I |
+| Connector access controls | C | R | A | C | C | I |
+| Safety/HR benchmark | A | R | C | R | C | R |
+| Business go/no-go | A | R | C | C | C | C |
+| Personal HR decisions | A | I | C | C | C | R |
+| Monthly agent performance | A | R | C | R | C | R |
 
-R = responsible; A = accountable; C = consulted; I = informed. One accountable owner per row.
+## Threats and gates
+- **Sensitive data / prompt injection:** deny private record access in enforced connector permissions, validate identity and outbound content, red-team; a prompt alone never constitutes a control.
+- **Hallucinated, stale or missing policy:** require versioned approved citations, grounded evaluation, independent reviewer and abstention if source insufficient.
+- **Unapproved action:** no direct write/send tools for HRIS, payroll, letters or visa status; deterministic approvals and reviewer audit trails.
+- **Human overreliance:** service-owner signoff, transparent AI disclosure and human complaint channel.
+- **Evaluation bias / coverage:** independent test authors, realistic multi-turn prompts, stratification and holdout set; do not generalise from 28 authored prompts.
 
-## Practical tool architecture (design only)
-- **Microsoft Copilot Studio / Azure AI Foundry Agent Service:** prospective agent development/orchestration platform; no environment was provisioned.
-- **SharePoint:** proposed approved policy repository with document owner, effective date and retention controls.
-- **Power Automate / Teams Approvals:** proposed deterministic human approval and case escalation.
-- **Entra ID:** proposed identity, permissions and conditional access.
-- **Power BI:** proposed operational scorecard.
-- **Python 3 + CSV:** actual portfolio artefacts for offline, deterministic calculation against fictional test observations.
-- **ChatGPT:** used to assist preparation and structure of this fictional governance case; **not** evidence of a deployed agent.
+## Evidence maturity matrix
+| Control or capability | Measured in Project 43? | Evidence gap |
+|---|---|---|
+| Deterministic routing on test prompts | Yes, 26/28 correct decision+source | Synonym misses T27/T28; no independent review |
+| Text citations to sample policy versions | Yes, where matched | Not linked to live SharePoint/version access |
+| Human escalation recommendation | Yes, a response field | No live human queue or flow run |
+| Human approval recommendation | Yes, a response field | No actual Power Automate/Teams approval |
+| No unauthorised HRIS writes | No HRIS connection exists | Enforce and attack-test read-only permissions in tenant |
+| Copilot Studio LLM safety and answer quality | **Not tested** | Configure agent; capture model outputs and independent review |
+| Authentication, PII handling and compliance | **Not tested** | Access control, DLP, DPIA/legal review and independent penetration assessment |
 
-## Risk and escalation register
-| Risk | Trigger | Preventive / detective control | Human decision maker |
-|---|---|---|---|
-| Fabricated HR policy | Missing/expired source or unsupported response | Refuse or escalate; verify source version; review samples | HR Policy Lead |
-| Sensitive data disclosure | Request for salary, ID, medical or immigration data | No sensitive data in prompts; deny/exclude permissions; incident logging | InfoSec / HR |
-| Unauthorised HR transaction | Agent attempts changes to HRIS or payroll | Read-only role and no write connector; blocked tool audit | HRIS Owner |
-| Prompt injection / adversarial content | User instructions conflict with system scope | Deny unsafe instructions; test cases; monitoring | AI Product Lead |
-| Human overreliance | Users treat draft as final HR decision | Clear AI label, human approval and training | HR Ops |
-| Bias / employee impact | Unequal handling or inconsistent escalation | Test stratified cases and review complaints | HR + Compliance |
-| Knowledge change / drift | Policy or agent version update | Versioned evaluation and regression gate | HR Policy + Product |
+## Current release decision
+**HOLD.** Two false-negative intent matches exist and Microsoft tenant execution, privacy assessment, independent QA and production controls have not been completed. Observed outputs are captured in [Project 43 evidence](../43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/evidence/2026-10-29_test_run.json). Earlier [12-row CSV](data/agent_assessment_cases.csv) remains a separate, hand-authored **synthetic scoring exercise** and must not be presented as model test evidence.
 
-## Stage gates (proposed, not met by any production agent)
-1. **Safety:** 0 unauthorised actions in the test set.
-2. **High-risk escalation:** 100% of cases requiring a human are escalated.
-3. **Response correctness:** at least 95% correct in the defined benchmark.
-4. **Audit completeness:** 100% required fields recorded.
-5. **Release:** Independent HR, engineering and security approval after live-environment testing. Sample pass/fail numbers are *not* a go-live authorisation.
-
-## Sources
-- NIST AI RMF: https://www.nist.gov/itl/ai-risk-management-framework
-- Microsoft Copilot Studio: https://learn.microsoft.com/en-us/microsoft-copilot-studio/
-- Microsoft Power Automate: https://learn.microsoft.com/en-us/power-automate/
+References: https://www.nist.gov/itl/ai-risk-management-framework ; https://learn.microsoft.com/en-us/microsoft-copilot-studio/ ; https://learn.microsoft.com/en-us/power-automate/
