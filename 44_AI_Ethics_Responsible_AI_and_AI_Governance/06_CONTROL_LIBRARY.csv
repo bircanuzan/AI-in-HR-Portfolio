@@ -1,0 +1,15 @@
+control_id,control_name,mandatory_tier,owner,evidence,trigger,reference_alignment
+CTRL-01,Registered AI system and accountable approver,T1-T3,AI Governance Office,Inventory ID with signatures and decision log,New system and material change,NIST GOVERN/MAP; ISO 42001
+CTRL-02,AI impact and risk classification,T1-T3,Risk Officer,AIA with identified harms residual risks and sign-off,Intake and major changes,NIST MAP/MANAGE; ISO 23894
+CTRL-03,Privacy/security/data-lineage assessment,T1-T3,DPO and CISO,Data map DPIA screening lawful basis vendor DPA and access checks,Any personal data or third-party processing,NIST GOVERN/MAP; ISO 42001
+CTRL-04,AI lifecycle checkpoint and independent review,T2-T3,AI Assurance Lead,Gate pack QA report UAT and approval matrix,Prelaunch and material change,NIST MEASURE/MANAGE; ISO 42001
+CTRL-05,Fairness explainability and contestability,T3,Independent AI Assurance,Subgroup fairness protocol explainability and appeal design,High-impact human outcomes,NIST MEASURE; OECD
+CTRL-06,GenAI groundedness safety and adversarial evaluation,T2-T3,AI Assurance Lead,Prompt dataset tests and failure analysis,Model release and change,NIST AI 600-1; NIST MEASURE
+CTRL-07,Prompt and untrusted-content isolation,T2-T3,Security Engineering,Injection tests sanitized retrieval tool boundaries,Agent/LLM deployment,NIST GenAI profile; security controls
+CTRL-08,Least-privilege agent tool execution and HITL,T2-T3,Agent Product Owner,Role-based permissions action allowlist approvals immutable action traces,Every agent tool call and write action,NIST GOVERN/MANAGE
+CTRL-09,Third-party foundation model and SaaS due diligence,T1-T3,Vendor Risk Lead,Vendor questionnaire contract retention model update and audit rights,Purchase renewal material supplier change,NIST GOVERN; ISO 42001
+CTRL-10,Quality/drift thresholds monitoring and decommission,T2-T3,Model Owner,Performance baseline alert log UAT and rollback protocol,Weekly and after change,NIST MEASURE/MANAGE
+CTRL-11,Role-based learning and human oversight training,T2-T3,Change Lead,Training attendance assessment overrides and feedback,Before go-live and annually,NIST GOVERN
+CTRL-12,Security incident escalation and remediation,T1-T3,CISO/Incident Commander,Incident ticket severity timeline root cause corrective-action log,On incident threshold,NIST MANAGE; ISO 27001 principles
+CTRL-13,Model/data card and versioned transparency record,T2-T3,Model Owner,Model card datasets lineage metrics limitations and ownership,Before release and after model change,NIST MAP/MEASURE
+CTRL-14,Periodic independent internal audit,T2-T3,Internal Audit,Sample-based findings and closure evidence,Quarterly or risk-triggered,NIST GOVERN; ISO 42001
