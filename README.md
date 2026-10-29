@@ -92,6 +92,10 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 **Distinct from [Project 25 — People Operations AI Research Contributor](25_People_Operations_AI_Research_Contributor/):** Project 25 focuses on Excel workforce-planning tasks and answer grading; Project 36 focuses on **managing people and workflows that create reliable annotated datasets**.
 
+## Project 37 — AI Risk Management and TEVV (Responsible AI Governance)
+
+**[Open Project 37: AI Risk Management and Testing, Evaluation, Verification and Validation](37_AI_Risk_Management_and_Testing_Evaluation_Verification_and_Validation/)** — NIST AI RMF-aligned simulated HR policy assurance case: governance charter, impact assessment, risk taxonomy, model/source inventory, versioned synthetic policy change, Python TEVV evaluator and unit tests, evidence and freshness dashboard, exception log, agentic control plane design and third-party vendor assurance requirements. **Synthetic demonstration only; no live MOHRE integration, tested model or fairness certification.**
+
 ## Featured Project — HR Workflow Benchmark Design
 
 **[19 — HR Workflow Benchmark Design & AI Answer Grading](19_HR_Workflow_Benchmark_Design_and_AI_Answer_Grading/)**
