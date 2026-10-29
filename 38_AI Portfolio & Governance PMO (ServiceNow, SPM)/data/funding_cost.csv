@@ -1,0 +1,3 @@
+project_id,currency,fiscal_period,approved_funding,forecast_cost,actual_cost,finance_approved,finance_approver,finance_approval_date,capex_opex
+PRJ-001,AED,FY2026,180000,160000,55000,Yes,VP Finance,2026-10-14,OPEX
+PRJ-002,AED,FY2026,200000,255000,150000,No,,,CAPEX
