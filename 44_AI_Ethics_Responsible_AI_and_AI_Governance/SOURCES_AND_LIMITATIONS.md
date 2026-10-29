@@ -22,7 +22,7 @@
 - **NIST AI RMF 1.0, Core and Playbook:** https://airc.nist.gov/airmf-resources/airmf/5-sec-core/ and https://airc.nist.gov/airmf-resources/playbook/
 - **NIST AI RMF Generative AI Profile 600-1:** https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
 - **ISO/IEC 42001:2023 overview:** https://www.iso.org/standard/42001
-- **ISO/IEC 23894:2023 overview:** https://www.iso.org/standard/23894
+- **ISO/IEC 23894:2023 overview:** https://www.iso.org/standard/77304.html
 - **UAE Federal PDPL:** https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws
 
 ## Limits and intellectual integrity
