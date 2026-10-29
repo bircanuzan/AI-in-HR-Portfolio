@@ -136,3 +136,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 40 — Technical Program Management
 
 **[Open Project 40 — Technical Program Management](40_Technical_Program_Management/)** — original, fictional enterprise fintech integration delivery case inspired by a Technical Program Manager role: integrated milestones, conceptual API/webhook dependencies, RACI and PMO governance, executive client communications, RAID register, feature-change tracking, UAT/go-live controls, resourcing and a tested Python project-health dashboard. **Synthetic portfolio demonstration only; not real Sardine or banking client work.**
+
+
+## Project 41 — HR Operations Process Mapping & Power Automate
+
+**[Open Project 41 — Improving HR Operations through Process Mapping, Workflow Automation and Practical AI Adoption](41_HR_Operations_Process_Mapping_Workflow_Automation_Power_Automate/)** — fictional employee-letter request case aligned to Microsoft Learn: AS-IS/TO-BE process map, Microsoft 365 approval workflow design, Copilot adoption boundaries, exception controls, planned UAT, monitoring and illustrative capacity model. **Documented solution design; no live Power Automate deployment or measured savings claimed.**

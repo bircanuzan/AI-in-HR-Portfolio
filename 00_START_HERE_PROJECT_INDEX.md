@@ -107,3 +107,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 *Project 10 is not currently a numbered root folder; existing numbers were kept to preserve the portfolio's structure.*
 
 **Need more detail?** [Read the full original portfolio overview](PORTFOLIO_DETAILED_OVERVIEW.md).
+
+
+## Project 41 — HR Operations Process Mapping & Power Automate
+
+**[Open Project 41 — Improving HR Operations through Process Mapping, Workflow Automation and Practical AI Adoption](41_HR_Operations_Process_Mapping_Workflow_Automation_Power_Automate/)** — fictional employee-letter request case aligned to Microsoft Learn: AS-IS/TO-BE process map, Microsoft 365 approval workflow design, Copilot adoption boundaries, exception controls, planned UAT, monitoring and illustrative capacity model. **Documented solution design; no live Power Automate deployment or measured savings claimed.**
