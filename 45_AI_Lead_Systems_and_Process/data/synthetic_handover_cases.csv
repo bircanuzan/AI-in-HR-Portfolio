@@ -1,0 +1,13 @@
+case_id,unit_id,customer_ref,has_id_proof,has_contract,has_payment_clearance_doc,payment_cleared,project_ready,duplicate_flag,mismatch_flag,expected_decision,scenario
+H001,U101,C001,true,true,true,YES,YES,false,false,READY_FOR_HUMAN_APPROVAL,Complete pack awaits authorized signoff
+H002,U102,C002,true,false,true,YES,YES,false,false,NEEDS_DOCUMENTS,Missing contract
+H003,U103,C003,false,true,true,YES,YES,false,false,NEEDS_DOCUMENTS,Missing identity proof
+H004,U104,C004,true,true,false,YES,YES,false,false,NEEDS_DOCUMENTS,Missing finance clearance document
+H005,U105,C005,true,true,true,NO,YES,false,false,HUMAN_REVIEW,Finance not cleared
+H006,U106,C006,true,true,true,YES,NO,false,false,HUMAN_REVIEW,Unit not ready
+H007,U107,C007,true,true,true,YES,YES,true,false,HUMAN_REVIEW,Possible duplicate
+H008,U108,C008,true,true,true,YES,YES,false,true,HUMAN_REVIEW,Identity or contract mismatch
+H009,,C009,true,true,true,YES,YES,false,false,NEEDS_DOCUMENTS,Missing unit ID
+H010,U110,,true,true,true,YES,YES,false,false,NEEDS_DOCUMENTS,Missing customer reference
+H011,U111,C011,true,true,true,YES,UNKNOWN,false,false,HUMAN_REVIEW,Unknown project readiness
+H012,U112,C012,true,true,true,YES,YES,false,false,READY_FOR_HUMAN_APPROVAL,Second complete example no automated approval
