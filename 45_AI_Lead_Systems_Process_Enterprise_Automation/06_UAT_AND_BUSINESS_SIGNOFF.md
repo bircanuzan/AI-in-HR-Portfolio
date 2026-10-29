@@ -1,7 +1,7 @@
 # B3 — UAT Strategy, Acceptance Test Cases, Defect Triage and Business Sign-off
 
 ## Purpose and evidence levels
-The GitHub script exercises 10 **deterministic routing scenarios** against **fictional pre-extracted fields**. That is a **local rules test**, not enterprise UAT. The broader UAT plan below is designed for a future sandbox using actual authorised connectors, real end users and reconciled approval logs. No UAT sign-off is represented as obtained.
+The GitHub script exercises 12 **deterministic routing scenarios** against **fictional pre-extracted fields**. That is a **local rules test**, not enterprise UAT. The broader UAT plan below is designed for a future sandbox using actual authorised connectors, real end users and reconciled approval logs. No UAT sign-off is represented as obtained.
 
 ## Traceability test matrix
 | UAT ID | Requirement(s) | Scenario / synthetic input | Expected result | Evidence / planned approver | Status |
