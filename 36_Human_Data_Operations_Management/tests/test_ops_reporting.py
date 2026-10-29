@@ -18,9 +18,8 @@ class OperationsReportingTests(unittest.TestCase):
     def test_invalid_status(self):
         data = copy.deepcopy(load_events())
         data[0]["status"] = "unknown"
-        # Loader owns schema validation; report only aggregates already-validated rows.
-        p = report(data)
-        self.assertEqual(p["accepted"], 13)
+        with self.assertRaises(ValueError):
+            report(data)
 
     def test_empty_events(self):
         with self.assertRaises(ValueError): report([])

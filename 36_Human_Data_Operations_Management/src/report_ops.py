@@ -29,6 +29,10 @@ def load_events(path=None):
 def report(events):
     if not events:
         raise ValueError("Missing events")
+    if any(row["status"] not in ALLOWED_STATUS for row in events):
+        raise ValueError("Invalid case status")
+    if any(row["rework_flag"] not in (0, 1) or row["processing_minutes"] < 0 for row in events):
+        raise ValueError("Invalid time or rework flag")
     counts = Counter(row["status"] for row in events)
     n = len(events)
     total = sum(row["processing_minutes"] for row in events)
