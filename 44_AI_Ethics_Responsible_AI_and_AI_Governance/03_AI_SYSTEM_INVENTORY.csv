@@ -1,0 +1,5 @@
+system_id,system_name,domain,ai_type,intended_purpose,data_category,autonomy,human_final_decision,internal_tier,model_supplier,system_owner,data_steward,stage,policy_status
+AI-001,Candidate Shortlist Assistant,HR Recruitment,GenAI RAG,Recommend candidates for review,Applicant personal data,Recommend only,Yes,T3,Third-party LLM,Head of TA,HR Data Steward,Design,HOLD pending fairness and DPIA
+AI-002,Claims Document Triage,Insurance Operations,ML + GenAI,Classify claim documents for adjuster,Customer financial and personal,Route only,Yes,T3,Vendor model,Claims Director,Insurance Data Steward,Testing,HOLD pending independent assurance
+AI-003,HR Policy Helpdesk Agent,Employee Services,Agentic GenAI RAG,Answer policy FAQs and request escalation,Employee restricted,Read-only with escalation,Yes,T2,Third-party LLM,HR Operations Manager,HR Data Steward,Pilot,HOLD pending technical guardrail test
+AI-004,Meeting Summary Assistant,Enterprise Productivity,GenAI,Summarise internal meetings,Confidential business info,No external action,Yes,T2,Third-party LLM,IT Productivity Lead,IT Data Steward,Assessment,HOLD pending privacy and vendor review
