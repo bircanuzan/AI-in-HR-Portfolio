@@ -1,0 +1,2 @@
+model_id,name,system_type,intended_use,owner,source_dependency,version,status,personal_data,agent_tools,limitations
+SIM-AI-001,Fictional HR Policy Q&A,synthetic_response_fixture,Internal policy explanation,Demo HR Policy Owner,SRC-HR-001|SRC-HR-002|SRC-SEC-001,demo-v1,test_only,no,none,No model invoked and no legal reliance
