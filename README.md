@@ -117,3 +117,7 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 *Project 10 is not currently a numbered root folder; existing numbers were kept to preserve the portfolio's structure.*
 
 **Need more detail?** [Read the full original portfolio overview](PORTFOLIO_DETAILED_OVERVIEW.md).
+
+## Project 39 — Integrated Talent, Leadership & Organizational Excellence Assessment
+
+**[Open Project 39 — Integrated Talent, Leadership & Organizational Excellence Assessment](39_Integrated_Talent_Leadership_and_Organizational_Excellence_Assessment/)** — three synthetic workstreams: assessment centre candidate evaluation, leadership/graduate/career-transition assessment and coaching, and institutional/organizational excellence diagnostics. Includes rubrics, assessment blueprints, diagnostic criteria and QA/ethical safeguards. No assessor certification or formal award authorization is claimed.
