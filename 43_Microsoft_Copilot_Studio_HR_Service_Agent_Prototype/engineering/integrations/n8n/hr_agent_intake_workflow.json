@@ -1,0 +1,87 @@
+{
+  "name": "Project 43 - HR Service Agent Local API Intake (NOT EXECUTED)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "project43-hr-service-lab",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "d2f1c3b1-445a-40a1-8ba6-48f8a2992123",
+      "name": "Receive Demo Request",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        240,
+        300
+      ],
+      "webhookId": "project43-hr-service-lab"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/ask",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ query: $json.body.query, mode: 'local' }) }}",
+        "options": {
+          "timeout": 10000
+        }
+      },
+      "id": "4ed617b4-8ed8-42a2-97dd-e5df405a852e",
+      "name": "Call Loopback HR Agent API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        500,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "e78af0aa-6153-4e68-9e1f-8f695045abf3",
+      "name": "Return Agent Outcome",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.2,
+      "position": [
+        760,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Receive Demo Request": {
+      "main": [
+        [
+          {
+            "node": "Call Loopback HR Agent API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call Loopback HR Agent API": {
+      "main": [
+        [
+          {
+            "node": "Return Agent Outcome",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": []
+}

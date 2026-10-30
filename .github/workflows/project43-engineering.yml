@@ -1,0 +1,33 @@
+name: Project 43 Python engineering lab CI
+on:
+  push:
+    paths:
+      - '43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/engineering/**'
+      - '.github/workflows/project43-engineering.yml'
+  workflow_dispatch:
+jobs:
+  offline-evaluation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: 43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/engineering
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests (offline)
+        run: python -m unittest discover -s tests -v
+      - name: Ingest synthetic documents (offline)
+        run: python run_lab.py ingest
+      - name: Evaluate and enforce deterministic gates (offline)
+        run: python run_lab.py eval --evidence evidence/ci_local_run.json
+      - name: Upload diagnostics artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: project43-offline-evidence
+          path: 43_Microsoft_Copilot_Studio_HR_Service_Agent_Prototype/engineering/evidence/ci_local_run.json
+          retention-days: 14

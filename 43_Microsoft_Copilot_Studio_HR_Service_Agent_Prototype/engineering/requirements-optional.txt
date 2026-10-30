@@ -1,0 +1,8 @@
+# Install only for specific billable integrations and after reading provider docs.
+langchain-openai>=1.0,<3
+langchain-core>=1.0,<3
+openai>=3.0,<5
+azure-ai-projects>=2.3.0,<4
+azure-identity>=1.18,<3
+# Separate Databricks / Spark environment only:
+# pyspark>=3.5,<5

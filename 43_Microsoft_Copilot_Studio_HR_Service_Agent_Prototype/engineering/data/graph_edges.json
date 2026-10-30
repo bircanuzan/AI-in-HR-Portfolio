@@ -1,0 +1,17 @@
+[
+  {
+    "from": "HR-POL-002",
+    "to": "HR-POL-003",
+    "relation": "RELATED_HR_LIFECYCLE"
+  },
+  {
+    "from": "HR-POL-001",
+    "to": "HR-POL-004",
+    "relation": "RELATED_WORK_ARRANGEMENT"
+  },
+  {
+    "from": "HR-POL-003",
+    "to": "HR-POL-005",
+    "relation": "RELATED_EMPLOYEE_ONBOARDING"
+  }
+]

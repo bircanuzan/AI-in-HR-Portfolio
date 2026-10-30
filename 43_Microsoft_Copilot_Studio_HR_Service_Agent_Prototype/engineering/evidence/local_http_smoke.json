@@ -1,0 +1,22 @@
+{
+  "kind": "actual local HTTP smoke; ephemeral loopback port and SQLite",
+  "health": {
+    "status": "ok",
+    "deployment": "local_only",
+    "model_connected": false
+  },
+  "ask": {
+    "decision": "ANSWER",
+    "reason": "approved_policy_retrieval",
+    "sources": [
+      {
+        "id": "HR-POL-002",
+        "version": "1.0",
+        "sha256": "5bb371fb0d63bcc3a013039830316b642776f128ba6a3dc184ba7353cd01e20c"
+      }
+    ],
+    "external_action_performed": false
+  },
+  "result": "PASS",
+  "external_integrations": "NONE"
+}

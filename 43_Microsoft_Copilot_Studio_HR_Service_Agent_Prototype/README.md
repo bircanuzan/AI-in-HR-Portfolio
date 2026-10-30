@@ -1,50 +1,48 @@
-# Microsoft Copilot Studio — HR Service Agent Implementation & Evaluation Lab
+# Microsoft Copilot Studio — HR Service Agent & G42-Aligned AI/Data Engineering Lab
 
-**Project 43 | HumanEvoX | 29 October 2026 | UAE professional-services industry example**
+**Project 43 | HumanEvoX | 30 October 2026**
 
-## What is working today
-A **runnable local prototype** answers a narrow set of HR knowledge questions, provides versioned sample-policy citations, refuses requests for private records and consequential decisions, and marks employment-letter requests as needing human approval. Open [index.html](index.html) in a browser with [agent.js](agent.js) alongside it. No secrets or paid APIs are required. The UI shows the actual response and a trace object.
+> **Current evidence status:** Working **local** JavaScript and Python/SQLite HR-policy prototypes, reproducible evaluation harness, local REST service and authored operational governance. OpenAI/LangChain, Microsoft Foundry (Azure Agent Foundry), n8n, PySpark/Databricks, Microsoft Fabric and Copilot Studio remain **optional integration code or implementation designs, not tested cloud deployments**. No enterprise customer, production AI model, paid API invocation, Azure resource, actual employee data, real human approval, or employment outcome is claimed.
 
-**What it is NOT:** The local engine is **deterministic JavaScript policy routing, NOT an LLM or Copilot Studio agent**. It does not connect to an employer, Microsoft 365 tenant, SharePoint, Teams, Power Automate, HRIS, real employee data, or a production service. Its human-escalation and approval fields are *recommendations*, not delivered messages or processed approvals. No Copilot Studio subscription or deployment is represented. All sample policies were invented solely for this lab.
+## NEW — G42-aligned Python and data-engineering implementation
 
-## Evidence, not aspirational claims
-- [Agent source](agent.js) and [browser test UI](index.html)
-- [28 prompt test cases](test_cases.json), specifying independently written expected decisions and policy refs
-- [Recorded actual responses and audit fields](evidence/2026-10-29_test_run.json) from executable deterministic logic, captured 29 October 2026
-- [Reproduction runner](test_agent.js): `node test_agent.js --save` (Node.js 18+); use `--strict` to return a failing exit code on imperfect test runs
-- [Observed limitations, next iteration and learning](evidence/REVIEW_FINDINGS.md)
-- [Copilot Studio build guide](COPILOT_STUDIO_BUILD_GUIDE.md) and [Power Automate handoff design](POWER_AUTOMATE_FLOW_SPEC.md) — **not yet configured in Microsoft**
-- [Safety / governance scope](SECURITY_ASSURANCE.md), [sample policy catalogue](POLICY_KNOWLEDGE.md), [demo walkthrough](DEMO_SCRIPT.md)
+**[Open the engineering project — Python, SQL, RAG, REST, OpenAI/LangChain, Azure Foundry, n8n, PySpark, CI/CD](engineering/README.md)**
 
-## Actual test results (V8 offline execution; 28 developer-authored prompts)
-- Matching expected decision and source: **26/28 (92.9%)**; two failures, both overly conservative human escalations
-- Mandatory human-handling recall on the authored cases: **100.0%** (a very small, non-independent test set)
-- Critical release status: **HOLD**; not independently validated and has no infrastructure access-control testing or real Copilot Studio evaluations
+This second phase is mapped directly to the official [Inception42 / G42 Data Engineer vacancy dated 9 October 2026](https://jobs.g42.ai/Inception42/job/Abu-Dhabi-Data-Engineer-Abu/733373322/). Its goal is to translate an HR service and agent-governance problem into a more technical demonstration: source-quality ETL, SQLite storage, small local vector index, versioned citations, decision routing, human queue, REST API, unit tests and real executed evaluation records.
 
-### Exactly which agent was tested?
-**HR Service Agent Lab v0.1.0**, a locally executable deterministic JavaScript conversational prototype in `agent.js`. **Not** a Microsoft Copilot Studio agent or LLM. Example response to “What is the annual leave policy?” is:
+**What can be rerun today:**
 
-> Annual leave requests go through the HR case team and require manager approval. Individual entitlements and balances must be checked by an authorised human. [Source: HR-POL-002, v0.1; LABORATORY SAMPLE — NOT UAE LEGAL ADVICE]
-
-“What's my remaining leave balance?” returned: “This request requires a human HR specialist. I cannot access private records, make employment decisions, or perform HRIS changes.” The response class was `HUMAN_ESCALATION` and no external action occurred.
-
-The full actual response objects were saved to [dated JSON evidence](evidence/2026-10-29_test_run.json), including request ID, prompt, expected result, actual response, source ID, routing reason, approval/escalation indicator and pass/fail comparison.
-
-## Architecture now vs proposed next
-```mermaid
-flowchart LR
-A[Browser input] --> B[Local rules + mock approved policies]
-B --> C{Policy and risk match?}
-C -->|low-risk known| D[Sample policy answer + citation]
-C -->|restricted/unknown| E[Human escalation recommendation]
-C -->|employment letter| F[Human approval recommendation]
-D --> G[On-screen JSON evidence]
-E --> G
-F --> G
+```bash
+cd engineering
+python run_lab.py ingest
+python run_lab.py ask --query "What is the annual leave policy?"
+python run_lab.py eval
+python -m unittest discover -s tests -v
 ```
 
-**Next milestone:** Build `HR Service Agent` in an authenticated Microsoft Copilot Studio trial tenant, ground it in synthetic SharePoint/approved content, capture **actual Copilot Studio chat traces**, implement Power Automate approval with authorised reviewers, and document independent risk checks before claiming Microsoft deployment. See the runbook. No production credentials or live HR data should be used.
+- [Architecture and full pipeline](engineering/docs/ARCHITECTURE.md)
+- [G42 requirement-by-requirement skill mapping](engineering/docs/G42_SKILL_MATRIX.md)
+- [Actual recorded Python evaluation results](engineering/evidence/2026-10-30_python_local_evaluation.json)
+- [Executed local HTTP smoke evidence](engineering/evidence/local_http_smoke.json)
+- [Cloud integrations and limits](engineering/docs/CLOUD_DEPLOYMENT.md)
+- [Risk controls and governance](engineering/docs/GOVERNANCE_SECURITY.md)
+- [Interview demonstration](engineering/docs/DEMO_AND_INTERVIEW.md)
 
-**Why this exists:** Combines established HR competency/assessment, process redesign, governance and change management with reproducible prototype evidence. Industry context describes a realistic business domain, **not a named client or completed contract**.
+**Crucial distinction:** The implemented Python/SQL engine is **deterministic lexical retrieval with a rule-based policy decision router**. It is not a generative LLM agent, not production-grade semantic RAG and not Azure-hosted. Full OpenAI/LangChain and Azure Foundry adapters exist but have **not been executed** without a real account and credentials. See the [evidence register](engineering/docs/EVIDENCE_REGISTER.md).
 
-Related: [Project 42 — Human–AI Workforce Design and Agent Governance](../42_Human-AI_Workforce_Design_and_Agent_Governance/).
+## Phase 1 — original local JavaScript HR policy assistant (retained)
+
+- [Working local JavaScript policy router](agent.js) and [browser interface](index.html)
+- [28-case original JavaScript evaluation](evidence/2026-10-29_test_run.json), including 2 failures
+- [Legacy JavaScript assessment findings](evidence/REVIEW_FINDINGS.md)
+- [Copilot Studio tenant build guide — not yet completed](COPILOT_STUDIO_BUILD_GUIDE.md)
+- [Power Automate human approval flow specification — not yet executed](POWER_AUTOMATE_FLOW_SPEC.md)
+- [Security limitations](SECURITY_ASSURANCE.md)
+
+## Evidence maturity and career positioning
+
+The first local prototype demonstrated intent and policy routing. The new Python phase adds structured ETL/SQL, reproducible evaluation, API and optional cloud integration code. **Do not combine the two test populations as if they were one agent.** Do not claim that a test fixture score represents live AI accuracy, compliance, a Microsoft deployment or several years of engineering experience.
+
+**Accurate description:** “I developed two runnable local HR-service prototypes, including a Python/SQLite versioned-policy retrieval system with an API, offline evaluation and human-review queue. I prepared cloud adapters for OpenAI/LangChain, Azure Foundry, n8n and Databricks and am progressing toward real hosted agent validation.”
+
+Original UAE professional-services *sector* example with synthetic policies — **not a reference to a real client**. AI-assisted authoring was used; all deployment and skill claims are scoped to evidence. © 2026 Bircan Uzan.
