@@ -188,3 +188,7 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Microsoft 365 Copilot Adoption & Enablement — vacancy-aligned application evidence
 
 **[Open new project folder: Microsoft 365 Copilot Adoption & Enablement](Microsoft%20365%20Copilot%20Adoption%20%26%20Enablement/)** — job-description-specific portfolio evidence covering **two numerical experience answers**, prior roles and gap disclosures, functional Copilot business-use-case inventory (HR/Finance/Operations/Executive), end-user/champions/Director-VP-MD workshop agendas, synthetic workplace lab, Microsoft 365 tools/readiness, safe prompting, Copilot adoption KPIs and a fictional 30/60/90-day pilot. **No documented multi-year paid Copilot role, tenant rollout or real client Microsoft 365 Copilot workshop is claimed.** Cross-reference [Project 34](34_Business_Oriented_Microsoft_365_Copilot_Adoption_and_Enablement_Consultant/) for the existing deep-dive case and executable synthetic adoption calculator.
+
+## Project 50 — AI Agent Builder / Automation
+
+**[Open Project 50 — AI Agent Builder / Automation](50_AI_Agent_Builder_Automation/)** — runnable local HR service-routing prototype with browser demo, 28 synthetic test cases, original output traces and a performance scorecard (26/28, 92.9%), plus a proposed Copilot Studio / Power Automate build pathway. **A tested rules-based JavaScript lab, not a deployed LLM agent or client project.** This organizes Project 43's implementation and evidence around agent-building skills.
