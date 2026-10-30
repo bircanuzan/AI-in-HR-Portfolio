@@ -55,3 +55,22 @@ These are application-positioning rules, not certifications of exact work histor
 | Innovative demos, scenarios, exercises and learning materials | PROTRAINING and Knowledge Group programmes; hypothetical Copilot workshop agendas and scenario labs | Portfolio demonstrations are designed materials, not recorded client sessions |
 
 **Application integrity:** If an application requires a single number for the *entire bundle* and specifically means product-specific Microsoft 365 Copilot practical experience, choose `0` rather than presenting five years of broader learning experience as five years of Copilot delivery. Where the wording accepts *transferable business enablement*, `5` is a defensible estimate.
+
+
+## Q4 — Years presenting to senior executives, strong business acumen and translating challenges into AI use cases
+
+**Recommended number when the employer asks about senior stakeholder presentation/consulting experience: `10+` years.** The candidate's experience from Oracle (2013–2016), TASC Outsourcing (2016–2019), Korn Ferry (2021–2022), and subsequent enterprise consulting and programme roles supports a decade-plus background engaging enterprise stakeholders and translating business requirements into proposals, programmes and solutions. This is an estimate of **relevant consulting and presentation work**, not proof of 10 years delivering executive AI workshops.
+
+**AI-specific qualification:** Documented AI and technology learning/use-case architecture is more recent, chiefly Knowledge Group Consulting (2025–2026), HumanEvoX (2026) and independent GitHub case studies (2026). Do **not** characterize the entire ten-year period as practical AI use-case development or Microsoft 365 Copilot work. Commercial Copilot-specific delivery remains `0` verified years.
+
+### Answer for a free-text application field
+"I bring over 10 years of relevant experience engaging senior management and executive stakeholders, presenting business solutions, facilitating client discussions and translating organizational challenges into actionable initiatives. My experience spans enterprise HCM/cloud consulting at Oracle, regional talent and programme engagements at TASC Outsourcing and Korn Ferry, and AI and technology capability consulting at Knowledge Group Consulting. More recently, I have focused on identifying and prioritising practical AI opportunities, business process redesign, AI adoption planning, and governance and evaluation frameworks, documented through an independent GitHub portfolio. My AI-specific examples are recent consulting/design activities and independent case studies, not a claim of 10 years implementing AI systems."
+
+### Competency evidence
+| Employer requirement | Background and portfolio evidence | Qualification |
+|---|---|---|
+| Workshops or presentations to senior and executive audiences | Enterprise consulting / client engagement; HCM solution presentations; stakeholder programme meetings; capability pathway presentations | Ten-plus years senior-stakeholder-facing business experience does not prove every year contained delivered executive workshops |
+| Strong business acumen | Business consulting, enterprise client requirements, talent/HR programmes, international delivery and account leadership | Focus on verifiable business problems and project deliverables |
+| Translate business challenges into practical AI use cases | Knowledge Group technology and AI learning architecture; HumanEvoX AI/HR workflow design; [Project 34](../34_Business_Oriented_Microsoft_365_Copilot_Adoption_and_Enablement_Consultant/), [Project 41](../41_HR_Operations_Process_Mapping_Workflow_Automation_Power_Automate/), and this portfolio's use-case register | Primarily 2025–2026; independent portfolio designs are not confirmed enterprise deployments |
+
+**If a form explicitly asks "years personally implementing AI use cases" rather than senior stakeholder presentation experience:** use the actual AI-specific tenure that can be verified from dated assignments. Do not enter ten years simply because the question combines consulting with AI.
