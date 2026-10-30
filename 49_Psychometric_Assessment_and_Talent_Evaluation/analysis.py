@@ -3,6 +3,7 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 from statistics import mean
+from decimal import Decimal, ROUND_HALF_UP
 
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "03_Synthetic_Assessment_Results.csv"
@@ -26,7 +27,7 @@ def summarize():
         groups[row["purpose"]].append(row)
     assert all(len(group) == 4 for group in groups.values())
     return {name: {"n": len(group), **{
-        field: round(mean(float(r[field]) for r in group), 1)
+        field: float(Decimal(str(mean(float(r[field]) for r in group))).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP))
         for field in FIELDS
     }} for name, group in sorted(groups.items())}
 
