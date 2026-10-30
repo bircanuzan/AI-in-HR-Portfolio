@@ -34,3 +34,24 @@
 - **Question bundles both into a single numeric input?** Do not silently misrepresent general training years as Copilot-specific; if the employer requires product-specific experience, enter **0** and explain the transferable 5 years in a narrative field.
 
 These are application-positioning rules, not certifications of exact work history. Adjust only when an actual paid Copilot engagement and its start/end dates are established.
+
+
+## Q3 — How many years of experience demonstrating Microsoft 365 app use cases, driving AI adoption, customising learning and engaging senior management?
+
+**Recommended numeric response when transferable experience is acceptable: approximately `5` years.**
+
+**If the question specifically demands hands-on commercial Microsoft 365 Copilot experience across Outlook, Teams, Word, PowerPoint, Excel, OneDrive and SharePoint: `0` verified years.**
+
+### Ready-to-paste recruiter response
+"I have approximately **5 years of relevant experience** designing interactive learning programmes, business-oriented workshops, technology-enabled capability initiatives and practical exercises for different stakeholder groups, supported by **18+ years of international consulting and senior stakeholder engagement**. My background includes AI and technology learning architecture at Knowledge Group Consulting, instructional and experiential learning design at PROTRAINING, and consulting on workforce and business-process improvements. My independent Microsoft 365 Copilot portfolio demonstrates **proposed practical use cases** across Outlook, Teams, Word, PowerPoint, Excel, OneDrive and SharePoint, plus audience-specific enablement, adoption frameworks, exercise design, governance and KPI measures. Those Microsoft 365 Copilot examples are **portfolio designs**, not verified years of commercial Copilot training delivery or customer tenant deployments."
+
+### Each clause of this bundled question
+| Employer asks about | Transferable evidence | Limits |
+|---|---|---|
+| Practical use cases across seven Microsoft 365 apps | Portfolio Project 34, this project's cross-functional use-case register and workshop lab | No verified production Copilot demonstrations in a client tenant |
+| Driving AI adoption and behavioural change | Learning and change programme design, HR/digital transformation and post-programme assessment | Do not claim realised Microsoft Copilot adoption KPIs |
+| Customising training for technical knowledge and audience | Experience designing learning pathways, executive/employee programme materials, instructional design | No evidence of five years delivering Copilot workshops specifically |
+| Senior management discussion of AI opportunities and value | Enterprise stakeholder engagement across Oracle, Korn Ferry, Knowledge Group Consulting and HumanEvoX | Do not claim a particular Copilot executive workshop was delivered |
+| Innovative demos, scenarios, exercises and learning materials | PROTRAINING and Knowledge Group programmes; hypothetical Copilot workshop agendas and scenario labs | Portfolio demonstrations are designed materials, not recorded client sessions |
+
+**Application integrity:** If an application requires a single number for the *entire bundle* and specifically means product-specific Microsoft 365 Copilot practical experience, choose `0` rather than presenting five years of broader learning experience as five years of Copilot delivery. Where the wording accepts *transferable business enablement*, `5` is a defensible estimate.
