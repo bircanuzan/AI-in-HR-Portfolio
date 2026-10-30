@@ -122,3 +122,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 48 — Change Management in HR Program
 
 **[Open Project 48 — Change Management in HR Program](48_Change_Management_in_HR_Program/)** — an independent, fictional UAE HR employee self-service and case-management transformation programme. Includes change charter, stakeholder and role impact assessment, ADKAR-informed readiness instrument, communications and culture plan, resistance/risk and champions, 90-day cutover and hypercare roadmap, adoption KPI/benefits dashboard, executive steering pack, plus synthetic impact and adoption data. Inspired by UAE change-management job requirements from Zayed University, wasl and an historical ACCBC posting. **No live employer project, software deployment, Prosci certification, employee survey, or achieved outcomes are claimed.**
+
+
+## Project 49 — Psychometric Assessment & Talent Evaluation
+
+**[Open Project 49 — Psychometric Assessment & Talent Evaluation](49_Psychometric_Assessment_and_Talent_Evaluation/)** — fictional UAE corporate case covering **occupational psychometric-style data interpretation, individual and group assessment reporting, evidence triangulation, hiring/promotion/succession recommendations, virtual/on-site HR feedback, privacy and qualified-review gates**, with 12 synthetic records and a descriptive Python analysis. **No real test instruments or BPS/SHL/Hogan/Saville credentials are claimed.** Distinct from Project 38's behavioural role-play observation.

@@ -1,0 +1,13 @@
+case_id,purpose,role,administration,numerical_index,verbal_index,abstract_index,planning_style,collaboration_style,adaptability_style,structured_interview_index,work_sample_index
+C001,Hiring,Senior HR Analyst,Remote,82,77,79,74,68,82,80,84
+C002,Hiring,Senior HR Analyst,Onsite,88,67,83,62,79,69,73,78
+C003,Hiring,Senior HR Analyst,Remote,68,81,72,85,88,74,86,83
+C004,Hiring,Senior HR Analyst,Onsite,76,70,66,70,74,75,79,71
+C005,Promotion,People Operations Manager,Remote,74,84,72,81,81,78,88,82
+C006,Promotion,People Operations Manager,Onsite,69,72,75,76,64,85,80,78
+C007,Promotion,People Operations Manager,Remote,80,75,90,83,68,82,82,86
+C008,Promotion,People Operations Manager,Onsite,85,89,79,75,88,75,87,90
+C009,Succession,HR Transformation Lead,Remote,78,74,81,90,83,79,89,85
+C010,Succession,HR Transformation Lead,Onsite,72,85,77,78,91,87,84,88
+C011,Succession,HR Transformation Lead,Remote,91,80,83,82,75,84,79,93
+C012,Succession,HR Transformation Lead,Onsite,76,78,70,71,82,72,77,74
