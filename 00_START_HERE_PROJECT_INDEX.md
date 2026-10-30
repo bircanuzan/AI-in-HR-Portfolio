@@ -117,3 +117,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 47 — AI Adoption Program Management
 
 **[Open Project 47 — AI Adoption Program Management](47_AI_Adoption_Program_Management/)** — a *fictional university programme-management case inspired by the Zayed University AI Adoption Programme Manager vacancy*. Includes the programme charter and PMO governance, 30/60/90-day roadmap, AI risk and incident policy, role-based AI literacy and champions network, vendor/stakeholder RACI and acceptance criteria, and an adoption KPI/benefits reporting pack with synthetic data. **No live university implementation or achieved results are claimed.**
+
+
+## Project 48 — Change Management in HR Program
+
+**[Open Project 48 — Change Management in HR Program](48_Change_Management_in_HR_Program/)** — an independent, fictional UAE HR employee self-service and case-management transformation programme. Includes change charter, stakeholder and role impact assessment, ADKAR-informed readiness instrument, communications and culture plan, resistance/risk and champions, 90-day cutover and hypercare roadmap, adoption KPI/benefits dashboard, executive steering pack, plus synthetic impact and adoption data. Inspired by UAE change-management job requirements from Zayed University, wasl and an historical ACCBC posting. **No live employer project, software deployment, Prosci certification, employee survey, or achieved outcomes are claimed.**
