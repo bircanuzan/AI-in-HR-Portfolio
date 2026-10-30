@@ -1,0 +1,7 @@
+impact_id,stakeholder_group,process_change,impact_severity_1_to_4,anticipated_concern,mitigation_action,accountable_owner,status,source_type
+IMP-001,Employees,Email requests to ESS portal,3,Access and digital inclusion,Provide human assisted route and accessibility review,HR Operations,illustrative,synthetic
+IMP-002,Line managers,Email approvals to assigned workflow queue,4,Extra workload and delegated approvals,Agree decision rights and test delegation,HRBPs and HR Operations,illustrative,synthetic
+IMP-003,HR services,Shared inbox to owned case queues,4,Capacity during transition,Workload analysis and hypercare staffing,HR Operations,illustrative,synthetic
+IMP-004,Privacy team,Handling sensitive HR request types,4,Confidential records appearing in general portal,Exclude protected categories pending review,Privacy Officer,illustrative,synthetic
+IMP-005,IT service desk,Portal permissions and help escalation,3,Access incidents and support volume,Role based access UAT and runbook,IT Service Owner,illustrative,synthetic
+IMP-006,HR business partners,Exception handling via clear routing,2,Ambiguity on cases that require advice,Publish human escalation decision tree,HR Policy Owner,illustrative,synthetic
