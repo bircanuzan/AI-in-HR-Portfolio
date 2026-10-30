@@ -1,0 +1,9 @@
+week,use_case,eligible_users,activated_users,workflow_attempts,completed_workflows,reviewed_outputs,correct_outputs,escalated_cases,data_classification
+1,Staff policy assistant,100,12,52,45,20,15,7,internal-approved
+2,Staff policy assistant,100,20,83,72,24,19,9,internal-approved
+3,Staff policy assistant,100,29,128,114,28,23,11,internal-approved
+4,Staff policy assistant,100,38,158,140,30,25,12,internal-approved
+1,Meeting summary assistant,40,5,18,15,12,11,1,internal-approved
+2,Meeting summary assistant,40,9,28,25,14,13,1,internal-approved
+3,Meeting summary assistant,40,12,38,34,16,14,2,internal-approved
+4,Meeting summary assistant,40,15,48,43,19,17,2,internal-approved
