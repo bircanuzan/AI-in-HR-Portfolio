@@ -5,7 +5,7 @@
 ## Portfolio register
 | ID | Use case | Sponsor / AI Champion | Stage | Confidence | Next decision | Milestone | Key dependency | Illustrative annual gross opportunity |
 |---|---|---|---|---|---|---|---|---|
-| AI-001 | Merchant Onboarding Copilot | Merchant Ops Champion | Prototype | Amber | Approve constrained pilot? | 2026-11-20 | Approved redacted documents + InfoSec assessment | AED 700k |
+| AI-001 | Merchant Onboarding Copilot | Merchant Ops Champion | Prototype | Amber | Approve constrained pilot? | 2026-11-20 | Approved redacted documents + InfoSec assessment | AED 140k |
 | AI-002 | Dispute Knowledge Assistant | Disputes Champion | Discovery | Green | Fund prototype scope? | 2026-12-03 | Current policy corpus | AED 420k |
 | AI-003 | Fraud Alert Triage Insights | Risk Analytics Champion | Intake | Red | Pause for data/Risk readiness? | 2026-12-17 | Label quality, legal basis, model risk sign-off | AED 1.2m |
 
