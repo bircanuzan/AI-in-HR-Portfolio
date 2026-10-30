@@ -112,3 +112,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 41 — HR Operations Process Mapping & Power Automate
 
 **[Open Project 41 — Improving HR Operations through Process Mapping, Workflow Automation and Practical AI Adoption](41_HR_Operations_Process_Mapping_Workflow_Automation_Power_Automate/)** — fictional employee-letter request case aligned to Microsoft Learn: AS-IS/TO-BE process map, Microsoft 365 approval workflow design, Copilot adoption boundaries, exception controls, planned UAT, monitoring and illustrative capacity model. **Documented solution design; no live Power Automate deployment or measured savings claimed.**
+
+
+## Project 47 — AI Adoption Program Management
+
+**[Open Project 47 — AI Adoption Program Management](47_AI_Adoption_Program_Management/)** — a *fictional university programme-management case inspired by the Zayed University AI Adoption Programme Manager vacancy*. Includes the programme charter and PMO governance, 30/60/90-day roadmap, AI risk and incident policy, role-based AI literacy and champions network, vendor/stakeholder RACI and acceptance criteria, and an adoption KPI/benefits reporting pack with synthetic data. **No live university implementation or achieved results are claimed.**
