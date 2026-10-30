@@ -173,3 +173,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Featured portfolio project — AI Adoption Program Management
 
 **[Project 47 — AI Adoption Program Management](47_AI_Adoption_Program_Management/)**: an independent fictional university scenario aligned to AI adoption programme management. Covers PMO and national-programme coordination principles, governance and risk escalation, a staged rollout plan, vendor/workstream RACI, AI literacy and champions, UAT and adoption metrics. **Illustrative documents only; no real university implementation or measured impact.**
+
+
+## Project 48 — Change Management in HR Program
+
+**[Open Project 48 — Change Management in HR Program](48_Change_Management_in_HR_Program/)** — an independent, fictional UAE HR employee self-service and case-management transformation programme. Includes change charter, stakeholder and role impact assessment, ADKAR-informed readiness instrument, communications and culture plan, resistance/risk and champions, 90-day cutover and hypercare roadmap, adoption KPI/benefits dashboard, executive steering pack, plus synthetic impact and adoption data. Inspired by UAE change-management job requirements from Zayed University, wasl and an historical ACCBC posting. **No live employer project, software deployment, Prosci certification, employee survey, or achieved outcomes are claimed.**
