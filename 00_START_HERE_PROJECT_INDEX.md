@@ -127,3 +127,7 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 49 — Psychometric Assessment & Talent Evaluation
 
 **[Open Project 49 — Psychometric Assessment & Talent Evaluation](49_Psychometric_Assessment_and_Talent_Evaluation/)** — fictional UAE corporate case covering **occupational psychometric-style data interpretation, individual and group assessment reporting, evidence triangulation, hiring/promotion/succession recommendations, virtual/on-site HR feedback, privacy and qualified-review gates**, with 12 synthetic records and a descriptive Python analysis. **No real test instruments or BPS/SHL/Hogan/Saville credentials are claimed.** Distinct from Project 38's behavioural role-play observation.
+
+## Project 51 — Enterprise AI & Smart Data | Governance, BI & Analytics
+
+**[Open Project 51 — Enterprise AI & Smart Data | Governance, BI & Analytics](51_Enterprise_AI_and_Smart_Data_Governance_BI_Analytics/)** — Transguard Senior Manager AI & Smart Data JD-aligned fictional UAE insurance use case. **Runnable synthetic Python/scikit-learn claims-review routing demo and data-quality tests**, plus Azure Data Factory/Databricks/Synapse/ADLS/AML/Microsoft Purview reference architecture, data fabric/mesh, master-data and BI examples, AI/BI CoE charter, responsible-AI control register, and a conservative ROI/vetting model. **No live insurer data, Azure deployment, Microsoft Power BI execution, production model results, or certifications are claimed.**
