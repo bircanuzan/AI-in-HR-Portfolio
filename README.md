@@ -168,3 +168,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 46 — AI Lead: Enterprise Invoice Process & Automation
 
 **[Open Project 46 — AI Lead: Enterprise Invoice Process & Automation](46_AI_Lead_Enterprise_Invoice_Process_Automation/)** — an independent, fictional UAE property-group **finance/shared-services** case distinct from Project 45's property-handover process: cross-functional discovery and SIPOC, six-opportunity prioritisation pipeline, hypothetical cost–benefit and sensitivity model, BRD/FSD/user stories, TO-BE approval/fraud controls, proposed UAT and business sign-off, AI champions/change and SOP/training plan, KPI scorecard and Director of AI board brief. Includes a **reproducible deterministic JavaScript invoice-routing prototype, 12 entirely synthetic scenarios, and 27 locally validated route/safety assertions**. **No live AI extraction, Microsoft flow, ERP, real client, production UAT or measured financial savings claimed.**
+
+
+## Featured portfolio project — AI Adoption Program Management
+
+**[Project 47 — AI Adoption Program Management](47_AI_Adoption_Program_Management/)**: an independent fictional university scenario aligned to AI adoption programme management. Covers PMO and national-programme coordination principles, governance and risk escalation, a staged rollout plan, vendor/workstream RACI, AI literacy and champions, UAT and adoption metrics. **Illustrative documents only; no real university implementation or measured impact.**
