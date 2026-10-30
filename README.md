@@ -8,6 +8,9 @@ This portfolio brings together **AI-enabled HR transformation, talent intelligen
 
 [HumanEvoX website](https://humanevox.com) · [Detailed portfolio overview](PORTFOLIO_DETAILED_OVERVIEW.md)
 
+**NEW — Customer Lifecycle Management / Salesforce–SAP portfolio:** [Project 47: CLM Portfolio Management — Salesforce Sales/Service Cloud, SAP CX/S/4HANA, Oracle Unifier](47_Customer_Lifecycle_Portfolio_Salesforce_SAP_CX_S4HANA_Oracle_Unifier/) — independent fictional property-management transformation case; requirements, conceptual system integrations, KPIs, UAT and delivery governance (not a live system implementation).
+
+
 ---
 
 ## HR, People Analytics & Workforce Transformation
