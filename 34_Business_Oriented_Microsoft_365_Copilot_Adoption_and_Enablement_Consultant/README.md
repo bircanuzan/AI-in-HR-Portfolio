@@ -43,3 +43,8 @@ Microsoft 365 Copilot experiences, grounding, in-app availability, cross-app acc
 
 ## Evidence statement
 All names, metrics, business documents, results, delivery plans and workshop schedules are **synthetic portfolio examples**, not verified client activities or personally delivered commercial workshops. There is **no account connection, user telemetry, Microsoft product testing, recording or learner attendance evidence** in this repository.
+
+
+## New vacancy-aligned companion folder
+
+For recruiter form answers (dedicated Microsoft 365 Copilot years vs. transferable learning/enablement years), a direct mapping to BlackStone eIT-type responsibilities, new HR/Finance/Operations/Executive scenarios, and workshop/measurement designs, see **[Microsoft 365 Copilot Adoption & Enablement](../Microsoft%20365%20Copilot%20Adoption%20%26%20Enablement/)**. This is a companion evidence pack, not a claim of a second delivered commercial project.
