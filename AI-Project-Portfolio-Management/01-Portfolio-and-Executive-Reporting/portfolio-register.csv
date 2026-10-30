@@ -1,4 +1,4 @@
 id,use_case,sponsor,ai_champion,stage,confidence,strategic_alignment_0_5,business_value_0_5,feasibility_0_5,data_readiness_0_5,risk_manageability_0_5,weighted_priority_0_100,next_milestone,decision,annual_gross_value_aed,primary_dependency,approval_status
-AI-001,Merchant Onboarding Copilot,Merchant Operations,Merchant Champion,Prototype,Amber,5,4,4,3,4,82,2026-11-20,Constrained pilot decision,700000,Anonymised policy and sample documents,Not approved
-AI-002,Dispute Knowledge Assistant,Dispute Operations,Disputes Champion,Discovery,Green,4,3,4,4,4,76,2026-12-03,Prototype scope funding,420000,Current dispute policy corpus,Not approved
-AI-003,Fraud Alert Triage Insights,Risk Analytics,Risk Champion,Intake,Red,5,5,2,1,1,66,2026-12-17,Data readiness risk gate,1200000,Data lineage and Risk signoff,Not approved
+AI-001,Merchant Onboarding Copilot,Merchant Operations,Merchant Champion,Prototype,Amber,5,4,4,3,4,82,2026-11-20,Constrained pilot decision,140000,Anonymised policy and sample documents,Not approved
+AI-002,Dispute Knowledge Assistant,Dispute Operations,Disputes Champion,Discovery,Green,4,3,4,4,4,75,2026-12-03,Prototype scope funding,420000,Current dispute policy corpus,Not approved
+AI-003,Fraud Alert Triage Insights,Risk Analytics,Risk Champion,Intake,Red,5,5,2,1,1,64,2026-12-17,Data readiness risk gate,1200000,Data lineage and Risk signoff,Not approved
