@@ -1,0 +1,6 @@
+week,eligible_employees,weekly_active_users,in_scope_requests_ess,in_scope_requests_legacy,completed_ess_requests,successful_first_pass_ess,reported_help_escalations,comment
+1,300,24,50,280,45,32,18,Fictional pilot numbers
+2,300,56,140,240,130,107,31,Fictional pilot numbers
+4,300,95,230,190,216,196,26,Fictional pilot numbers
+8,300,164,400,145,389,365,21,Fictional pilot numbers
+12,300,219,660,95,660,641,14,Fictional pilot numbers
