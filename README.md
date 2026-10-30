@@ -183,3 +183,8 @@ An illustrative OpenTrain-oriented HR benchmark: an AI assistant is asked to rev
 ## Project 49 — Psychometric Assessment & Talent Evaluation
 
 **[Open Project 49 — Psychometric Assessment & Talent Evaluation](49_Psychometric_Assessment_and_Talent_Evaluation/)** — fictional UAE corporate case covering **occupational psychometric-style data interpretation, individual and group assessment reporting, evidence triangulation, hiring/promotion/succession recommendations, virtual/on-site HR feedback, privacy and qualified-review gates**, with 12 synthetic records and a descriptive Python analysis. **No real test instruments or BPS/SHL/Hogan/Saville credentials are claimed.** Distinct from Project 38's behavioural role-play observation.
+
+
+## Microsoft 365 Copilot Adoption & Enablement — vacancy-aligned application evidence
+
+**[Open new project folder: Microsoft 365 Copilot Adoption & Enablement](Microsoft%20365%20Copilot%20Adoption%20%26%20Enablement/)** — job-description-specific portfolio evidence covering **two numerical experience answers**, prior roles and gap disclosures, functional Copilot business-use-case inventory (HR/Finance/Operations/Executive), end-user/champions/Director-VP-MD workshop agendas, synthetic workplace lab, Microsoft 365 tools/readiness, safe prompting, Copilot adoption KPIs and a fictional 30/60/90-day pilot. **No documented multi-year paid Copilot role, tenant rollout or real client Microsoft 365 Copilot workshop is claimed.** Cross-reference [Project 34](34_Business_Oriented_Microsoft_365_Copilot_Adoption_and_Enablement_Consultant/) for the existing deep-dive case and executable synthetic adoption calculator.
