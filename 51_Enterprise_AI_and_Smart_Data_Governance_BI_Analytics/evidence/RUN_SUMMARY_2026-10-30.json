@@ -1,0 +1,36 @@
+{
+  "project_type": "Local synthetic demonstration; NOT insurance production",
+  "seed": 20261030,
+  "records": 480,
+  "train_rows": 336,
+  "holdout_rows": 144,
+  "artificial_target_prevalence": 0.2562,
+  "threshold": 0.4,
+  "holdout_roc_auc": 0.7272,
+  "holdout_precision_at_threshold": 0.5,
+  "holdout_recall_at_threshold": 0.2703,
+  "holdout_brier_score": 0.1731,
+  "confusion_matrix": {
+    "true_negative": 97,
+    "false_positive": 10,
+    "false_negative": 27,
+    "true_positive": 10
+  },
+  "holdout_channel_counts": {
+    "app": 56,
+    "branch": 37,
+    "broker": 51
+  },
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0"
+  },
+  "limitations": [
+    "All records and labels are artificially generated; accuracy is not externally valid.",
+    "This is not proof of fairness or UAE regulatory compliance.",
+    "No cloud/production deployment, LLM, insurance client, or automated adverse decision.",
+    "Model does not establish ROI; holdout data are synthetic."
+  ]
+}

@@ -44,8 +44,8 @@ class SyntheticClaimDemoTests(unittest.TestCase):
             self.assertEqual(summary["train_rows"] + summary["holdout_rows"], 150)
             self.assertTrue(sample["review_score"].between(0, 1).all())
             self.assertTrue(set(sample["suggested_route"]).issubset({"human_review", "standard_queue"}))
-            self.assertEqual((sample["suggested_route"] == "human_review").all(),
-                             (sample["review_score"] >= 0.40).all()) if sample["suggested_route"].nunique() == 1 else None
+            self.assertTrue(((sample["review_score"] >= 0.40) ==
+                             (sample["suggested_route"] == "human_review")).all())
 
 
 if __name__ == "__main__":

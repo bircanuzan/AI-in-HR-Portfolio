@@ -1,0 +1,8 @@
+{
+  "row_count": 480,
+  "status": "pass",
+  "missing_columns": [],
+  "unexpected_columns": [],
+  "errors": [],
+  "note": "Synthetic-only structural checks; not live data validation."
+}

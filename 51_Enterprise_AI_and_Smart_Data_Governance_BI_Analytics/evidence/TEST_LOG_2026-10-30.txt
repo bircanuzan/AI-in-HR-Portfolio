@@ -1,0 +1,11 @@
+test_duplicate_rejected (test_demo.SyntheticClaimDemoTests.test_duplicate_rejected) ... ok
+test_negative_amount_rejected (test_demo.SyntheticClaimDemoTests.test_negative_amount_rejected) ... ok
+test_personal_field_rejected (test_demo.SyntheticClaimDemoTests.test_personal_field_rejected) ... ok
+test_repeatability (test_demo.SyntheticClaimDemoTests.test_repeatability) ... ok
+test_suggestion_is_not_an_adverse_claim_decision (test_demo.SyntheticClaimDemoTests.test_suggestion_is_not_an_adverse_claim_decision) ... ok
+test_valid_input (test_demo.SyntheticClaimDemoTests.test_valid_input) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.055s
+
+OK
